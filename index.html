@@ -13,17 +13,18 @@
             flex-direction: column;
             align-items: center;
         }
-
+        
         #main-container {
             display: flex;
             justify-content: center;
             gap: 20px;
             position: relative;
             margin-top: 60px;
+            flex-wrap: wrap;
         }
-
+        
         #commandsContainer {
-            width: 400px; /* Increase the width for more space */
+            width: 400px; /* Desktop width */
             padding: 20px;
             border: 1px solid #000;
             border-radius: 10px;
@@ -32,9 +33,9 @@
             position: relative;
             margin-right: 20px;
         }
-
+        
         #hallOfFameContainer, #container {
-            width: 300px;
+            width: 300px; /* Desktop width */
             padding: 20px;
             border: 1px solid #000;
             border-radius: 10px;
@@ -42,43 +43,43 @@
             text-align: center;
             position: relative;
         }
-
+        
         #commandsContainer h2 {
             text-align: center;
             margin-bottom: 10px;
         }
-
+        
         #commandsColumns {
             display: flex;
             justify-content: space-between;
         }
-
+        
         #commandsColumns ul {
             list-style-type: none;
             padding: 0;
             text-align: left;
-            width: 23%; /* Adjusted width for more space in each column */
+            width: 23%; /* Desktop column width */
         }
-
+        
         #commandsColumns ul li {
             margin-bottom: 10px;
         }
-
+        
         #hallOfFameContainer h2, #container h1 {
             text-align: center;
             margin-bottom: 10px;
         }
-
+        
         .section-title {
             font-weight: bold;
             margin-top: 20px;
         }
-
+        
         #hall-of-fame ul {
             list-style-type: none;
             padding: 0;
         }
-
+        
         #hall-of-fame li {
             background: #f4f4f4;
             margin: 5px 0;
@@ -86,17 +87,17 @@
             border-radius: 5px;
             border: 1px solid #000;
         }
-
+        
         .steps-bold, .miles-bold {
             font-weight: bold;
         }
-
+        
         #logo-container {
             display: flex;
             justify-content: center;
             margin-bottom: -35px;
         }
-
+        
         #logo {
             width: 70px;
             height: 70px;
@@ -107,11 +108,11 @@
             position: relative;
             z-index: 2;
         }
-
+        
         #colorPicker {
             margin: 20px 0;
         }
-
+        
         #colorDisplayContainer {
             position: relative;
             width: 100px;
@@ -120,23 +121,65 @@
             border: 1px solid #000;
             border-radius: 15px;
         }
-
+        
         #colorDisplay {
             width: 100%;
             height: 100%;
             border-radius: 15px;
         }
-
+        
         #hexCode {
             font-size: 18px;
             font-weight: bold;
         }
-
+        
         #copyButton {
             margin-top: 10px;
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            #main-container {
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+            }
+        
+            #commandsContainer, #hallOfFameContainer, #container {
+                width: 100%; /* Full width for mobile */
+                margin-right: 0;
+            }
+        
+            #commandsColumns {
+                flex-direction: column;
+                align-items: center;
+            }
+        
+            #commandsColumns ul {
+                width: 100%; /* Full width for each column on mobile */
+                margin-bottom: 20px;
+            }
+        
+            #logo {
+                width: 60px; /* Slightly smaller logo */
+                height: 60px;
+            }
+        
+            #colorDisplayContainer {
+                width: 80px; /* Smaller display on mobile */
+                height: 80px;
+            }
+        
+            #hexCode {
+                font-size: 16px; /* Adjust font size for readability */
+            }
+        
+            #copyButton {
+                font-size: 14px; /* Smaller button text */
+            }
         }
     </style>
 </head>
