@@ -7,12 +7,34 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        #container {
+            position: relative;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #logo {
+            position: absolute;
+            top: -40px;
+            left: calc(50% - 25px); /* Center the logo */
+            width: 50px;
+            height: 50px;
         }
 
         #colorPicker {
-            margin: 20px;
+            margin: 20px 0;
         }
 
         #colorDisplayContainer {
@@ -30,18 +52,6 @@
             border-radius: 15px;
         }
 
-        #logo {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            border: 1px solid #000;
-            background: white;
-            padding: 5px;
-        }
-
         #hexCode {
             font-size: 18px;
             font-weight: bold;
@@ -56,16 +66,18 @@
     </style>
 </head>
 <body>
-    <h1>Interactive Color Picker</h1>
-    <input type="color" id="colorPicker">
-    
-    <div id="colorDisplayContainer">
+    <div id="container">
         <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
-        <div id="colorDisplay"></div>
+        <h1>Interactive Color Picker</h1>
+        <input type="color" id="colorPicker">
+        
+        <div id="colorDisplayContainer">
+            <div id="colorDisplay"></div>
+        </div>
+        
+        <p id="hexCode">#FFFFFF</p>
+        <button id="copyButton">Copy Hex Code</button>
     </div>
-    
-    <p id="hexCode">#FFFFFF</p>
-    <button id="copyButton">Copy Hex Code</button>
 
     <script>
         const colorPicker = document.getElementById('colorPicker');
