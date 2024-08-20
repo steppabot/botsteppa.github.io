@@ -1,7 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #colorPicker {
+            margin: 20px;
+        }
+
+        #colorDisplay {
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            border: 1px solid #000;
+        }
+
+        #hexCode {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #copyButton {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <h1>Interactive Color Picker</h1>
+    <input type="color" id="colorPicker">
+    <div id="colorDisplay"></div>
+    <p id="hexCode">#FFFFFF</p>
+    <button id="copyButton">Copy Hex Code</button>
+
+    <script>
+        const colorPicker = document.getElementById('colorPicker');
+        const colorDisplay = document.getElementById('colorDisplay');
+        const hexCode = document.getElementById('hexCode');
+        const copyButton = document.getElementById('copyButton');
+
+        // Update color display and hex code when color picker value changes
+        colorPicker.addEventListener('input', () => {
+            const color = colorPicker.value;
+            colorDisplay.style.backgroundColor = color;
+            hexCode.textContent = color;
+        });
+
+        // Copy hex code to clipboard when button is clicked
+        copyButton.addEventListener('click', () => {
+            navigator.clipboard.writeText(hexCode.textContent).then(() => {
+                alert('Hex code copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy hex code: ', err);
+            });
+        });
+    </script>
 </body>
 </html>
