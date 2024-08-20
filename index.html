@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>July 2024 HOF - Step Challenge</title>
+    <title>Steppa Bot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
             background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         #main-container {
             display: flex;
             justify-content: center;
             gap: 20px;
+            position: relative;
         }
 
         #hallOfFameContainer, #container {
@@ -23,6 +27,11 @@
             border: 1px solid #000;
             border-radius: 10px;
             background-color: #fff;
+            text-align: center;
+        }
+
+        #hallOfFameContainer {
+            margin-right: 20px;
         }
 
         #hallOfFameContainer h2 {
@@ -48,16 +57,27 @@
             border: 1px solid #000;
         }
 
+        .steps-bold {
+            font-weight: bold;
+        }
+
         #container {
             text-align: center;
         }
 
+        #logo-container {
+            position: absolute;
+            top: -35px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
         #logo {
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
-            margin-top: -25px;
-            border: 1px solid #000;
+            border: 2px solid #000;
             background-color: #fff;
         }
 
@@ -94,6 +114,10 @@
     </style>
 </head>
 <body>
+    <div id="logo-container">
+        <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
+    </div>
+    
     <div id="main-container">
         <!-- Hall of Fame Container -->
         <div id="hallOfFameContainer">
@@ -109,7 +133,6 @@
 
         <!-- Interactive Color Picker Container -->
         <div id="container">
-            <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
             <h1>Interactive Color Picker</h1>
             <input type="color" id="colorPicker">
             
@@ -123,7 +146,6 @@
     </div>
 
     <script>
-        // JavaScript for the color picker
         const colorPicker = document.getElementById('colorPicker');
         const colorDisplay = document.getElementById('colorDisplay');
         const hexCode = document.getElementById('hexCode');
@@ -142,8 +164,6 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
-
-        // Function to fetch Discord username
         async function getUsername(userId) {
             try {
                 const response = await fetch(`http://localhost:4241/username/${userId}`); // Call your Flask API
@@ -151,50 +171,39 @@
                     throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
                 }
                 const data = await response.json();
-                return data.username;
+                return data.username || userId; // Return userId if username is not found
             } catch (error) {
                 console.error(error);
                 return userId; // Fallback to ID if fetching username fails
             }
         }
 
-        // Function to sort and display the top 3 users for "Top Steppers" and "Most Miles"
         async function displayHallOfFame(data) {
-            const hallOfFameDiv = document.getElementById('hall-of-fame');
             const topSteppersList = document.getElementById('top-steppers');
             const mostMilesList = document.getElementById('most-miles');
 
-            // Extract user data into an array
             const users = Object.entries(data).map(([userId, userData]) => ({
                 userId,
                 steps: userData.steps,
                 miles: userData.miles
             }));
 
-            // Sort by steps for "Top Steppers"
             const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
-
-            // Sort by miles for "Most Miles"
             const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
 
-            // Display top steppers
             for (const user of topSteppers) {
                 const username = await getUsername(user.userId);
                 const listItem = document.createElement('li');
-                listItem.textContent = `${username}: ${user.steps} steps`;
+                listItem.innerHTML = `${username}: <span class="steps-bold">${user.steps}</span> steps`;
                 topSteppersList.appendChild(listItem);
             }
-
-            // Display most miles
             for (const user of topMiles) {
                 const username = await getUsername(user.userId);
                 const listItem = document.createElement('li');
-                listItem.textContent = `${username}: ${user.miles.toFixed(2)} miles`;
+                listItem.innerHTML = `${username}: ${user.miles.toFixed(2)} miles`;
                 mostMilesList.appendChild(listItem);
             }
         }
-
-        // Fetch the JSON data and display the Hall of Fame
         fetch('july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data));
