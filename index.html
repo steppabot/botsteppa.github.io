@@ -28,6 +28,7 @@
             border-radius: 10px;
             background-color: #fff;
             text-align: center;
+            position: relative;
         }
 
         #hallOfFameContainer {
@@ -57,12 +58,8 @@
             border: 1px solid #000;
         }
 
-        .steps-bold {
+        .steps-bold, .miles-bold {
             font-weight: bold;
-        }
-
-        #container {
-            text-align: center;
         }
 
         #logo-container {
@@ -71,6 +68,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
+            height: 0;
         }
 
         #logo {
@@ -79,6 +77,9 @@
             border-radius: 50%;
             border: 2px solid #000;
             background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            z-index: 2;
         }
 
         #colorPicker {
@@ -119,7 +120,6 @@
     </div>
     
     <div id="main-container">
-        <!-- Hall of Fame Container -->
         <div id="hallOfFameContainer">
             <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
@@ -131,7 +131,6 @@
             </div>
         </div>
 
-        <!-- Interactive Color Picker Container -->
         <div id="container">
             <h1>Interactive Color Picker</h1>
             <input type="color" id="colorPicker">
@@ -164,17 +163,18 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
+
         async function getUsername(userId) {
             try {
-                const response = await fetch(`http://localhost:4241/username/${userId}`); // Call your Flask API
+                const response = await fetch(`http://localhost:4241/username/${userId}`);
                 if (!response.ok) {
                     throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
                 }
                 const data = await response.json();
-                return data.username || userId; // Return userId if username is not found
+                return data.username || userId;
             } catch (error) {
                 console.error(error);
-                return userId; // Fallback to ID if fetching username fails
+                return userId;
             }
         }
 
@@ -197,13 +197,15 @@
                 listItem.innerHTML = `${username}: <span class="steps-bold">${user.steps}</span> steps`;
                 topSteppersList.appendChild(listItem);
             }
+
             for (const user of topMiles) {
                 const username = await getUsername(user.userId);
                 const listItem = document.createElement('li');
-                listItem.innerHTML = `${username}: ${user.miles.toFixed(2)} miles`;
+                listItem.innerHTML = `${username}: <span class="miles-bold">${user.miles.toFixed(2)}</span> miles`;
                 mostMilesList.appendChild(listItem);
             }
         }
+
         fetch('july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data));
