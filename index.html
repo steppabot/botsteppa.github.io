@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Color Picker</title>
+    <title>Steppa Bot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,22 +11,51 @@
             background-color: #f0f0f0;
         }
 
-        #container {
-            position: relative;
+        #main-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        #hallOfFameContainer, #container {
             width: 300px;
             padding: 20px;
             border: 1px solid #000;
             border-radius: 10px;
             background-color: #fff;
+        }
+
+        #hallOfFameContainer {
+            margin-right: 20px;
+        }
+
+        #hallOfFameContainer h2 {
             text-align: center;
-            margin: 0 auto; /* Center horizontally */
+            margin-bottom: 10px;
+        }
+
+        #hall-of-fame ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #hall-of-fame li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #000;
+        }
+
+        #container {
+            text-align: center;
         }
 
         #logo {
             width: 50px;
             height: 50px;
             border-radius: 50%;
-            margin-top: -25px; /* Pulls the logo up */
+            margin-top: -25px;
             border: 1px solid #000;
             background-color: #fff;
         }
@@ -64,20 +93,31 @@
     </style>
 </head>
 <body>
-    <div id="container">
-        <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
-        <h1>Interactive Color Picker</h1>
-        <input type="color" id="colorPicker">
-        
-        <div id="colorDisplayContainer">
-            <div id="colorDisplay"></div>
+    <div id="main-container">
+        <!-- Hall of Fame Container -->
+        <div id="hallOfFameContainer">
+            <h2>Step Challenge Hall of Fame</h2>
+            <div id="hall-of-fame">
+                <!-- Hall of Fame will be populated here by JavaScript -->
+            </div>
         </div>
-        
-        <p id="hexCode">#FFFFFF</p>
-        <button id="copyButton">Copy Hex Code</button>
-    </div>
 
+        <!-- Interactive Color Picker Container -->
+        <div id="container">
+            <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
+            <h1>Interactive Color Picker</h1>
+            <input type="color" id="colorPicker">
+            
+            <div id="colorDisplayContainer">
+                <div id="colorDisplay"></div>
+            </div>
+            
+            <p id="hexCode">#FFFFFF</p>
+            <button id="copyButton">Copy Hex Code</button>
+        </div>
+    </div>
     <script>
+        // JavaScript for the color picker
         const colorPicker = document.getElementById('colorPicker');
         const colorDisplay = document.getElementById('colorDisplay');
         const hexCode = document.getElementById('hexCode');
@@ -88,7 +128,6 @@
             colorDisplay.style.backgroundColor = color;
             hexCode.textContent = color;
         });
-
         copyButton.addEventListener('click', () => {
             navigator.clipboard.writeText(hexCode.textContent).then(() => {
                 alert('Hex code copied to clipboard!');
@@ -96,6 +135,39 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
+        async function getUsername(userId) {
+            try {
+                const response = await fetch(`http://localhost:4241/username/${userId}`); // Call your Flask API
+                if (!response.ok) {
+                    throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
+                }
+                const data = await response.json();
+                return data.username;
+            } catch (error) {
+                console.error(error);
+                return userId; // Fallback to ID if fetching username fails
+            }
+        }
+        async function displayHallOfFame(data) {
+            const hallOfFameDiv = document.getElementById('hall-of-fame');
+
+            for (const [userId, userData] of Object.entries(data)) {
+                const username = await getUsername(userId);
+
+                const userSection = document.createElement('div');
+                userSection.innerHTML = `
+                    <h3>${username}</h3>
+                    <ul>
+                        <li>Steps: ${userData.steps}</li>
+                        <li>Miles: ${userData.miles.toFixed(2)}</li>
+                    </ul>
+                `;
+                hallOfFameDiv.appendChild(userSection);
+            }
+        }
+        fetch('stats.json')
+            .then(response => response.json())
+            .then(data => displayHallOfFame(data));
     </script>
 </body>
 </html>
