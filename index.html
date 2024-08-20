@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steppa Bot</title>
+    <title>July 2024 HOF - Step Challenge</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,13 +25,14 @@
             background-color: #fff;
         }
 
-        #hallOfFameContainer {
-            margin-right: 20px;
-        }
-
         #hallOfFameContainer h2 {
             text-align: center;
             margin-bottom: 10px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
         }
 
         #hall-of-fame ul {
@@ -96,9 +97,13 @@
     <div id="main-container">
         <!-- Hall of Fame Container -->
         <div id="hallOfFameContainer">
-            <h2>Step Challenge Hall of Fame</h2>
+            <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
-                <!-- Hall of Fame will be populated here by JavaScript -->
+                <div class="section-title">Top Steppers</div>
+                <ul id="top-steppers"></ul>
+
+                <div class="section-title">Most Miles</div>
+                <ul id="most-miles"></ul>
             </div>
         </div>
 
@@ -116,6 +121,7 @@
             <button id="copyButton">Copy Hex Code</button>
         </div>
     </div>
+
     <script>
         // JavaScript for the color picker
         const colorPicker = document.getElementById('colorPicker');
@@ -128,6 +134,7 @@
             colorDisplay.style.backgroundColor = color;
             hexCode.textContent = color;
         });
+
         copyButton.addEventListener('click', () => {
             navigator.clipboard.writeText(hexCode.textContent).then(() => {
                 alert('Hex code copied to clipboard!');
@@ -135,6 +142,8 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
+
+        // Function to fetch Discord username
         async function getUsername(userId) {
             try {
                 const response = await fetch(`http://localhost:4241/username/${userId}`); // Call your Flask API
@@ -148,24 +157,45 @@
                 return userId; // Fallback to ID if fetching username fails
             }
         }
+
+        // Function to sort and display the top 3 users for "Top Steppers" and "Most Miles"
         async function displayHallOfFame(data) {
             const hallOfFameDiv = document.getElementById('hall-of-fame');
+            const topSteppersList = document.getElementById('top-steppers');
+            const mostMilesList = document.getElementById('most-miles');
 
-            for (const [userId, userData] of Object.entries(data)) {
-                const username = await getUsername(userId);
+            // Extract user data into an array
+            const users = Object.entries(data).map(([userId, userData]) => ({
+                userId,
+                steps: userData.steps,
+                miles: userData.miles
+            }));
 
-                const userSection = document.createElement('div');
-                userSection.innerHTML = `
-                    <h3>${username}</h3>
-                    <ul>
-                        <li>Steps: ${userData.steps}</li>
-                        <li>Miles: ${userData.miles.toFixed(2)}</li>
-                    </ul>
-                `;
-                hallOfFameDiv.appendChild(userSection);
+            // Sort by steps for "Top Steppers"
+            const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
+
+            // Sort by miles for "Most Miles"
+            const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
+
+            // Display top steppers
+            for (const user of topSteppers) {
+                const username = await getUsername(user.userId);
+                const listItem = document.createElement('li');
+                listItem.textContent = `${username}: ${user.steps} steps`;
+                topSteppersList.appendChild(listItem);
+            }
+
+            // Display most miles
+            for (const user of topMiles) {
+                const username = await getUsername(user.userId);
+                const listItem = document.createElement('li');
+                listItem.textContent = `${username}: ${user.miles.toFixed(2)} miles`;
+                mostMilesList.appendChild(listItem);
             }
         }
-        fetch('stats.json')
+
+        // Fetch the JSON data and display the Hall of Fame
+        fetch('july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data));
     </script>
