@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>July 2024 HOF - Step Challenge</title>
+    <title>Steppa Bot</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,13 +41,19 @@
             margin-bottom: 10px;
         }
 
-        #commandsContainer ul {
+        #commandsColumns {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #commandsColumns ul {
             list-style-type: none;
             padding: 0;
             text-align: left;
+            width: 45%;
         }
 
-        #commandsContainer ul li {
+        #commandsColumns ul li {
             margin-bottom: 10px;
         }
 
@@ -139,28 +145,32 @@
     <div id="main-container">
         <div id="commandsContainer">
             <h2>Bot Commands</h2>
-            <ul>
-                <li><strong>+color</strong><br>Change your color preference. (+color #hexcode)</li>
-                <li><strong>+edit</strong><br>Edit your height.</li>
-                <li><strong>+shit</strong><br>Submit your shit count. (+shit @user amount)</li>
-                <li><strong>+steps</strong><br>Submit your step count. (+steps @user amount dayOfweek)</li>
-                <li><strong>+target</strong><br>Target a user with an item. (+target @user)</li>
-                <li><strong>+water</strong><br>Submit your water count. (+water @user amount)</li>
-                <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
-                <li><strong>?days</strong><br>View your weekly step count statistics.</li>
-                <li><strong>?forecast</strong><br>Check weekly weather forecast (?forecast cityName or zipCode).</li>
-                <li><strong>?goal</strong><br>Check your step goal progress.</li>
-                <li><strong>?inv</strong><br>Check your item inventory.</li>
-                <li><strong>?market</strong><br>Shop for items.</li>
-                <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
-                <li><strong>?steps</strong><br>View your monthly step count.</li>
-                <li><strong>steppa</strong><br>Ask AI questions or generate an image. (steppa generate image)</li>
-                <li><strong>?user</strong><br>View user statistics.</li>
-                <li><strong>?water</strong><br>Check your daily water goal progress.</li>
-                <li><strong>?weather</strong><br>Check daily weather info. (?weather cityName or zipCode).</li>
-                <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
-                <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
-            </ul>
+            <div id="commandsColumns">
+                <ul>
+                    <li><strong>+color</strong><br>Change your color preference. (+color #hexcode)</li>
+                    <li><strong>+edit</strong><br>Edit your height.</li>
+                    <li><strong>+shit</strong><br>Submit your shit count. (+shit @user amount)</li>
+                    <li><strong>+steps</strong><br>Submit your step count. (+steps @user amount dayOfweek)</li>
+                    <li><strong>+target</strong><br>Target a user with an item. (+target @user)</li>
+                    <li><strong>+water</strong><br>Submit your water count. (+water @user amount)</li>
+                    <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
+                    <li><strong>?days</strong><br>View your weekly step count statistics.</li>
+                    <li><strong>?forecast</strong><br>Check weekly weather forecast (?forecast cityName or zipCode).</li>
+                    <li><strong>?goal</strong><br>Check your step goal progress.</li>
+                </ul>
+                <ul>
+                    <li><strong>?inv</strong><br>Check your item inventory.</li>
+                    <li><strong>?market</strong><br>Shop for items.</li>
+                    <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
+                    <li><strong>?steps</strong><br>View your monthly step count.</li>
+                    <li><strong>steppa</strong><br>Ask AI questions or generate an image. (steppa generate image)</li>
+                    <li><strong>?user</strong><br>View user statistics.</li>
+                    <li><strong>?water</strong><br>Check your daily water goal progress.</li>
+                    <li><strong>?weather</strong><br>Check daily weather info. (?weather cityName or zipCode).</li>
+                    <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
+                    <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
+                </ul>
+            </div>
         </div>
 
         <div id="hallOfFameContainer">
