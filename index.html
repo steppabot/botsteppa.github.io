@@ -22,7 +22,18 @@
             margin-top: 60px;
         }
 
-        #commandsContainer, #hallOfFameContainer, #container {
+        #commandsContainer {
+            width: 400px; /* Increase the width for more space */
+            padding: 20px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #fff;
+            text-align: center;
+            position: relative;
+            margin-right: 20px;
+        }
+
+        #hallOfFameContainer, #container {
             width: 300px;
             padding: 20px;
             border: 1px solid #000;
@@ -30,10 +41,6 @@
             background-color: #fff;
             text-align: center;
             position: relative;
-        }
-
-        #commandsContainer {
-            margin-right: 20px;
         }
 
         #commandsContainer h2 {
@@ -50,18 +57,14 @@
             list-style-type: none;
             padding: 0;
             text-align: left;
-            width: 22%;
+            width: 23%; /* Adjusted width for more space in each column */
         }
 
         #commandsColumns ul li {
             margin-bottom: 10px;
         }
 
-        #hallOfFameContainer {
-            margin-right: 20px;
-        }
-
-        #hallOfFameContainer h2 {
+        #hallOfFameContainer h2, #container h1 {
             text-align: center;
             margin-bottom: 10px;
         }
