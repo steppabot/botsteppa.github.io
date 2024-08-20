@@ -90,7 +90,6 @@
             hexCode.textContent = color;
         });
 
-        // Copy hex code to clipboard when button is clicked
         copyButton.addEventListener('click', () => {
             navigator.clipboard.writeText(hexCode.textContent).then(() => {
                 alert('Hex code copied to clipboard!');
