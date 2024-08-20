@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steppa Bot</title>
+    <title>July 2024 HOF - Step Challenge</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,10 +19,10 @@
             justify-content: center;
             gap: 20px;
             position: relative;
-            margin-top: 60px; /* Move everything down from the top */
+            margin-top: 60px;
         }
 
-        #hallOfFameContainer, #container {
+        #commandsContainer, #hallOfFameContainer, #container {
             width: 300px;
             padding: 20px;
             border: 1px solid #000;
@@ -30,6 +30,25 @@
             background-color: #fff;
             text-align: center;
             position: relative;
+        }
+
+        #commandsContainer {
+            margin-right: 20px;
+        }
+
+        #commandsContainer h2 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        #commandsContainer ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+
+        #commandsContainer ul li {
+            margin-bottom: 10px;
         }
 
         #hallOfFameContainer {
@@ -66,7 +85,7 @@
         #logo-container {
             display: flex;
             justify-content: center;
-            margin-bottom: -35px; /* Pull up the logo slightly above the boxes */
+            margin-bottom: -35px;
         }
 
         #logo {
@@ -118,6 +137,32 @@
     </div>
     
     <div id="main-container">
+        <div id="commandsContainer">
+            <h2>Bot Commands</h2>
+            <ul>
+                <li><strong>+color</strong><br>Change your color preference. (+color #hexcode)</li>
+                <li><strong>+edit</strong><br>Edit your height.</li>
+                <li><strong>+shit</strong><br>Submit your shit count. (+shit @user amount)</li>
+                <li><strong>+steps</strong><br>Submit your step count. (+steps @user amount dayOfweek)</li>
+                <li><strong>+target</strong><br>Target a user with an item. (+target @user)</li>
+                <li><strong>+water</strong><br>Submit your water count. (+water @user amount)</li>
+                <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
+                <li><strong>?days</strong><br>View your weekly step count statistics.</li>
+                <li><strong>?forecast</strong><br>Check weekly weather forecast (?forecast cityName or zipCode).</li>
+                <li><strong>?goal</strong><br>Check your step goal progress.</li>
+                <li><strong>?inv</strong><br>Check your item inventory.</li>
+                <li><strong>?market</strong><br>Shop for items.</li>
+                <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
+                <li><strong>?steps</strong><br>View your monthly step count.</li>
+                <li><strong>steppa</strong><br>Ask AI questions or generate an image. (steppa generate image)</li>
+                <li><strong>?user</strong><br>View user statistics.</li>
+                <li><strong>?water</strong><br>Check your daily water goal progress.</li>
+                <li><strong>?weather</strong><br>Check daily weather info. (?weather cityName or zipCode).</li>
+                <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
+                <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
+            </ul>
+        </div>
+
         <div id="hallOfFameContainer">
             <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
@@ -147,13 +192,13 @@
         const colorDisplay = document.getElementById('colorDisplay');
         const hexCode = document.getElementById('hexCode');
         const copyButton = document.getElementById('copyButton');
-    
+
         colorPicker.addEventListener('input', () => {
             const color = colorPicker.value;
             colorDisplay.style.backgroundColor = color;
             hexCode.textContent = color;
         });
-    
+
         copyButton.addEventListener('click', () => {
             navigator.clipboard.writeText(hexCode.textContent).then(() => {
                 alert('Hex code copied to clipboard!');
@@ -161,11 +206,11 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
-    
+
         function formatNumberWithCommas(number) {
             return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
-    
+
         async function getUsername(userId) {
             try {
                 const response = await fetch(`http://localhost:4241/username/${userId}`);
@@ -179,20 +224,20 @@
                 return userId;
             }
         }
-    
+
         async function displayHallOfFame(data) {
             const topSteppersList = document.getElementById('top-steppers');
             const mostMilesList = document.getElementById('most-miles');
-    
+
             const users = Object.entries(data).map(([userId, userData]) => ({
                 userId,
                 steps: userData.steps,
                 miles: Math.round(userData.miles)
             }));
-    
+
             const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
             const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
-    
+
             for (const user of topSteppers) {
                 const username = await getUsername(user.userId);
                 const formattedSteps = formatNumberWithCommas(user.steps);
@@ -200,7 +245,7 @@
                 listItem.innerHTML = `${username}: <span class="steps-bold">${formattedSteps}</span> steps`;
                 topSteppersList.appendChild(listItem);
             }
-    
+
             for (const user of topMiles) {
                 const username = await getUsername(user.userId);
                 const listItem = document.createElement('li');
@@ -208,7 +253,7 @@
                 mostMilesList.appendChild(listItem);
             }
         }
-    
+
         fetch('july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data));
