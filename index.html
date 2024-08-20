@@ -147,13 +147,13 @@
         const colorDisplay = document.getElementById('colorDisplay');
         const hexCode = document.getElementById('hexCode');
         const copyButton = document.getElementById('copyButton');
-
+    
         colorPicker.addEventListener('input', () => {
             const color = colorPicker.value;
             colorDisplay.style.backgroundColor = color;
             hexCode.textContent = color;
         });
-
+    
         copyButton.addEventListener('click', () => {
             navigator.clipboard.writeText(hexCode.textContent).then(() => {
                 alert('Hex code copied to clipboard!');
@@ -161,7 +161,11 @@
                 console.error('Failed to copy hex code: ', err);
             });
         });
-
+    
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+    
         async function getUsername(userId) {
             try {
                 const response = await fetch(`http://localhost:4241/username/${userId}`);
@@ -175,35 +179,36 @@
                 return userId;
             }
         }
-
+    
         async function displayHallOfFame(data) {
             const topSteppersList = document.getElementById('top-steppers');
             const mostMilesList = document.getElementById('most-miles');
-
+    
             const users = Object.entries(data).map(([userId, userData]) => ({
                 userId,
                 steps: userData.steps,
-                miles: userData.miles
+                miles: Math.round(userData.miles)
             }));
-
+    
             const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
             const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
-
+    
             for (const user of topSteppers) {
                 const username = await getUsername(user.userId);
+                const formattedSteps = formatNumberWithCommas(user.steps);
                 const listItem = document.createElement('li');
-                listItem.innerHTML = `${username}: <span class="steps-bold">${user.steps}</span> steps`;
+                listItem.innerHTML = `${username}: <span class="steps-bold">${formattedSteps}</span> steps`;
                 topSteppersList.appendChild(listItem);
             }
-
+    
             for (const user of topMiles) {
                 const username = await getUsername(user.userId);
                 const listItem = document.createElement('li');
-                listItem.innerHTML = `${username}: <span class="miles-bold">${user.miles.toFixed(2)}</span> miles`;
+                listItem.innerHTML = `${username}: <span class="miles-bold">${user.miles}</span> miles`;
                 mostMilesList.appendChild(listItem);
             }
         }
-
+    
         fetch('july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data));
