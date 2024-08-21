@@ -12,7 +12,7 @@ load_dotenv()
 
 # Quart app setup
 app = Quart(__name__)
-app = cors(app)  # Enable CORS for all routes
+app = cors(app, allow_origin="*")
 
 # Initialize the Discord client with intents
 intents = discord.Intents.default()
