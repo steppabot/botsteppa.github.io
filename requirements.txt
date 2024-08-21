@@ -6,5 +6,5 @@ requests==2.26.0
 python-dotenv==1.0.0
 gunicorn
 discord.py
-quart
-Quart-CORS
+quart==0.15.0
+quart-cors==0.2.0
