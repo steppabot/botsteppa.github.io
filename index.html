@@ -349,8 +349,8 @@
         function formatNumberWithCommas(number) {
             return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
-    
-        fetch('https://steppabot.herokuapp.com/july2024.json')
+
+        fetch('/static/july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data))
             .catch(error => console.error('Error loading Hall of Fame data:', error));
