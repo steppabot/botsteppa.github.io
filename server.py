@@ -10,10 +10,14 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-
 # Load API keys from environment variables
 stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
+
+# Serve static files from the root directory
+@app.route('/july2024.json')
+def serve_json():
+    return send_from_directory('.', 'july2024.json')
 
 def get_discord_username(user_id):
     url = f"https://discord.com/api/v10/users/{user_id}"
