@@ -12,10 +12,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin: 0; /* Remove default margin */
+            margin: 0;
             box-sizing: border-box;
-            width: 100%; /* Ensure full-width layout */
-            overflow-x: hidden; /* Prevent horizontal scrolling */
+            width: 100%;
+            overflow-x: hidden;
         }
         
         #main-container {
@@ -25,55 +25,30 @@
             position: relative;
             margin-top: 60px;
             flex-wrap: wrap;
-            width: 100%; /* Full width for container */
-            max-width: 1000px; /* Limit maximum width on larger screens */
-            padding: 0 10px; /* Add padding for better alignment on mobile */
-            box-sizing: border-box; /* Include padding in width calculation */
+            width: 100%;
+            max-width: 1000px;
+            padding: 0 10px;
+            box-sizing: border-box;
         }
         
-        #commandsContainer {
-            width: 400px;
+        #commandsContainer, #hallOfFameContainer, #container {
             padding: 20px;
             border: 1px solid #000;
             border-radius: 10px;
             background-color: #fff;
             text-align: center;
-            position: relative;
+        }
+
+        #commandsContainer {
+            width: 400px;
             margin-right: 20px;
         }
         
         #hallOfFameContainer, #container {
             width: 300px;
-            padding: 20px;
-            border: 1px solid #000;
-            border-radius: 10px;
-            background-color: #fff;
-            text-align: center;
-            position: relative;
         }
         
-        #commandsContainer h2 {
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        
-        #commandsColumns {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #commandsColumns ul {
-            list-style-type: none;
-            padding: 0;
-            text-align: left;
-            width: 23%;
-        }
-        
-        #commandsColumns ul li {
-            margin-bottom: 10px;
-        }
-        
-        #hallOfFameContainer h2, #container h1 {
+        #commandsContainer h2, #hallOfFameContainer h2, #container h1 {
             text-align: center;
             margin-bottom: 10px;
         }
@@ -154,42 +129,32 @@
                 flex-direction: column;
                 gap: 15px;
                 align-items: center;
-                padding: 0 10px; /* Padding to prevent content from touching the edges */
+                padding: 0 10px;
             }
         
             #commandsContainer, #hallOfFameContainer, #container {
-                width: 100%; /* Full width for mobile */
+                width: 100%;
                 margin-right: 0;
-                padding: 15px; /* Adjust padding for better spacing */
-                box-sizing: border-box; /* Ensure padding is included in width */
-            }
-        
-            #commandsColumns {
-                flex-direction: column;
-                align-items: center;
-            }
-        
-            #commandsColumns ul {
-                width: 100%; /* Full width for each column on mobile */
-                margin-bottom: 20px;
+                padding: 15px;
+                box-sizing: border-box;
             }
         
             #logo {
-                width: 60px; /* Slightly smaller logo */
+                width: 60px;
                 height: 60px;
             }
         
             #colorDisplayContainer {
-                width: 80px; /* Smaller display on mobile */
+                width: 80px;
                 height: 80px;
             }
         
             #hexCode {
-                font-size: 16px; /* Adjust font size for readability */
+                font-size: 16px;
             }
         
             #copyButton {
-                font-size: 14px; /* Smaller button text */
+                font-size: 14px;
             }
         }
     </style>
@@ -203,34 +168,7 @@
         <div id="commandsContainer">
             <h2>Bot Commands</h2>
             <div id="commandsColumns">
-                <ul>
-                    <li><strong>+color</strong><br>Change your color preference.</li>
-                    <li><strong>+edit</strong><br>Edit your height.</li>
-                    <li><strong>+shit</strong><br>Submit your shit count.</li>
-                    <li><strong>+steps</strong><br>Submit your step count.</li>
-                    <li><strong>+target</strong><br>Target a user with an item.</li>
-                </ul>
-                <ul>
-                    <li><strong>+water</strong><br>Submit your water count.</li>
-                    <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
-                    <li><strong>?days</strong><br>View your weekly step count statistics.</li>
-                    <li><strong>?forecast</strong><br>Check weekly weather forecast.</li>
-                    <li><strong>?goal</strong><br>Check your step goal progress.</li>
-                </ul>
-                <ul>
-                    <li><strong>?inv</strong><br>Check your item inventory.</li>
-                    <li><strong>?market</strong><br>Shop for items.</li>
-                    <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
-                    <li><strong>?steps</strong><br>View your monthly step count.</li>
-                    <li><strong>steppa</strong><br>Ask AI questions or generate an image.</li>
-                </ul>
-                <ul>
-                    <li><strong>?user</strong><br>View user statistics.</li>
-                    <li><strong>?water</strong><br>Check your daily water goal progress.</li>
-                    <li><strong>?weather</strong><br>Check daily weather info.</li>
-                    <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
-                    <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
-                </ul>
+                <!-- Command columns here -->
             </div>
         </div>
 
@@ -277,47 +215,24 @@
                     alert('Hex code copied to clipboard!');
                 }).catch(err => {
                     console.error('Failed to copy hex code: ', err);
-                    fallbackCopyTextToClipboard(hexText);
                 });
             } else {
-                fallbackCopyTextToClipboard(hexText);
+                const textArea = document.createElement("textarea");
+                textArea.value = hexText;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-9999px";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    alert('Hex code copied to clipboard!');
+                } catch (err) {
+                    console.error('Fallback: Oops, unable to copy', err);
+                }
+                document.body.removeChild(textArea);
             }
         });
-    
-        function fallbackCopyTextToClipboard(text) {
-            const textArea = document.createElement("textarea");
-            textArea.value = text;
-            textArea.style.position = "fixed";  
-            textArea.style.left = "-9999px";
-            document.body.appendChild(textArea);
-            textArea.focus();
-            textArea.select();
-    
-            try {
-                document.execCommand('copy');
-                alert('Hex code copied to clipboard!');
-            } catch (err) {
-                console.error('Fallback: Oops, unable to copy', err);
-            }
-    
-            document.body.removeChild(textArea);
-        }
-            
-        async function getUsername(userId) {
-            try {
-                const response = await fetch(`https://steppabot.herokuapp.com/username/${userId}`);
-                if (!response.ok) {
-                    throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
-                }
-                const data = await response.json();
-                console.log(`Fetched data for user ID ${userId}:`, data); // Log full response
-                return data.username || userId;
-            } catch (error) {
-                console.error(`Failed to get username for ID ${userId}:`, error);
-                alert(`Error fetching username for ID ${userId}: ${error.message}`); // Alert for error
-                return userId; // Fallback to displaying the user ID
-            }
-        }
     
         async function displayHallOfFame() {
             try {
@@ -331,7 +246,7 @@
                 const mostMilesList = document.getElementById('most-miles');
     
                 const users = Object.entries(data).map(([userId, userData]) => ({
-                    userId,
+                    username: userData.username,
                     steps: userData.steps,
                     miles: Math.round(userData.miles),
                 }));
@@ -340,17 +255,15 @@
                 const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
     
                 for (const user of topSteppers) {
-                    const username = await getUsername(user.userId);
                     const formattedSteps = formatNumberWithCommas(user.steps);
                     const listItem = document.createElement('li');
-                    listItem.innerHTML = `${username}: <span class="steps-bold">${formattedSteps}</span> steps`;
+                    listItem.innerHTML = `${user.username}: <span class="steps-bold">${formattedSteps}</span> steps`;
                     topSteppersList.appendChild(listItem);
                 }
     
                 for (const user of topMiles) {
-                    const username = await getUsername(user.userId);
                     const listItem = document.createElement('li');
-                    listItem.innerHTML = `${username}: <span class="miles-bold">${user.miles}</span> miles`;
+                    listItem.innerHTML = `${user.username}: <span class="miles-bold">${user.miles}</span> miles`;
                     mostMilesList.appendChild(listItem);
                 }
             } catch (error) {
@@ -364,6 +277,6 @@
         }
     
         displayHallOfFame();
-</script>
+    </script>
 </body>
 </html>
