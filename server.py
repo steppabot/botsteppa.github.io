@@ -43,20 +43,29 @@ async def get_discord_username(user_id):
                 app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
                 return None
 
-# Function to update usernames in the JSON file
 async def update_usernames_in_json():
     try:
         # Load the JSON file
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
 
-        # Iterate over the user IDs and fetch usernames
-        for user_id, user_data in data.items():
-            if 'username' not in user_data:  # Only fetch if username is not already present
+        # Sort and get top 3 users by steps and miles
+        users_by_steps = sorted(data.items(), key=lambda item: item[1]['steps'], reverse=True)[:3]
+        users_by_miles = sorted(data.items(), key=lambda item: item[1]['miles'], reverse=True)[:3]
+
+        # Combine the two lists and remove duplicates
+        top_users = {user_id: user_data for user_id, user_data in users_by_steps + users_by_miles}
+
+        # Iterate over the top user IDs and fetch usernames
+        for user_id, user_data in top_users.items():
+            if not user_data.get('username'):  # Check if username is blank
                 username = await get_discord_username(user_id)
                 if username:
                     user_data['username'] = username
                     print(f"Updated username for {user_id}: {username}")
+                    # Update the original data
+                    data[user_id]['username'] = username
+                await asyncio.sleep(1)  # Sleep for 1 second between requests
         
         # Write back the updated data to the JSON file
         with open('static/july2024.json', 'w') as f:
