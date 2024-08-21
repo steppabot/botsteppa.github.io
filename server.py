@@ -23,7 +23,6 @@ client = discord.Client(intents=intents)
 # Load the Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
-# Function to fetch Discord username
 async def get_discord_username(user_id):
     url = f"https://discord.com/api/v10/users/{user_id}"
     headers = {
@@ -35,6 +34,11 @@ async def get_discord_username(user_id):
                 data = await response.json()
                 app.logger.info(f"Discord API response for user {user_id}: {data}")
                 return data.get("global_name") or data.get("username")
+            elif response.status == 429:
+                retry_after = int(response.headers.get("Retry-After", 1))
+                app.logger.error(f"Rate limit hit for User ID: {user_id}. Retrying after {retry_after} seconds.")
+                time.sleep(retry_after)
+                return await get_discord_username(user_id)
             else:
                 app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
                 return None
