@@ -1,11 +1,12 @@
-from quart import Quart, jsonify, request
+from quart import Quart, jsonify, request, send_from_directory
 from quart_cors import cors
 import discord
 import os
 import logging
 import stripe
 import uuid
-import requests
+import aiohttp
+import json
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -22,6 +23,7 @@ client = discord.Client(intents=intents)
 # Load the Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
+# Function to fetch Discord username
 async def get_discord_username(user_id):
     url = f"https://discord.com/api/v10/users/{user_id}"
     headers = {
@@ -37,22 +39,65 @@ async def get_discord_username(user_id):
                 app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
                 return None
 
+# Function to update usernames in the JSON file
+async def update_usernames_in_json():
+    try:
+        # Load the JSON file
+        with open('static/july2024.json', 'r') as f:
+            data = json.load(f)
+
+        # Iterate over the user IDs and fetch usernames
+        for user_id, user_data in data.items():
+            if 'username' not in user_data:  # Only fetch if username is not already present
+                username = await get_discord_username(user_id)
+                if username:
+                    user_data['username'] = username
+                    print(f"Updated username for {user_id}: {username}")
+        
+        # Write back the updated data to the JSON file
+        with open('static/july2024.json', 'w') as f:
+            json.dump(data, f, indent=4)
+
+    except Exception as e:
+        app.logger.error(f"Error updating usernames in JSON: {e}")
+
+# Call this function when the server starts to ensure the JSON file is updated
+@app.before_serving
+async def before_serving():
+    await update_usernames_in_json()
+
+# API endpoint to fetch username (optional, depending on your needs)
 @app.route('/username/<user_id>', methods=['GET'])
 async def get_username(user_id):
     try:
-        username = await get_discord_username(user_id)
-        if username:
-            return jsonify({"username": username})
+        # Load the JSON file
+        with open('static/july2024.json', 'r') as f:
+            data = json.load(f)
+
+        # Fetch the username if it's present
+        user_data = data.get(user_id)
+        if user_data and 'username' in user_data:
+            return jsonify({"username": user_data['username']})
         else:
-            return jsonify({"error": "User not found"}), 404
+            # Fetch from Discord and update the JSON
+            username = await get_discord_username(user_id)
+            if username:
+                data[user_id]['username'] = username
+                with open('static/july2024.json', 'w') as f:
+                    json.dump(data, f, indent=4)
+                return jsonify({"username": username})
+            else:
+                return jsonify({"error": "User not found"}), 404
     except Exception as e:
         app.logger.error(f"Failed to fetch username for User ID: {user_id}. Error: {e}")
         return jsonify({"error": "An error occurred"}), 500
+
 # Route for serving static files
 @app.route('/static/<path:filename>')
 async def serve_static(filename):
     return await send_from_directory('static', filename)
 
+# Stripe checkout session creation
 @app.route('/create-checkout-session', methods=['POST'])
 def create_checkout_session():
     try:
