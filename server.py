@@ -29,15 +29,18 @@ async def get_discord_username(user_id):
     }
     async with aiohttp.ClientSession() as session:
         async with session.get(url, headers=headers) as response:
-            data = await response.json()
-            app.logger.info(f"Discord API response for user {user_id}: {data}")  # Log the response
-            return data.get("global_name") or data.get("username")
+            if response.status == 200:
+                data = await response.json()
+                app.logger.info(f"Discord API response for user {user_id}: {data}")
+                return data.get("global_name") or data.get("username")
+            else:
+                app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
+                return None
 
-# Route to get the username
 @app.route('/username/<user_id>', methods=['GET'])
 async def get_username(user_id):
     try:
-        username = await get_discord_username(int(user_id))
+        username = await get_discord_username(user_id)
         if username:
             return jsonify({"username": username})
         else:
@@ -45,7 +48,6 @@ async def get_username(user_id):
     except Exception as e:
         app.logger.error(f"Failed to fetch username for User ID: {user_id}. Error: {e}")
         return jsonify({"error": "An error occurred"}), 500
-
 # Route for serving static files
 @app.route('/static/<path:filename>')
 async def serve_static(filename):
