@@ -1,49 +1,49 @@
-from flask import Flask, request, jsonify, send_from_directory
-from flask_cors import CORS
-import stripe
-import uuid
+from quart import Quart, jsonify, request
+from quart_cors import cors
+import discord
 import os
 import logging
-import requests  # To make API requests to Discord
+import stripe
+import uuid
+import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 
-app = Flask(__name__, static_url_path='/static')
-CORS(app)  # Enable CORS for all routes
+# Quart app setup
+app = Quart(__name__)
+app = cors(app)  # Enable CORS for all routes
 
-# Load API keys from environment variables
-stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
+# Initialize the Discord client with intents
+intents = discord.Intents.default()
+intents.members = True
+client = discord.Client(intents=intents)
+
+# Load the Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
+
+# Function to get Discord username using discord.py
+async def fetch_discord_username(user_id):
+    user = await client.fetch_user(user_id)
+    return user.global_name or user.name
+
+# Route to get the username
+@app.route('/username/<user_id>', methods=['GET'])
+async def get_username(user_id):
+    try:
+        username = await fetch_discord_username(int(user_id))
+        if username:
+            return jsonify({"username": username})
+        else:
+            return jsonify({"error": "User not found"}), 404
+    except Exception as e:
+        app.logger.error(f"Failed to fetch username for User ID: {user_id}. Error: {e}")
+        return jsonify({"error": "An error occurred"}), 500
 
 # Route for serving static files
 @app.route('/static/<path:filename>')
-def serve_static(filename):
-    return send_from_directory('static', filename)
-
-def get_discord_username(user_id):
-    app.logger.info(f"Fetching username for User ID: {user_id}")
-    url = f"https://discord.com/api/v10/users/{user_id}"
-    headers = {
-        "Authorization": f"Bot {DISCORD_BOT_TOKEN}"
-    }
-    response = requests.get(url, headers=headers)
-    
-    if response.status_code == 200:
-        user_data = response.json()
-        # Prefer global_name if it exists, otherwise fall back to username
-        return user_data.get("global_name") or user_data.get("username")
-    else:
-        app.logger.error(f"Failed to fetch username for User ID: {user_id}. Response: {response.text}")
-        return None
-
-@app.route('/username/<user_id>', methods=['GET'])
-def get_username(user_id):
-    username = get_discord_username(user_id)
-    if username:
-        return jsonify({"username": username})
-    else:
-        return jsonify({"error": "User not found"}), 404
+async def serve_static(filename):
+    return await send_from_directory('static', filename)
 
 @app.route('/create-checkout-session', methods=['POST'])
 def create_checkout_session():
