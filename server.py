@@ -33,12 +33,15 @@ async def get_discord_username(user_id):
         async with session.get(url, headers=headers) as response:
             if response.status == 200:
                 data = await response.json()
+                app.logger.info(f"Discord API response for user {user_id}: {data}")
                 return data.get("global_name") or data.get("username")
             elif response.status == 429:
                 retry_after = int(response.headers.get("Retry-After", 1))
+                app.logger.error(f"Rate limit hit for User ID: {user_id}. Retrying after {retry_after} seconds.")
                 await asyncio.sleep(retry_after)
                 return await get_discord_username(user_id)
             else:
+                app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
                 return None
 
 @app.route('/hof', methods=['GET'])
@@ -48,9 +51,14 @@ async def get_hall_of_fame():
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
 
+        app.logger.info("Loaded JSON data successfully.")
+
         # Identify the top 3 users by steps and miles
         users_by_steps = sorted(data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:3]
         users_by_miles = sorted(data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:3]
+
+        app.logger.info(f"Top 3 users by steps: {users_by_steps}")
+        app.logger.info(f"Top 3 users by miles: {users_by_miles}")
 
         # Combine the top steppers and top miles, avoiding duplicates
         top_users = {user_id: user_data for user_id, user_data in users_by_steps + users_by_miles}
@@ -63,6 +71,7 @@ async def get_hall_of_fame():
                     user_data['username'] = username
                 else:
                     user_data['username'] = "Unknown User"
+                app.logger.info(f"Updated username for {user_id}: {user_data['username']}")
                 await asyncio.sleep(1)  # Respect rate limits
 
         # Prepare the response data
@@ -70,6 +79,8 @@ async def get_hall_of_fame():
             "top_steppers": [{"username": user_data['username'], "steps": user_data['steps']} for user_id, user_data in users_by_steps],
             "top_miles": [{"username": user_data['username'], "miles": round(user_data['miles'])} for user_id, user_data in users_by_miles],
         }
+
+        app.logger.info(f"Response data: {response_data}")
 
         return jsonify(response_data)
 
