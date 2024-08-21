@@ -310,10 +310,11 @@
                     throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
                 }
                 const data = await response.json();
-                console.log(`Fetched data for user ID ${userId}:`, data); // Add this line for debugging
+                console.log(`Fetched data for user ID ${userId}:`, data); // Log for debugging
                 return data.username || userId;
             } catch (error) {
                 console.error(`Failed to get username for ID ${userId}:`, error);
+                alert(`Error fetching username for ID ${userId}: ${error.message}`); // Alert for error
                 return userId; // Fallback to displaying the user ID
             }
         }
@@ -354,7 +355,10 @@
         fetch('/static/july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data))
-            .catch(error => console.error('Error loading Hall of Fame data:', error));
+            .catch(error => {
+                console.error('Error loading Hall of Fame data:', error);
+                alert('Error loading Hall of Fame data. Please check the console for more details.');
+            });
     </script>
 </body>
 </html>
