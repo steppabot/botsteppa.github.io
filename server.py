@@ -30,6 +30,7 @@ async def get_discord_username(user_id):
     async with aiohttp.ClientSession() as session:
         async with session.get(url, headers=headers) as response:
             data = await response.json()
+            app.logger.info(f"Discord API response for user {user_id}: {data}")  # Log the response
             return data.get("global_name") or data.get("username")
 
 # Route to get the username
