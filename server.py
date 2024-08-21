@@ -1,22 +1,24 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import stripe
 import uuid
 import os
 import requests  # To make API requests to Discord
 from dotenv import load_dotenv
+
 load_dotenv()
 
-app = Flask(__name__, static_url_path='', static_folder='.')
+app = Flask(__name__, static_url_path='/static')
 CORS(app)  # Enable CORS for all routes
 
 # Load API keys from environment variables
 stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
-@app.route('/july2024.json')
-def serve_json():
-    return send_from_directory('.', 'july2024.json')
+# Route for serving static files
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
 
 def get_discord_username(user_id):
     url = f"https://discord.com/api/v10/users/{user_id}"
