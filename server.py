@@ -22,16 +22,21 @@ client = discord.Client(intents=intents)
 # Load the Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
-# Function to get Discord username using discord.py
-async def fetch_discord_username(user_id):
-    user = await client.fetch_user(user_id)
-    return user.global_name or user.name
+async def get_discord_username(user_id):
+    url = f"https://discord.com/api/v10/users/{user_id}"
+    headers = {
+        "Authorization": f"Bot {DISCORD_BOT_TOKEN}"
+    }
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url, headers=headers) as response:
+            data = await response.json()
+            return data.get("global_name") or data.get("username")
 
 # Route to get the username
 @app.route('/username/<user_id>', methods=['GET'])
 async def get_username(user_id):
     try:
-        username = await fetch_discord_username(int(user_id))
+        username = await get_discord_username(int(user_id))
         if username:
             return jsonify({"username": username})
         else:
