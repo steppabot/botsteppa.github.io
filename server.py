@@ -87,5 +87,5 @@ def create_checkout_session():
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)  # Set to DEBUG for detailed logs
-    port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port)
+    port = int(os.environ.get('PORT', 5000))  # Use PORT provided by Heroku or default to 5000
+    app.run(host='0.0.0.0', port=port)  # Bind to 0.0.0.0 to accept connections from outside
