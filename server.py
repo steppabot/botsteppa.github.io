@@ -28,18 +28,13 @@ def get_discord_username(user_id):
         "Authorization": f"Bot {DISCORD_BOT_TOKEN}"
     }
     response = requests.get(url, headers=headers)
-    return jsonify({"username": "Test User"})
-
-    
-    # Add detailed logging
-    print(f"Fetching username for User ID: {user_id}")
-    print(f"Response Status Code: {response.status_code}")
-    print(f"Response Content: {response.content}")
     
     if response.status_code == 200:
-        return response.json().get("username")
+        user_data = response.json()
+        # Prefer global_name if it exists, otherwise fall back to username
+        return user_data.get("global_name") or user_data.get("username")
     else:
-        print(f"Failed to fetch username for User ID: {user_id}. Response: {response.text}")
+        app.logger.error(f"Failed to fetch username for User ID: {user_id}. Response: {response.text}")
         return None
 
 @app.route('/username/<user_id>', methods=['GET'])
