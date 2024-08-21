@@ -3,6 +3,7 @@ from flask_cors import CORS
 import stripe
 import uuid
 import os
+import logging
 import requests  # To make API requests to Discord
 from dotenv import load_dotenv
 
@@ -21,11 +22,14 @@ def serve_static(filename):
     return send_from_directory('static', filename)
 
 def get_discord_username(user_id):
+    app.logger.info(f"Fetching username for User ID: {user_id}")
     url = f"https://discord.com/api/v10/users/{user_id}"
     headers = {
         "Authorization": f"Bot {DISCORD_BOT_TOKEN}"
     }
     response = requests.get(url, headers=headers)
+    return jsonify({"username": "Test User"})
+
     
     # Add detailed logging
     print(f"Fetching username for User ID: {user_id}")
