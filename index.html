@@ -305,7 +305,7 @@
     
         async function getUsername(userId) {
             try {
-                const response = await fetch(`http://localhost:4241/username/${userId}`);
+                const response = await fetch(`https://steppabot.herokuapp.com/username/${userId}`);
                 if (!response.ok) {
                     throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
                 }
@@ -346,7 +346,11 @@
             }
         }
     
-        fetch('july2024.json')
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+    
+        fetch('https://steppabot.herokuapp.com/july2024.json')
             .then(response => response.json())
             .then(data => displayHallOfFame(data))
             .catch(error => console.error('Error loading Hall of Fame data:', error));
