@@ -303,35 +303,67 @@
             document.body.removeChild(textArea);
         }
             
-        async function fetchUsernamesAndDisplayHallOfFame() {
+        async function getUsername(userId) {
+            try {
+                const response = await fetch(`https://steppabot.herokuapp.com/username/${userId}`);
+                if (!response.ok) {
+                    throw new Error(`Error fetching username for ID ${userId}: ${response.statusText}`);
+                }
+                const data = await response.json();
+                console.log(`Fetched data for user ID ${userId}:`, data); // Log full response
+                return data.username || userId;
+            } catch (error) {
+                console.error(`Failed to get username for ID ${userId}:`, error);
+                alert(`Error fetching username for ID ${userId}: ${error.message}`); // Alert for error
+                return userId; // Fallback to displaying the user ID
+            }
+        }
+    
+        async function displayHallOfFame() {
             try {
                 const response = await fetch('/static/july2024.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load july2024.json');
+                }
+    
                 const data = await response.json();
-        
+                const topSteppersList = document.getElementById('top-steppers');
+                const mostMilesList = document.getElementById('most-miles');
+    
                 const users = Object.entries(data).map(([userId, userData]) => ({
                     userId,
                     steps: userData.steps,
-                    miles: Math.round(userData.miles)
+                    miles: Math.round(userData.miles),
                 }));
-        
+    
                 const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
                 const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
-        
+    
                 for (const user of topSteppers) {
-                    const username = await fetch(`/username/${user.userId}`);
-                    user.username = (await username.json()).username || user.userId;
+                    const username = await getUsername(user.userId);
+                    const formattedSteps = formatNumberWithCommas(user.steps);
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${username}: <span class="steps-bold">${formattedSteps}</span> steps`;
+                    topSteppersList.appendChild(listItem);
                 }
-        
+    
                 for (const user of topMiles) {
-                    const username = await fetch(`/username/${user.userId}`);
-                    user.username = (await username.json()).username || user.userId;
+                    const username = await getUsername(user.userId);
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${username}: <span class="miles-bold">${user.miles}</span> miles`;
+                    mostMilesList.appendChild(listItem);
                 }
-        
-                displayHallOfFame(topSteppers, topMiles);
             } catch (error) {
-                console.error('Error fetching Hall of Fame data:', error);
+                console.error('Error loading Hall of Fame data:', error);
+                alert('Error loading Hall of Fame data. Please check the console for more details.');
             }
         }
+    
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+    
+        displayHallOfFame();
 </script>
 </body>
 </html>
