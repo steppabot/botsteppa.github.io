@@ -29,6 +29,7 @@ def get_discord_username(user_id):
     if response.status_code == 200:
         return response.json().get("username")
     else:
+        print(f"Failed to fetch username for user ID {user_id}. Status Code: {response.status_code}, Response: {response.text}")  # Debugging line
         return None
 
 @app.route('/username/<user_id>', methods=['GET'])
