@@ -49,9 +49,14 @@ async def update_usernames_in_json():
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
 
+        # Debugging: Check the structure of the JSON data
+        if not all('steps' in user_data for user_data in data.values()):
+            app.logger.error("Some users are missing the 'steps' key.")
+            return
+
         # Sort and get top 3 users by steps and miles
-        users_by_steps = sorted(data.items(), key=lambda item: item[1]['steps'], reverse=True)[:3]
-        users_by_miles = sorted(data.items(), key=lambda item: item[1]['miles'], reverse=True)[:3]
+        users_by_steps = sorted(data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:3]
+        users_by_miles = sorted(data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:3]
 
         # Combine the two lists and remove duplicates
         top_users = {user_id: user_data for user_id, user_data in users_by_steps + users_by_miles}
