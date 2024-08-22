@@ -96,7 +96,7 @@
         #hall-of-fame ul {
             list-style-type: none;
             padding: 0;
-            width: 30%; /* Set width to 75% of the bordered box */
+            width: 75%; /* Set width to 75% of the bordered box */
             margin: 0 auto;
         }
 
@@ -108,12 +108,17 @@
             border: 1px solid #000;
             text-align: center;
             width: 100%; /* Ensure boxes stack on top of each other */
+            box-sizing: border-box;
         }
 
         .section-title {
             font-weight: bold;
             margin-top: 20px;
             margin-bottom: 10px;
+        }
+
+        .steps-bold, .miles-bold {
+            font-weight: bold;
         }
 
         /* Responsive Styles */
@@ -167,7 +172,7 @@
             }
 
             #hall-of-fame ul {
-                width: 100%; /* Full width on mobile */
+                width: 90%; /* Adjust width to avoid overflow */
             }
         }
     </style>
