@@ -263,33 +263,34 @@
     
         async function displayHallOfFame() {
             try {
-                const response = await fetch('/hof');
+                // Fetch data from your Heroku backend
+                const response = await fetch('https://steppabot-bf03db696675.herokuapp.com/hof');
                 if (!response.ok) {
                     throw new Error('Failed to load Hall of Fame data');
                 }
-
+        
                 const data = await response.json();
                 console.log("Loaded data:", data); // Log loaded data to verify it's correct
                 
                 const topSteppersList = document.getElementById('top-steppers');
                 const mostMilesList = document.getElementById('most-miles');
-
+        
                 const users = Object.entries(data).map(([userId, userData]) => ({
                     username: userData.username || "Unknown User", // Default to 'Unknown User' if username is missing
                     steps: userData.steps || 0, // Default to 0 if steps are missing
                     miles: Math.round(userData.miles || 0), // Default to 0 if miles are missing
                 }));
-
+        
                 const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
                 const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
-
+        
                 for (const user of topSteppers) {
                     const formattedSteps = formatNumberWithCommas(user.steps);
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="steps-bold">${formattedSteps}</span> steps`;
                     topSteppersList.appendChild(listItem);
                 }
-
+        
                 for (const user of topMiles) {
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="miles-bold">${user.miles}</span> miles`;
@@ -300,11 +301,11 @@
                 alert('Error loading Hall of Fame data. Please check the console for more details.');
             }
         }
-    
+        
         function formatNumberWithCommas(number) {
             return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
-
+        
         // Load Hall of Fame data when the page loads
         displayHallOfFame();
     </script>
