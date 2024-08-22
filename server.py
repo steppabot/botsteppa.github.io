@@ -39,7 +39,7 @@ async def get_discord_username(user_id):
                 app.logger.error(f"Failed to fetch username for User ID: {user_id}. Status: {response.status}")
                 return None
 
-async def update_usernames_in_json():
+async def update_usernames():
     try:
         # Load the JSON file
         with open('static/july2024.json', 'r') as f:
@@ -61,29 +61,35 @@ async def update_usernames_in_json():
 
         # Iterate over the top user IDs and fetch usernames
         for user_id, user_data in top_users.items():
-            if not user_data.get('username'):  # Check if username is blank
+            if user_id not in usernames_dict:  # Check if username is already fetched
                 username = await get_discord_username(user_id)
                 if username:
-                    user_data['username'] = username
-                    print(f"Updated username for {user_id}: {username}")
-                    # Update the original data
-                    data[user_id]['username'] = username
+                    usernames_dict[user_id] = username
+                    print(f"Fetched and stored username for {user_id}: {username}")
+                else:
+                    usernames_dict[user_id] = "Unknown User"
                 await asyncio.sleep(1)  # Sleep for 1 second between requests
 
     except Exception as e:
-        app.logger.error(f"Error updating usernames: {e}")
+        app.logger.error(f"Error fetching usernames: {e}")
 
-# Call this function when the server starts to ensure the JSON file is updated
 @app.before_serving
 async def before_serving():
-    await update_usernames_in_json()
+    await update_usernames()
 
-# Serve the JSON file directly from the endpoint to ensure the frontend receives the updated data
 @app.route('/hof', methods=['GET'])
 async def get_hall_of_fame():
     try:
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
+
+        # Replace user IDs with usernames from the dictionary
+        for user_id, user_data in data.items():
+            if user_id in usernames_dict:
+                user_data['username'] = usernames_dict[user_id]
+            else:
+                user_data['username'] = "Unknown User"
+
         return jsonify(data)
     except Exception as e:
         app.logger.error(f"Error loading Hall of Fame data: {e}")
