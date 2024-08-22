@@ -88,6 +88,7 @@ async def get_hall_of_fame():
     try:
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
+            app.logger.info("Successfully loaded the JSON file")
 
         # Replace user IDs with usernames from the dictionary
         for user_id, user_data in data.items():
@@ -96,9 +97,19 @@ async def get_hall_of_fame():
             else:
                 user_data['username'] = "Unknown User"
 
+        app.logger.info("Successfully replaced user IDs with usernames")
         return jsonify(data)
+        
+    except FileNotFoundError:
+        app.logger.error("july2024.json file not found.")
+        return jsonify({"error": "JSON file not found"}), 404
+        
+    except json.JSONDecodeError as e:
+        app.logger.error(f"JSON Decode Error: {str(e)}")
+        return jsonify({"error": "Invalid JSON format"}), 500
+    
     except Exception as e:
-        app.logger.error(f"Error loading Hall of Fame data: {e}")
+        app.logger.error(f"General Error: {str(e)}")
         return jsonify({"error": "An error occurred"}), 500
 
 @app.route('/static/<path:filename>')
