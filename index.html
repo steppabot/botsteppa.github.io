@@ -17,7 +17,44 @@
             width: 100%;
             overflow-x: hidden;
         }
-        
+
+        /* Navigation menu styles */
+        #nav-menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        #nav-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        #nav-menu a:hover {
+            background-color: #575757;
+        }
+
+        /* Content section styles */
+        .content-section {
+            margin-top: 60px; /* Ensure content is not hidden behind the fixed navbar */
+            display: none; /* Hide sections by default */
+        }
+
+        .content-section.active {
+            display: block; /* Show the active section */
+        }
+
+        /* Other styles */
         #main-container {
             display: flex;
             justify-content: center;
@@ -30,7 +67,7 @@
             padding: 0 10px;
             box-sizing: border-box;
         }
-        
+
         #commandsContainer, #hallOfFameContainer, #container {
             padding: 20px;
             border: 1px solid #000;
@@ -43,26 +80,26 @@
             width: 400px;
             margin-right: 20px;
         }
-        
+
         #hallOfFameContainer, #container {
             width: 300px;
         }
-        
+
         #commandsContainer h2, #hallOfFameContainer h2, #container h1 {
             text-align: center;
             margin-bottom: 10px;
         }
-        
+
         .section-title {
             font-weight: bold;
             margin-top: 20px;
         }
-        
+
         #hall-of-fame ul {
             list-style-type: none;
             padding: 0;
         }
-        
+
         #hall-of-fame li {
             background: #f4f4f4;
             margin: 5px 0;
@@ -70,32 +107,11 @@
             border-radius: 5px;
             border: 1px solid #000;
         }
-        
+
         .steps-bold, .miles-bold {
             font-weight: bold;
         }
-        
-        #logo-container {
-            display: flex;
-            justify-content: center;
-            margin-bottom: -35px;
-        }
-        
-        #logo {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            border: 2px solid #000;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            position: relative;
-            z-index: 2;
-        }
-        
-        #colorPicker {
-            margin: 20px 0;
-        }
-        
+
         #colorDisplayContainer {
             position: relative;
             width: 100px;
@@ -104,25 +120,25 @@
             border: 1px solid #000;
             border-radius: 15px;
         }
-        
+
         #colorDisplay {
             width: 100%;
             height: 100%;
             border-radius: 15px;
         }
-        
+
         #hexCode {
             font-size: 18px;
             font-weight: bold;
         }
-        
+
         #copyButton {
             margin-top: 10px;
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
         }
-        
+
         /* Responsive Styles */
         @media (max-width: 768px) {
             #main-container {
@@ -131,28 +147,23 @@
                 align-items: center;
                 padding: 0 10px;
             }
-        
+
             #commandsContainer, #hallOfFameContainer, #container {
                 width: 100%;
                 margin-right: 0;
                 padding: 15px;
                 box-sizing: border-box;
             }
-        
-            #logo {
-                width: 60px;
-                height: 60px;
-            }
-        
+
             #colorDisplayContainer {
                 width: 80px;
                 height: 80px;
             }
-        
+
             #hexCode {
                 font-size: 16px;
             }
-        
+
             #copyButton {
                 font-size: 14px;
             }
@@ -160,45 +171,50 @@
     </style>
 </head>
 <body>
-    <div id="logo-container">
-        <img id="logo" src="https://i.imgur.com/0KWue3m.png" alt="Logo">
-    </div>
-    
-    <div id="main-container">
+    <!-- Navigation menu -->
+    <nav id="nav-menu">
+        <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
+        <a href="#hof" onclick="showSection('hof')">Hall of Fame</a>
+        <a href="#color-picker" onclick="showSection('color-picker')">Color Picker</a>
+    </nav>
+
+    <!-- Bot Commands Section -->
+    <div id="commands" class="content-section active">
         <div id="commandsContainer">
             <h2>Bot Commands</h2>
-            <div id="commandsColumns">
-                <ul>
-                    <li><strong>+color</strong><br>Change your color preference.</li>
-                    <li><strong>+edit</strong><br>Edit your height.</li>
-                    <li><strong>+shit</strong><br>Submit your shit count.</li>
-                    <li><strong>+steps</strong><br>Submit your step count.</li>
-                    <li><strong>+target</strong><br>Target a user with an item.</li>
-                </ul>
-                <ul>
-                    <li><strong>+water</strong><br>Submit your water count.</li>
-                    <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
-                    <li><strong>?days</strong><br>View your weekly step count statistics.</li>
-                    <li><strong>?forecast</strong><br>Check weekly weather forecast.</li>
-                    <li><strong>?goal</strong><br>Check your step goal progress.</li>
-                </ul>
-                <ul>
-                    <li><strong>?inv</strong><br>Check your item inventory.</li>
-                    <li><strong>?market</strong><br>Shop for items.</li>
-                    <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
-                    <li><strong>?steps</strong><br>View your monthly step count.</li>
-                    <li><strong>steppa</strong><br>Ask AI questions or generate an image.</li>
-                </ul>
-                <ul>
-                    <li><strong>?user</strong><br>View user statistics.</li>
-                    <li><strong>?water</strong><br>Check your daily water goal progress.</li>
-                    <li><strong>?weather</strong><br>Check daily weather info.</li>
-                    <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
-                    <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
-                </ul>
-            </div>
+            <ul>
+                <li><strong>+color</strong><br>Change your color preference.</li>
+                <li><strong>+edit</strong><br>Edit your height.</li>
+                <li><strong>+shit</strong><br>Submit your shit count.</li>
+                <li><strong>+steps</strong><br>Submit your step count.</li>
+                <li><strong>+target</strong><br>Target a user with an item.</li>
+            </ul>
+            <ul>
+                <li><strong>+water</strong><br>Submit your water count.</li>
+                <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
+                <li><strong>?days</strong><br>View your weekly step count statistics.</li>
+                <li><strong>?forecast</strong><br>Check weekly weather forecast.</li>
+                <li><strong>?goal</strong><br>Check your step goal progress.</li>
+            </ul>
+            <ul>
+                <li><strong>?inv</strong><br>Check your item inventory.</li>
+                <li><strong>?market</strong><br>Shop for items.</li>
+                <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
+                <li><strong>?steps</strong><br>View your monthly step count.</li>
+                <li><strong>steppa</strong><br>Ask AI questions or generate an image.</li>
+            </ul>
+            <ul>
+                <li><strong>?user</strong><br>View user statistics.</li>
+                <li><strong>?water</strong><br>Check your daily water goal progress.</li>
+                <li><strong>?weather</strong><br>Check daily weather info.</li>
+                <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
+                <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
+            </ul>
         </div>
+    </div>
 
+    <!-- Hall of Fame Section -->
+    <div id="hof" class="content-section">
         <div id="hallOfFameContainer">
             <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
@@ -209,32 +225,53 @@
                 <ul id="most-miles"></ul>
             </div>
         </div>
+    </div>
 
+    <!-- Color Picker Section -->
+    <div id="color-picker" class="content-section">
         <div id="container">
             <h1>Interactive Color Picker</h1>
             <input type="color" id="colorPicker">
-            
+
             <div id="colorDisplayContainer">
                 <div id="colorDisplay"></div>
             </div>
-            
+
             <p id="hexCode">#FFFFFF</p>
             <button id="copyButton">Copy Hex Code</button>
         </div>
     </div>
 
     <script>
+        // Function to show the selected section and hide others
+        function showSection(sectionId) {
+            // Hide all sections
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+
+            // Show the selected section
+            document.getElementById(sectionId).classList.add('active');
+        }
+
+        // Initially, only the Bot Commands section is shown
+        document.addEventListener("DOMContentLoaded", function() {
+            showSection('commands');
+        });
+
+        // JavaScript for Color Picker functionality
         const colorPicker = document.getElementById('colorPicker');
         const colorDisplay = document.getElementById('colorDisplay');
         const hexCode = document.getElementById('hexCode');
         const copyButton = document.getElementById('copyButton');
-    
+
         colorPicker.addEventListener('input', () => {
             const color = colorPicker.value;
             colorDisplay.style.backgroundColor = color;
             hexCode.textContent = color;
         });
-    
+
         copyButton.addEventListener('click', () => {
             const hexText = hexCode.textContent;
             if (navigator.clipboard && window.isSecureContext) {
@@ -260,7 +297,8 @@
                 document.body.removeChild(textArea);
             }
         });
-    
+
+        // Function to display Hall of Fame data
         async function displayHallOfFame() {
             try {
                 // Fetch data from your Heroku backend
@@ -268,29 +306,29 @@
                 if (!response.ok) {
                     throw new Error('Failed to load Hall of Fame data');
                 }
-        
+
                 const data = await response.json();
                 console.log("Loaded data:", data); // Log loaded data to verify it's correct
-                
+
                 const topSteppersList = document.getElementById('top-steppers');
                 const mostMilesList = document.getElementById('most-miles');
-        
+
                 const users = Object.entries(data).map(([userId, userData]) => ({
                     username: userData.username || "Unknown User", // Default to 'Unknown User' if username is missing
                     steps: userData.steps || 0, // Default to 0 if steps are missing
                     miles: Math.round(userData.miles || 0), // Default to 0 if miles are missing
                 }));
-        
+
                 const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
                 const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
-        
+
                 for (const user of topSteppers) {
                     const formattedSteps = formatNumberWithCommas(user.steps);
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="steps-bold">${formattedSteps}</span> steps`;
                     topSteppersList.appendChild(listItem);
                 }
-        
+
                 for (const user of topMiles) {
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="miles-bold">${user.miles}</span> miles`;
@@ -301,11 +339,11 @@
                 alert('Error loading Hall of Fame data. Please check the console for more details.');
             }
         }
-        
+
         function formatNumberWithCommas(number) {
             return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
-        
+
         // Load Hall of Fame data when the page loads
         displayHallOfFame();
     </script>
