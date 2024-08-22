@@ -52,6 +52,10 @@
             background-color: #575757;
         }
 
+        #menu-toggle {
+            display: none;
+        }
+
         /* Content section styles */
         .content-section {
             margin: 20px auto; /* Center the content on the page */
@@ -61,6 +65,7 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text inside content sections */
         }
 
         .content-section.active {
@@ -109,6 +114,7 @@
                 display: none;
                 flex-direction: column;
                 width: 100%;
+                align-items: center; /* Center menu items */
             }
 
             #nav-links a {
@@ -232,6 +238,11 @@
 
             // Show the selected section
             document.getElementById(sectionId).classList.add('active');
+
+            // Collapse mobile menu after selection
+            if (window.innerWidth <= 768) {
+                document.getElementById('menu-toggle').classList.remove('active');
+            }
         }
 
         // Initially, only the Bot Commands section is shown
