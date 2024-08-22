@@ -1,4 +1,4 @@
-from quart import Quart, jsonify, request, send_from_directory
+from quart import Quart, jsonify, request, send_from_directory, redirect
 from quart_cors import cors
 import discord
 import os
