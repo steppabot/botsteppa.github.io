@@ -83,6 +83,11 @@ async def update_usernames():
 async def before_serving():
     await update_usernames()
 
+@app.route('/')
+async def index():
+    # You can either serve an index page, or simply redirect to /hof
+    return redirect('/hof')
+
 @app.route('/hof', methods=['GET'])
 async def get_hall_of_fame():
     try:
