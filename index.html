@@ -96,20 +96,18 @@
         #hall-of-fame ul {
             list-style-type: none;
             padding: 0;
-            width: auto;
+            width: 75%; /* Set width to 75% of the bordered box */
             margin: 0 auto;
         }
 
         #hall-of-fame li {
             background: #f4f4f4;
-            margin: 5px 0;
+            margin: 10px 0; /* Add padding between items */
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #000;
-            display: inline-block;
             text-align: center;
-            width: auto; /* Dynamic width based on content */
-            white-space: nowrap; /* Prevent text from wrapping */
+            width: 100%; /* Ensure boxes stack on top of each other */
         }
 
         .section-title {
@@ -169,14 +167,7 @@
             }
 
             #hall-of-fame ul {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            #hall-of-fame li {
                 width: 100%; /* Full width on mobile */
-                box-sizing: border-box;
             }
         }
     </style>
@@ -346,14 +337,12 @@
                     const formattedSteps = formatNumberWithCommas(user.steps);
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="steps-bold">${formattedSteps}</span> steps`;
-                    listItem.style.width = `${formattedSteps.length * 10 + 20}px`; // Adjust width dynamically
                     topSteppersList.appendChild(listItem);
                 }
 
                 for (const user of topMiles) {
                     const listItem = document.createElement('li');
                     listItem.innerHTML = `${user.username}: <span class="miles-bold">${user.miles}</span> miles`;
-                    listItem.style.width = `${user.miles.toString().length * 10 + 20}px`; // Adjust width dynamically
                     mostMilesList.appendChild(listItem);
                 }
             } catch (error) {
