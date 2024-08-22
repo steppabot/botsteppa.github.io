@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            padding: 20px;
+            padding: 0;
             background-color: #f0f0f0;
             margin: 0;
             box-sizing: border-box;
@@ -18,7 +18,7 @@
         /* Navigation menu styles */
         #nav-menu {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             background-color: #333;
             padding: 10px 20px;
@@ -33,6 +33,7 @@
             max-height: 50px;
             height: auto;
             width: auto;
+            margin-right: 20px;
         }
 
         #nav-links {
@@ -53,42 +54,17 @@
 
         /* Content section styles */
         .content-section {
-            margin-top: 20px; /* Spacing below the sticky navbar */
+            margin: 20px auto; /* Center the content on the page */
+            max-width: 1000px;
+            padding: 20px;
             display: none; /* Hide sections by default */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .content-section.active {
             display: block; /* Show the active section */
-        }
-
-        /* Other styles */
-        #main-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            position: relative;
-            flex-wrap: wrap;
-            width: 100%;
-            max-width: 1000px;
-            padding: 0 10px;
-            box-sizing: border-box;
-        }
-
-        #commandsContainer, #hallOfFameContainer, #container {
-            padding: 20px;
-            border: 1px solid #000;
-            border-radius: 10px;
-            background-color: #fff;
-            text-align: center;
-        }
-
-        #commandsContainer {
-            width: 400px;
-            margin-right: 20px;
-        }
-
-        #hallOfFameContainer, #container {
-            width: 300px;
         }
 
         #commandsContainer h2, #hallOfFameContainer h2, #container h1 {
@@ -118,60 +94,53 @@
             font-weight: bold;
         }
 
-        #colorDisplayContainer {
-            position: relative;
-            width: 100px;
-            height: 100px;
-            margin: 20px auto;
-            border: 1px solid #000;
-            border-radius: 15px;
-        }
-
-        #colorDisplay {
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-        }
-
-        #hexCode {
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        #copyButton {
-            margin-top: 10px;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
         /* Responsive Styles */
         @media (max-width: 768px) {
-            #main-container {
+            #nav-menu {
                 flex-direction: column;
-                gap: 15px;
-                align-items: center;
-                padding: 0 10px;
             }
 
-            #commandsContainer, #hallOfFameContainer, #container {
-                width: 100%;
+            #nav-menu img {
                 margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            #nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            #nav-links a {
                 padding: 15px;
+                text-align: center;
+                width: 100%;
+            }
+
+            #menu-toggle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #575757;
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            #menu-toggle.active + #nav-links {
+                display: flex;
+            }
+
+            .content-section {
+                width: 90%;
+                padding: 15px;
+                margin: 20px auto;
                 box-sizing: border-box;
             }
 
-            #colorDisplayContainer {
-                width: 80px;
-                height: 80px;
-            }
-
-            #hexCode {
-                font-size: 16px;
-            }
-
-            #copyButton {
-                font-size: 14px;
+            #commandsContainer, #hallOfFameContainer, #container {
+                padding: 15px;
             }
         }
     </style>
@@ -180,6 +149,7 @@
     <!-- Navigation menu -->
     <nav id="nav-menu">
         <img src="https://i.imgur.com/59yTSAf.png" alt="Steppa Bot Logo">
+        <div id="menu-toggle">Menu</div>
         <div id="nav-links">
             <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
             <a href="#hof" onclick="showSection('hof')">Hall of Fame</a>
@@ -267,6 +237,12 @@
         // Initially, only the Bot Commands section is shown
         document.addEventListener("DOMContentLoaded", function() {
             showSection('commands');
+        });
+
+        // Toggle the mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
         });
 
         // JavaScript for Color Picker functionality
