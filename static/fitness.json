@@ -144,7 +144,11 @@
         "steps": 384749,
         "first_place_timer": 0,
         "finish_timer": 0,
+<<<<<<< HEAD
         "time_in_first_place": 562691.5829453468,
+=======
+        "time_in_first_place": 559808.71276927,
+>>>>>>> 20c79f1 (Moved fitness.json to static directory and updated changes)
         "miles": 166.35618213383842,
         "goal": 105600,
         "weeklysteps": 36665,
@@ -734,7 +738,11 @@
         "height": 170.18,
         "color": "#311432",
         "steps": 399266,
+<<<<<<< HEAD
         "first_place_timer": 1724345410.024422,
+=======
+        "first_place_timer": 1724342467.099381,
+>>>>>>> 20c79f1 (Moved fitness.json to static directory and updated changes)
         "finish_timer": 0,
         "time_in_first_place": 1096593.948092699,
         "miles": 165.09964780618688,
@@ -10882,4 +10890,3 @@
         },
         "time_in_first_place": 0
     }
-}
