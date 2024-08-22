@@ -183,12 +183,19 @@
         <img src="https://i.imgur.com/59yTSAf.png" alt="Steppa Bot Logo">
         <div id="menu-toggle">Menu</div>
         <div id="nav-links">
+            <a href="#home" onclick="showSection('home')">Home</a>
             <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
             <a href="#hof" onclick="showSection('hof')">Hall of Fame</a>
             <a href="#color-picker" onclick="showSection('color-picker')">Color Picker</a>
         </div>
     </nav>
 
+    <div id="home" class="content-section active">
+        <h2>Total Steps and Average Steps Per Day</h2>
+        <p id="total-steps">Total Steps: Loading...</p>
+        <p id="average-steps">Average Steps Per Day: Loading...</p>
+    </div>
+    
     <!-- Bot Commands Section -->
     <div id="commands" class="content-section active">
         <div id="commandsContainer">
@@ -314,6 +321,40 @@
             }
         });
 
+        async function loadStepsData() {
+            try {
+                const response = await fetch('/fitness.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load fitness.json');
+                }
+
+                const data = await response.json();
+
+                let totalSteps = 0;
+                let daysInMonth = new Date().getDate();
+
+                for (const userId in data) {
+                    if (data.hasOwnProperty(userId)) {
+                        totalSteps += data[userId].steps || 0;
+                    }
+                }
+
+                const averageSteps = Math.round(totalSteps / daysInMonth);
+
+                document.getElementById('total-steps').textContent = `Total Steps: ${formatNumberWithCommas(totalSteps)}`;
+                document.getElementById('average-steps').textContent = `Average Steps Per Day: ${formatNumberWithCommas(averageSteps)}`;
+            } catch (error) {
+                console.error('Error loading steps data:', error);
+                alert('Error loading steps data. Please check the console for more details.');
+            }
+        }
+
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        loadStepsData();
+        
         // Function to display Hall of Fame data
         async function displayHallOfFame() {
             try {
