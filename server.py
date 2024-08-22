@@ -24,6 +24,12 @@ client = discord.Client(intents=intents)
 # Load the Discord Bot Token
 DISCORD_BOT_TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
+# Stripe API key
+stripe.api_key = os.getenv('STRIPE_SECRET_KEY')
+
+# Dictionary to store user IDs and usernames
+usernames_dict = {}
+
 async def get_discord_username(user_id):
     url = f"https://discord.com/api/v10/users/{user_id}"
     headers = {
@@ -95,12 +101,10 @@ async def get_hall_of_fame():
         app.logger.error(f"Error loading Hall of Fame data: {e}")
         return jsonify({"error": "An error occurred"}), 500
 
-# Route for serving static files
 @app.route('/static/<path:filename>')
 async def serve_static(filename):
     return await send_from_directory('static', filename)
 
-# Stripe checkout session creation
 @app.route('/create-checkout-session', methods=['POST'])
 def create_checkout_session():
     try:
@@ -126,7 +130,6 @@ def create_checkout_session():
             cancel_url='https://discord.com/channels/978953837022937138/978953837022937141'
         )
         print(f"Created Stripe session with ID: {session.id}")
-        print(session.url)
         response = jsonify({'id': session.id})
         response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
         response.headers['Pragma'] = 'no-cache'
