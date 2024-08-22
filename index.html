@@ -72,19 +72,27 @@
             display: block; /* Show the active section */
         }
 
-        #commandsContainer h2, #hallOfFameContainer h2, #container h1 {
-            text-align: center;
-            margin-bottom: 10px;
+        #commandsContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Two columns side by side */
+            gap: 20px;
         }
 
-        .section-title {
-            font-weight: bold;
-            margin-top: 20px;
+        .command {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f4f4f4;
+            margin-bottom: 10px;
+            text-align: left;
+            list-style: none; /* Remove bullet points */
         }
 
         #hall-of-fame ul {
             list-style-type: none;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align items to the left */
         }
 
         #hall-of-fame li {
@@ -93,10 +101,15 @@
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #000;
+            display: inline-block;
+            width: auto; /* Adjust width to fit the content */
+            text-align: left;
         }
 
-        .steps-bold, .miles-bold {
+        .section-title {
             font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
         }
 
         /* Responsive Styles */
@@ -145,8 +158,16 @@
                 box-sizing: border-box;
             }
 
-            #commandsContainer, #hallOfFameContainer, #container {
-                padding: 15px;
+            #commandsContainer {
+                grid-template-columns: 1fr; /* Stack commands in one column on mobile */
+            }
+
+            #hall-of-fame ul {
+                width: 100%;
+            }
+
+            #hall-of-fame li {
+                width: 100%;
             }
         }
     </style>
@@ -166,35 +187,26 @@
     <!-- Bot Commands Section -->
     <div id="commands" class="content-section active">
         <div id="commandsContainer">
-            <h2>Bot Commands</h2>
-            <ul>
-                <li><strong>+color</strong><br>Change your color preference.</li>
-                <li><strong>+edit</strong><br>Edit your height.</li>
-                <li><strong>+shit</strong><br>Submit your shit count.</li>
-                <li><strong>+steps</strong><br>Submit your step count.</li>
-                <li><strong>+target</strong><br>Target a user with an item.</li>
-            </ul>
-            <ul>
-                <li><strong>+water</strong><br>Submit your water count.</li>
-                <li><strong>?cal</strong><br>View your monthly step count calendar.</li>
-                <li><strong>?days</strong><br>View your weekly step count statistics.</li>
-                <li><strong>?forecast</strong><br>Check weekly weather forecast.</li>
-                <li><strong>?goal</strong><br>Check your step goal progress.</li>
-            </ul>
-            <ul>
-                <li><strong>?inv</strong><br>Check your item inventory.</li>
-                <li><strong>?market</strong><br>Shop for items.</li>
-                <li><strong>?shit</strong><br>Check your daily shit goal progress.</li>
-                <li><strong>?steps</strong><br>View your monthly step count.</li>
-                <li><strong>steppa</strong><br>Ask AI questions or generate an image.</li>
-            </ul>
-            <ul>
-                <li><strong>?user</strong><br>View user statistics.</li>
-                <li><strong>?water</strong><br>Check your daily water goal progress.</li>
-                <li><strong>?weather</strong><br>Check daily weather info.</li>
-                <li><strong>!lb steps</strong><br>View leaderboard for steps.</li>
-                <li><strong>!lb miles</strong><br>View leaderboard for miles.</li>
-            </ul>
+            <div class="command"><strong>+color</strong><br>Change your color preference.</div>
+            <div class="command"><strong>+edit</strong><br>Edit your height.</div>
+            <div class="command"><strong>+shit</strong><br>Submit your shit count.</div>
+            <div class="command"><strong>+steps</strong><br>Submit your step count.</div>
+            <div class="command"><strong>+target</strong><br>Target a user with an item.</div>
+            <div class="command"><strong>+water</strong><br>Submit your water count.</div>
+            <div class="command"><strong>?cal</strong><br>View your monthly step count calendar.</div>
+            <div class="command"><strong>?days</strong><br>View your weekly step count statistics.</div>
+            <div class="command"><strong>?forecast</strong><br>Check weekly weather forecast.</div>
+            <div class="command"><strong>?goal</strong><br>Check your step goal progress.</div>
+            <div class="command"><strong>?inv</strong><br>Check your item inventory.</div>
+            <div class="command"><strong>?market</strong><br>Shop for items.</div>
+            <div class="command"><strong>?shit</strong><br>Check your daily shit goal progress.</div>
+            <div class="command"><strong>?steps</strong><br>View your monthly step count.</div>
+            <div class="command"><strong>steppa</strong><br>Ask AI questions or generate an image.</div>
+            <div class="command"><strong>?user</strong><br>View user statistics.</div>
+            <div class="command"><strong>?water</strong><br>Check your daily water goal progress.</div>
+            <div class="command"><strong>?weather</strong><br>Check daily weather info.</div>
+            <div class="command"><strong>!lb steps</strong><br>View leaderboard for steps.</div>
+            <div class="command"><strong>!lb miles</strong><br>View leaderboard for miles.</div>
         </div>
     </div>
 
@@ -238,6 +250,9 @@
 
             // Show the selected section
             document.getElementById(sectionId).classList.add('active');
+
+            // Scroll to the top of the page
+            window.scrollTo(0, 0);
 
             // Collapse mobile menu after selection
             if (window.innerWidth <= 768) {
