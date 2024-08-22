@@ -18,6 +18,21 @@
             overflow-x: hidden;
         }
 
+        /* Logo styles */
+        #logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+            max-height: 80px; /* Scalable for mobile */
+        }
+
         /* Navigation menu styles */
         #nav-menu {
             display: flex;
@@ -28,7 +43,7 @@
             width: 100%;
             box-sizing: border-box;
             position: fixed;
-            top: 0;
+            top: 100px; /* Adjust based on logo height */
             left: 0;
             z-index: 1000;
         }
@@ -46,7 +61,7 @@
 
         /* Content section styles */
         .content-section {
-            margin-top: 60px; /* Ensure content is not hidden behind the fixed navbar */
+            margin-top: 160px; /* Ensure content is not hidden behind the fixed navbar */
             display: none; /* Hide sections by default */
         }
 
@@ -167,10 +182,23 @@
             #copyButton {
                 font-size: 14px;
             }
+
+            #nav-menu {
+                top: 120px; /* Adjust based on logo height for smaller screens */
+            }
+
+            .content-section {
+                margin-top: 180px; /* Ensure content is not hidden behind the fixed navbar */
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Logo container -->
+    <div id="logo-container">
+        <img id="logo" src="https://i.imgur.com/59yTSAf.png" alt="Steppa Bot Logo">
+    </div>
+
     <!-- Navigation menu -->
     <nav id="nav-menu">
         <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
