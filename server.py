@@ -86,9 +86,16 @@ async def before_serving():
 @app.route('/hof', methods=['GET'])
 async def get_hall_of_fame():
     try:
+        # Log the start of the process
+        app.logger.info("Starting to load the Hall of Fame data...")
+
+        # Load the JSON file
         with open('static/july2024.json', 'r') as f:
             data = json.load(f)
-            app.logger.info("Successfully loaded the JSON file")
+            app.logger.info("Successfully loaded JSON data: %s", data)
+
+        # Ensure that `usernames_dict` is populated
+        app.logger.info("Current usernames_dict: %s", usernames_dict)
 
         # Replace user IDs with usernames from the dictionary
         for user_id, user_data in data.items():
@@ -97,7 +104,7 @@ async def get_hall_of_fame():
             else:
                 user_data['username'] = "Unknown User"
 
-        app.logger.info("Successfully replaced user IDs with usernames")
+        app.logger.info("Successfully processed Hall of Fame data: %s", data)
         return jsonify(data)
         
     except FileNotFoundError:
