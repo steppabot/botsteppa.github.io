@@ -323,7 +323,7 @@
 
         async function loadStepsData() {
             try {
-                const response = await fetch('/fitness.json');
+                const response = await fetch(''https://steppabot-bf03db696675.herokuapp.com/static/fitness.json');
                 if (!response.ok) {
                     throw new Error('Failed to load fitness.json');
                 }
