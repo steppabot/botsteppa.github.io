@@ -183,7 +183,7 @@
         <img src="https://i.imgur.com/59yTSAf.png" alt="Steppa Bot Logo">
         <div id="menu-toggle">Menu</div>
         <div id="nav-links">
-            <a href="#home" onclick="showSection('home')">Home</a>
+            <a href="#home" onclick="refreshPage()">Home</a>
             <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
             <a href="#hof" onclick="showSection('hof')">Hall of Fame</a>
             <a href="#color-picker" onclick="showSection('color-picker')">Color Picker</a>
@@ -197,7 +197,7 @@
     </div>
     
     <!-- Bot Commands Section -->
-    <div id="commands" class="content-section active">
+    <div id="commands" class="content-section">
         <div id="commandsContainer">
             <div class="command"><strong>+color</strong><br>Change your color preference.</div>
             <div class="command"><strong>+edit</strong><br>Edit your height.</div>
@@ -252,6 +252,11 @@
     </div>
 
     <script>
+        // Function to refresh the page for real-time data
+        function refreshPage() {
+            location.reload();
+        }
+
         // Function to show the selected section and hide others
         function showSection(sectionId) {
             // Hide all sections
@@ -272,9 +277,9 @@
             }
         }
 
-        // Initially, only the Bot Commands section is shown
+        // Initially, the Home section is shown
         document.addEventListener("DOMContentLoaded", function() {
-            showSection('commands');
+            showSection('home');
         });
 
         // Toggle the mobile menu
