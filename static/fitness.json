@@ -80,7 +80,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 32577.213937997818,
-        "miles": 85.35878915719697,
+        "miles": 89.63302627840909,
         "goal": 70000,
         "weeklysteps": 42587,
         "daily_steps": {
@@ -127,7 +127,7 @@
             "31": 0
         },
         "poop": 0,
-        "poopgoal": 0,
+        "poopgoal": 1,
         "totalpoop": 3,
         "last_poop_reset": "2024-08-22",
         "water": 0,
@@ -144,11 +144,7 @@
         "steps": 384749,
         "first_place_timer": 0,
         "finish_timer": 0,
-<<<<<<< HEAD
-        "time_in_first_place": 562691.5829453468,
-=======
-        "time_in_first_place": 559808.71276927,
->>>>>>> 20c79f1 (Moved fitness.json to static directory and updated changes)
+        "time_in_first_place": 591520.2538642883,
         "miles": 166.35618213383842,
         "goal": 105600,
         "weeklysteps": 36665,
@@ -669,18 +665,18 @@
         "points": 12,
         "height": 165.1,
         "color": "#FA2C79",
-        "steps": 222944,
+        "steps": 234466,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 60861.56567692757,
         "miles": 94.91657828282828,
         "goal": 70000,
-        "weeklysteps": 41514,
+        "weeklysteps": 53036,
         "daily_steps": {
             "1": 10220,
             "2": 12638,
             "3": 8393,
-            "4": 0,
+            "4": 11522,
             "5": 0,
             "6": 0,
             "7": 10263
@@ -708,7 +704,7 @@
             "19": 10220,
             "20": 12638,
             "21": 8393,
-            "22": 0,
+            "22": 11522,
             "23": 0,
             "24": 0,
             "25": 0,
@@ -724,8 +720,8 @@
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-22",
-        "water": 62.0,
-        "totalwater": 352.9,
+        "water": 162.0,
+        "totalwater": 452.9,
         "gender": "female",
         "watergoal": 0,
         "last_water_reset": "2024-08-21"
@@ -738,13 +734,9 @@
         "height": 170.18,
         "color": "#311432",
         "steps": 399266,
-<<<<<<< HEAD
-        "first_place_timer": 1724345410.024422,
-=======
-        "first_place_timer": 1724342467.099381,
->>>>>>> 20c79f1 (Moved fitness.json to static directory and updated changes)
+        "first_place_timer": 1724374375.754746,
         "finish_timer": 0,
-        "time_in_first_place": 1096593.948092699,
+        "time_in_first_place": 1096731.0074977875,
         "miles": 165.09964780618688,
         "goal": 105600,
         "weeklysteps": 88831,
@@ -10324,10 +10316,10 @@
         "water": 0,
         "watergoal": 0,
         "last_water_reset": "2024-08-21",
-        "poop": 0,
+        "poop": 3,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-22",
-        "totalpoop": 9
+        "totalpoop": 12
     },
     "1258940220557103205": {
         "item500": 0,
@@ -10844,17 +10836,21 @@
         "poopgoal": 0,
         "last_poop_reset": "2024-08-22"
     },
+    "520036689142611990": {
+        "time_in_first_place": 0
+    },
     "213541857576091648": {
+        "time_in_first_place": 0,
         "daily_steps": {
-            "1": 30000,
-            "2": 0,
-            "3": 4000,
+            "1": 10000,
+            "2": 25000,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "steps": 34000,
+        "steps": 35000,
         "monthly_steps": {
             "1": 0,
             "2": 0,
@@ -10874,9 +10870,9 @@
             "16": 0,
             "17": 0,
             "18": 0,
-            "19": 30000,
-            "20": 0,
-            "21": 4000,
+            "19": 10000,
+            "20": 25000,
+            "21": 0,
             "22": 0,
             "23": 0,
             "24": 0,
@@ -10887,6 +10883,6 @@
             "29": 0,
             "30": 0,
             "31": 0
-        },
-        "time_in_first_place": 0
+        }
     }
+}
