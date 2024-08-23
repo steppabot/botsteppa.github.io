@@ -346,8 +346,8 @@
 
                 const averageSteps = Math.round(totalSteps / daysInMonth);
 
-                document.getElementById('total-steps').textContent = `Total Steps: ${formatNumberWithCommas(totalSteps)}`;
-                document.getElementById('average-steps').textContent = `Average Steps Per Day: ${formatNumberWithCommas(averageSteps)}`;
+                document.getElementById('total-steps').innerHTML = `nWo August 2024<br>Total Steps: <strong>${formatNumberWithCommas(totalSteps)}</strong>`;
+                document.getElementById('average-steps').innerHTML = `Average Steps Per Day: <strong>${formatNumberWithCommas(averageSteps)}</strong>`;
             } catch (error) {
                 console.error('Error loading steps data:', error);
                 alert('Error loading steps data. Please check the console for more details.');
