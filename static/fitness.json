@@ -336,7 +336,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 182.96687006950378,
-        "miles": 74.58550820707072,
+        "miles": 79.92280381944445,
         "goal": 52800,
         "weeklysteps": 11641,
         "daily_steps": {
@@ -399,18 +399,18 @@
         "points": 0,
         "height": 167.64000000000001,
         "color": "#fb6f92",
-        "steps": 118668,
+        "steps": 123235,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 51.2991875,
         "goal": 52800,
-        "weeklysteps": 11948,
+        "weeklysteps": 16515,
         "daily_steps": {
             "1": 0,
             "2": 4882,
             "3": 0,
-            "4": 0,
+            "4": 4567,
             "5": 0,
             "6": 0,
             "7": 7066
@@ -438,7 +438,7 @@
             "19": 0,
             "20": 4882,
             "21": 0,
-            "22": 0,
+            "22": 4567,
             "23": 0,
             "24": 0,
             "25": 0,
@@ -734,9 +734,9 @@
         "height": 170.18,
         "color": "#311432",
         "steps": 399266,
-        "first_place_timer": 1724390583.317271,
+        "first_place_timer": 1724392250.026566,
         "finish_timer": 0,
-        "time_in_first_place": 1112938.5700228214,
+        "time_in_first_place": 1114605.2793178558,
         "miles": 165.09964780618688,
         "goal": 105600,
         "weeklysteps": 88831,
@@ -7456,13 +7456,13 @@
         "item2500": 0,
         "item5000": 0,
         "points": 0,
-        "height": 0,
+        "height": 182.88,
         "color": "#c9ff3a",
-        "steps": 0,
+        "steps": 6235,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 2.954539772727273,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -7470,7 +7470,7 @@
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0,
+            "5": 6235,
             "6": 0,
             "7": 0
         },
@@ -7497,7 +7497,7 @@
             "19": 0,
             "20": 0,
             "21": 0,
-            "22": 0,
+            "22": 6235,
             "23": 0,
             "24": 0,
             "25": 0,
@@ -10837,6 +10837,9 @@
         "last_poop_reset": "2024-08-22"
     },
     "520036689142611990": {
+        "time_in_first_place": 0
+    },
+    "213541857576091648": {
         "time_in_first_place": 0
     }
 }
