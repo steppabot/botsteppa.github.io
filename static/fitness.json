@@ -141,7 +141,7 @@
         "points": 7,
         "height": 177.8,
         "color": "#62bbad",
-        "steps": 412289,
+        "steps": 441396,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 591520.2538642883,
@@ -189,7 +189,7 @@
             "28": 0,
             "29": 0,
             "30": 0,
-            "31": 0
+            "31": 29107
         },
         "aitimer": 1724036397.154381,
         "aitries": 13,
