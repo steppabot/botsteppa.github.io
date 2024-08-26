@@ -468,7 +468,7 @@
         "points": 0,
         "height": 187.96,
         "color": "#c9ff3a",
-        "steps": 79113,
+        "steps": 82415,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -482,7 +482,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 3302
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -510,7 +510,7 @@
             "22": 707,
             "23": 2709,
             "24": 0,
-            "25": 0,
+            "25": 3302,
             "26": 0,
             "27": 0,
             "28": 0,
@@ -734,9 +734,9 @@
         "height": 170.18,
         "color": "#311432",
         "steps": 473881,
-        "first_place_timer": 1724650203.633143,
+        "first_place_timer": 1724661386.867568,
         "finish_timer": 0,
-        "time_in_first_place": 1368195.950962782,
+        "time_in_first_place": 1379379.1853878498,
         "miles": 203.69839433396467,
         "goal": 70000,
         "weeklysteps": 9708,
@@ -976,8 +976,8 @@
         "aitimer": 1724436339.098594,
         "aitries": 10,
         "poopgoal": 0,
-        "poop": 1,
-        "totalpoop": 33,
+        "poop": 3,
+        "totalpoop": 35,
         "last_poop_reset": "2024-08-24",
         "water": 0,
         "watergoal": 0,
@@ -11044,6 +11044,9 @@
         }
     },
     "159482629966528513": {
+        "time_in_first_place": 0
+    },
+    "492474831451979797": {
         "time_in_first_place": 0
     }
 }
