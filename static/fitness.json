@@ -146,7 +146,7 @@
         "finish_timer": 0,
         "time_in_first_place": 591520.2538642883,
         "miles": 202.3761647727273,
-        "goal": 0,
+        "goal": 105600,
         "weeklysteps": 0,
         "daily_steps": {
             "1": 0,
@@ -332,13 +332,13 @@
         "points": 2,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 196079,
+        "steps": 207786,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 182.96687006950378,
         "miles": 79.92280381944445,
-        "goal": 0,
-        "weeklysteps": 0,
+        "goal": 70000,
+        "weeklysteps": 11707,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -346,7 +346,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 11707
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -374,7 +374,7 @@
             "22": 7536,
             "23": 6148,
             "24": 8078,
-            "25": 0,
+            "25": 11707,
             "26": 0,
             "27": 0,
             "28": 0,
