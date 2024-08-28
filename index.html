@@ -111,6 +111,34 @@
             box-sizing: border-box;
         }
 
+        #live-leaders-container {
+            margin-top: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #live-leaders ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            width: 75%; /* Align with the width used for HOF */
+            margin: 10px auto; /* Center the lists */
+        }
+
+        #live-leaders li {
+            background: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #000;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
         .section-title {
             font-weight: bold;
             margin-top: 20px;
@@ -191,10 +219,23 @@
     </nav>
 
     <div id="home" class="content-section active">
-        <h2>nWo August 2024 </h2>
+        <h2>nWo August 2024</h2>
         <p id="total-steps">Total Steps: Loading...</p>
         <p id="average-steps">Avg. Per Day: Loading...</p>
+        
+        <!-- New Live Top Leaders Section -->
+        <div id="live-leaders-container">
+            <h2>nWo August 2024 Live Top Leaders</h2>
+            <div id="live-leaders">
+                <div class="section-title">Top Steppers</div>
+                <ul id="live-top-steppers"></ul>
+    
+                <div class="section-title">Most Miles</div>
+                <ul id="live-most-miles"></ul>
+            </div>
+        </div>
     </div>
+
     
     <!-- Bot Commands Section -->
     <div id="commands" class="content-section">
@@ -417,6 +458,46 @@
 
         // Load Hall of Fame data when the page loads
         displayHallOfFame();
+
+        async function displayLiveLeaders() {
+            try {
+                const response = await fetch('https://steppabot-bf03db696675.herokuapp.com/live-leaders');
+                if (!response.ok) {
+                    throw new Error('Failed to load Live Leaders data');
+                }
+
+                const data = await response.json();
+                console.log("Loaded live leaders data:", data);
+
+                const liveTopSteppersList = document.getElementById('live-top-steppers');
+                const liveMostMilesList = document.getElementById('live-most-miles');
+
+                data.top_steppers.forEach(user => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${user.username}: <span class="steps-bold">${formatNumberWithCommas(user.steps)}</span> steps`;
+                    liveTopSteppersList.appendChild(listItem);
+                });
+
+                data.most_miles.forEach(user => {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${user.username}: <span class="miles-bold">${formatNumberWithCommas(user.miles)}</span> miles`;
+                    liveMostMilesList.appendChild(listItem);
+                });
+
+            } catch (error) {
+                console.error('Error loading Live Leaders data:', error);
+                alert('Error loading Live Leaders data. Please check the console for more details.');
+            }
+        }
+
+        // Function to format numbers with commas
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        // Call the function to display live leaders when the page loads
+        displayLiveLeaders();
+        
     </script>
 </body>
 </html>

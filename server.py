@@ -47,26 +47,39 @@ async def get_discord_username(user_id):
 
 async def update_usernames():
     try:
-        # Load the JSON file
-        with open('static/july2024.json', 'r') as f:
-            data = json.load(f)
+        # Load the fitness.json file for live updates
+        with open('static/fitness.json', 'r') as f:
+            fitness_data = json.load(f)
 
         # Filter out users missing the 'steps' key
-        valid_data = {user_id: user_data for user_id, user_data in data.items() if 'steps' in user_data}
+        valid_fitness_data = {user_id: user_data for user_id, user_data in fitness_data.items() if 'steps' in user_data}
 
-        if not valid_data:
-            app.logger.error("No valid users found with 'steps' key.")
-            return
+        # Sort and get top 10 users by steps and miles for live updates
+        users_by_steps_live = sorted(valid_fitness_data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:10]
+        users_by_miles_live = sorted(valid_fitness_data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:10]
 
-        # Sort and get top 3 users by steps and miles
-        users_by_steps = sorted(valid_data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:3]
-        users_by_miles = sorted(valid_data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:3]
+        # Combine the two lists and remove duplicates for live leaderboard
+        top_users_live = {user_id: user_data for user_id, user_data in users_by_steps_live + users_by_miles_live}
 
-        # Combine the two lists and remove duplicates
-        top_users = {user_id: user_data for user_id, user_data in users_by_steps + users_by_miles}
+        # Load the july2024.json file for HOF
+        with open('static/july2024.json', 'r') as f:
+            hof_data = json.load(f)
+
+        # Filter out users missing the 'steps' key
+        valid_hof_data = {user_id: user_data for user_id, user_data in hof_data.items() if 'steps' in user_data}
+
+        # Sort and get top 3 users by steps and miles for HOF
+        users_by_steps_hof = sorted(valid_hof_data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:3]
+        users_by_miles_hof = sorted(valid_hof_data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:3]
+
+        # Combine the two lists and remove duplicates for HOF
+        top_users_hof = {user_id: user_data for user_id, user_data in users_by_steps_hof + users_by_miles_hof}
+
+        # Merge both live leaderboard and HOF users for username fetching
+        all_top_users = {**top_users_live, **top_users_hof}
 
         # Iterate over the top user IDs and fetch usernames
-        for user_id, user_data in top_users.items():
+        for user_id, user_data in all_top_users.items():
             if user_id not in usernames_dict:  # Check if username is already fetched
                 username = await get_discord_username(user_id)
                 if username:
@@ -120,6 +133,54 @@ async def get_hall_of_fame():
         app.logger.error(f"JSON Decode Error: {str(e)}")
         return jsonify({"error": "Invalid JSON format"}), 500
     
+    except Exception as e:
+        app.logger.error(f"General Error: {str(e)}")
+        return jsonify({"error": "An error occurred"}), 500
+
+@app.route('/live-leaders', methods=['GET'])
+async def get_live_leaders():
+    try:
+        # Load the JSON file
+        with open('static/fitness.json', 'r') as f:
+            data = json.load(f)
+
+        # Ensure that `usernames_dict` is populated
+        app.logger.info("Current usernames_dict: %s", usernames_dict)
+
+        # Filter out users missing the 'steps' key
+        valid_data = {user_id: user_data for user_id, user_data in data.items() if 'steps' in user_data}
+
+        if not valid_data:
+            app.logger.error("No valid users found with 'steps' key.")
+            return jsonify({"error": "No valid users found"}), 404
+
+        # Sort and get top 10 users by steps and miles
+        users_by_steps = sorted(valid_data.items(), key=lambda item: item[1].get('steps', 0), reverse=True)[:10]
+        users_by_miles = sorted(valid_data.items(), key=lambda item: item[1].get('miles', 0), reverse=True)[:10]
+
+        # Prepare the response data
+        response_data = {
+            "top_steppers": [
+                {"user_id": user_id, "username": usernames_dict.get(user_id, "Unknown User"), "steps": user_data.get('steps', 0)}
+                for user_id, user_data in users_by_steps
+            ],
+            "most_miles": [
+                {"user_id": user_id, "username": usernames_dict.get(user_id, "Unknown User"), "miles": round(user_data.get('miles', 0))}
+                for user_id, user_data in users_by_miles
+            ]
+        }
+
+        app.logger.info("Successfully processed live leaderboard data.")
+        return jsonify(response_data)
+
+    except FileNotFoundError:
+        app.logger.error("fitness.json file not found.")
+        return jsonify({"error": "JSON file not found"}), 404
+
+    except json.JSONDecodeError as e:
+        app.logger.error(f"JSON Decode Error: {str(e)}")
+        return jsonify({"error": "Invalid JSON format"}), 500
+
     except Exception as e:
         app.logger.error(f"General Error: {str(e)}")
         return jsonify({"error": "An error occurred"}), 500
