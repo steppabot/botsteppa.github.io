@@ -58,51 +58,29 @@
 
         /* Content section styles */
         .content-section {
-            margin: 20px auto; /* Center the content on the page */
+            margin: 20px auto;
             max-width: 1000px;
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Center text inside content sections */
+            text-align: center;
         }
 
-        #commandsContainer {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr); /* Two columns side by side */
-            gap: 20px;
-        }
-
-        .command {
-            padding: 10px;
-            border-radius: 5px;
-            background-color: #f4f4f4;
-            margin-bottom: 10px;
-            text-align: left;
-            list-style: none; /* Remove bullet points */
-        }
-
-        #hall-of-fame {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #hall-of-fame ul {
+        #top-leaders ul {
             list-style-type: none;
             padding: 0;
-            width: 75%; /* Set width to 75% of the bordered box */
+            width: 75%;
             margin: 0 auto;
         }
 
-        #hall-of-fame li {
+        #top-leaders li {
             background: #f4f4f4;
-            margin: 10px 0; /* Add padding between items */
+            margin: 10px 0;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #000;
             text-align: center;
-            width: 100%; /* Ensure boxes stack on top of each other */
             box-sizing: border-box;
         }
 
@@ -112,7 +90,7 @@
             margin-bottom: 10px;
         }
 
-        .steps-bold, .miles-bold {
+        .steps-bold {
             font-weight: bold;
         }
 
@@ -131,7 +109,7 @@
                 display: none;
                 flex-direction: column;
                 width: 100%;
-                align-items: center; /* Center menu items */
+                align-items: center;
             }
 
             #nav-links a {
@@ -162,12 +140,8 @@
                 box-sizing: border-box;
             }
 
-            #commandsContainer {
-                grid-template-columns: 1fr; /* Stack commands in one column on mobile */
-            }
-
-            #hall-of-fame ul {
-                width: 90%; /* Adjust width to avoid overflow */
+            #top-leaders ul {
+                width: 90%;
             }
         }
     </style>
@@ -198,10 +172,10 @@
         <ul id="top-leaders-list"></ul>
     </div>
 
-    <!-- Bot Commands Section -->
-    <div id="commands" class="content-section">
+    <!-- Other Sections: Bot Commands, Hall of Fame, Color Picker -->
+    <div id="commands" class="content-section" style="display: none;">
         <div id="commandsContainer">
-            <!-- Bot Commands content -->
+            <!-- Existing Bot Commands content -->
             <div class="command"><strong>+color</strong><br>Change your color preference.</div>
             <div class="command"><strong>+edit</strong><br>Edit your height.</div>
             <div class="command"><strong>+shit</strong><br>Submit your shit count.</div>
@@ -224,9 +198,7 @@
             <div class="command"><strong>!lb miles</strong><br>View leaderboard for miles.</div>
         </div>
     </div>
-
-    <!-- Hall of Fame Section -->
-    <div id="hof" class="content-section">
+    <div id="hof" class="content-section" style="display: none;">
         <div id="hallOfFameContainer">
             <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
@@ -238,9 +210,7 @@
             </div>
         </div>
     </div>
-
-    <!-- Color Picker Section -->
-    <div id="color-picker" class="content-section">
+    <div id="color-picker" class="content-section" style="display: none;">
         <div id="container">
             <h1>Interactive Color Picker</h1>
             <input type="color" id="colorPicker">
@@ -255,12 +225,10 @@
     </div>
 
     <script>
-        // Function to refresh the page for real-time data
         function refreshPage() {
             location.reload();
         }
 
-        // Function to show the selected section and hide others
         function showSection(sectionId) {
             const sections = document.querySelectorAll('.content-section');
             sections.forEach(section => {
@@ -327,7 +295,7 @@
             topLeaders.forEach(user => {
                 const formattedSteps = formatNumberWithCommas(user.steps);
                 const listItem = document.createElement('li');
-                listItem.textContent = `${user.username}: ${formattedSteps} steps`;
+                listItem.innerHTML = `<span class="steps-bold">${user.username}: ${formattedSteps} steps</span>`;
                 topLeadersList.appendChild(listItem);
             });
         }
