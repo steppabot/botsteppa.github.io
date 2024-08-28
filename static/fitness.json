@@ -56,18 +56,18 @@
             "30": 0,
             "31": 0
         },
-        "aitimer": 1724436416.211148,
+        "aitimer": 1724800138.835064,
         "aitries": 1,
         "donor": 1,
         "poop": 0,
         "poopgoal": 0,
         "totalpoop": 7,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "gender": "male",
         "water": 0,
         "totalwater": 638.1999999999999,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "622333176169234442": {
         "item500": 0,
@@ -80,7 +80,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 32577.213937997818,
-        "miles": 100.18337722537879,
+        "miles": 109.3984006155303,
         "goal": 70000,
         "weeklysteps": 27302,
         "daily_steps": {
@@ -129,10 +129,10 @@
         "poop": 0,
         "poopgoal": 0,
         "totalpoop": 3,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "312318107689680909": {
         "item500": 0,
@@ -145,7 +145,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 595883.1887962818,
-        "miles": 202.3761647727273,
+        "miles": 225.8174423926768,
         "goal": 105600,
         "weeklysteps": 19441,
         "daily_steps": {
@@ -196,10 +196,10 @@
         "poop": 0,
         "poopgoal": 0,
         "totalpoop": 16,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "652332321210630155": {
         "item500": 0,
@@ -336,7 +336,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 182.96687006950378,
-        "miles": 79.92280381944445,
+        "miles": 101.2802391098485,
         "goal": 70000,
         "weeklysteps": 24820,
         "daily_steps": {
@@ -387,10 +387,10 @@
         "poop": 0,
         "poopgoal": 0,
         "totalpoop": 1,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1129626620932673577": {
         "item500": 0,
@@ -403,7 +403,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 59.574546874999996,
+        "miles": 64.70801041666667,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -454,12 +454,12 @@
         "poop": 0,
         "poopgoal": 0,
         "totalpoop": 1,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "gender": "female",
         "water": 0,
         "totalwater": 796.0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "278339474033999873": {
         "item500": 0,
@@ -472,7 +472,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 36.21285653409091,
+        "miles": 44.43191600378789,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -520,10 +520,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "116270689450852360": {
         "item500": 0,
@@ -584,10 +584,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "308273393977786368": {
         "item500": 0,
@@ -600,7 +600,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 137.16313289141416,
+        "miles": 144.40591777146466,
         "goal": 70000,
         "weeklysteps": 15797,
         "daily_steps": {
@@ -648,14 +648,14 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "totalpoop": 4,
         "gender": "male",
         "water": 0,
         "totalwater": 80.0,
         "aitimer": 1724269197.04261,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "aitries": 1
     },
     "971821280116502631": {
@@ -669,7 +669,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 60861.56567692757,
-        "miles": 113.90466224747475,
+        "miles": 118.63848524305554,
         "goal": 70000,
         "weeklysteps": 21968,
         "daily_steps": {
@@ -719,12 +719,12 @@
         "aitries": 13,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "totalwater": 452.9,
         "gender": "female",
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "494532203900829728": {
         "item500": 0,
@@ -733,16 +733,16 @@
         "points": 18,
         "height": 170.18,
         "color": "#311432",
-        "steps": 483634,
+        "steps": 497483,
         "first_place_timer": 1724695114.701706,
         "finish_timer": 0,
         "time_in_first_place": 1413107.0195257664,
-        "miles": 203.69839433396467,
+        "miles": 212.2386895517677,
         "goal": 70000,
-        "weeklysteps": 19461,
+        "weeklysteps": 33310,
         "daily_steps": {
             "1": 9753,
-            "2": 0,
+            "2": 13849,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -777,7 +777,7 @@
             "24": 20369,
             "25": 9708,
             "26": 9753,
-            "27": 0,
+            "27": 13849,
             "28": 0,
             "29": 0,
             "30": 0,
@@ -786,10 +786,10 @@
         "poopgoal": 0,
         "poop": 0,
         "totalpoop": 2,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "365943684245618698": {
         "item500": 0,
@@ -850,10 +850,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1100832689159950446": {
         "item500": 0,
@@ -978,10 +978,10 @@
         "poopgoal": 0,
         "poop": 0,
         "totalpoop": 38,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "309025661031415809": {
         "item500": 0,
@@ -1042,10 +1042,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "386943002066681878": {
         "item500": 0,
@@ -1058,7 +1058,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 125.32929076704545,
+        "miles": 136.2370590909091,
         "goal": 70000,
         "weeklysteps": 23343,
         "daily_steps": {
@@ -1108,10 +1108,10 @@
         "aitries": 16,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "423159587286548490": {
         "item500": 0,
@@ -1172,10 +1172,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "822929903136800798": {
         "item500": 0,
@@ -1296,10 +1296,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "437740722733580300": {
         "item500": 0,
@@ -1360,10 +1360,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1163023608344489994": {
         "item500": 0,
@@ -1424,10 +1424,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "207941107668090881": {
         "item500": 0,
@@ -1488,10 +1488,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "307403150384562176": {
         "item500": 0,
@@ -1552,10 +1552,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "780501847693328416": {
         "item500": 0,
@@ -1616,10 +1616,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "389223401195175936": {
         "item500": 0,
@@ -1680,10 +1680,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "333753384001601537": {
         "item500": 0,
@@ -1808,10 +1808,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1183527966311977001": {
         "item500": 0,
@@ -1872,10 +1872,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "539082525662904323": {
         "item500": 0,
@@ -1936,10 +1936,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "650311345283137547": {
         "item500": 0,
@@ -2000,10 +2000,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "783904372999847967": {
         "item500": 0,
@@ -2064,10 +2064,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "535633675295916062": {
         "item500": 0,
@@ -2130,10 +2130,10 @@
         "poopgoal": 0,
         "aitimer": 1724241743.625701,
         "aitries": 1,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1110256280435687437": {
         "item500": 0,
@@ -2194,10 +2194,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "209758979809738753": {
         "item500": 0,
@@ -2258,10 +2258,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "506620126091804672": {
         "item500": 0,
@@ -2322,10 +2322,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "487366856760492042": {
         "item500": 0,
@@ -2386,10 +2386,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "525553776891789322": {
         "item500": 0,
@@ -2450,10 +2450,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "754395108140515349": {
         "item500": 0,
@@ -2514,10 +2514,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "389846691668295692": {
         "item500": 0,
@@ -2580,10 +2580,10 @@
         "poopgoal": 0,
         "aitimer": 1723404176.959845,
         "aitries": 8,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "342458146633285633": {
         "item500": 0,
@@ -2644,10 +2644,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "152634950443728897": {
         "item500": 0,
@@ -2708,10 +2708,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "aitimer": 1724147294.172375,
         "aitries": 1
     },
@@ -2774,10 +2774,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "719426204649783356": {
         "item500": 0,
@@ -2838,10 +2838,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "849410330463436801": {
         "item500": 0,
@@ -2902,10 +2902,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1024185785144070174": {
         "item500": 0,
@@ -2966,10 +2966,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "296631654091587595": {
         "item500": 0,
@@ -3030,10 +3030,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1012769808019882055": {
         "item500": 0,
@@ -3094,10 +3094,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "818585726924226560": {
         "item500": 0,
@@ -3158,10 +3158,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1099238034962128976": {
         "item500": 0,
@@ -3222,10 +3222,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1087749694312161420": {
         "item500": 0,
@@ -3286,10 +3286,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "414645233071030274": {
         "item500": 0,
@@ -3350,10 +3350,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1033722916984078457": {
         "item500": 0,
@@ -3414,10 +3414,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "533830504324005919": {
         "item500": 0,
@@ -3478,10 +3478,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "968006396857708594": {
         "item500": 0,
@@ -3542,10 +3542,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1074192153720389702": {
         "item500": 0,
@@ -3606,10 +3606,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "aitimer": 1724675085.168018
     },
     "1023518368352972842": {
@@ -3671,10 +3671,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "154125571784179713": {
         "item500": 0,
@@ -3735,10 +3735,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1165508902985670746": {
         "item500": 0,
@@ -3801,10 +3801,10 @@
         "poopgoal": 0,
         "aitimer": 1723311673.254696,
         "aitries": 1,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "841126174881349690": {
         "item500": 0,
@@ -3865,10 +3865,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1207107741508960256": {
         "item500": 0,
@@ -3929,10 +3929,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "154041874091474944": {
         "item500": 0,
@@ -4057,10 +4057,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "358404686602305538": {
         "item500": 0,
@@ -4121,10 +4121,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1194393963868717147": {
         "item500": 0,
@@ -4185,10 +4185,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1062457801550606508": {
         "item500": 0,
@@ -4310,10 +4310,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1197348545829810256": {
         "item500": 0,
@@ -4374,10 +4374,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "648842025499623446": {
         "item500": 0,
@@ -4438,10 +4438,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "476729954634039299": {
         "item500": 0,
@@ -4502,10 +4502,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "309140141535002629": {
         "item500": 0,
@@ -4566,10 +4566,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1174199544225988728": {
         "item500": 0,
@@ -4630,10 +4630,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "781006894902804511": {
         "item500": 0,
@@ -4694,10 +4694,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "276254738667012097": {
         "item500": 0,
@@ -4758,10 +4758,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "422911249421041664": {
         "item500": 0,
@@ -4822,10 +4822,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1124471989734740068": {
         "item500": 0,
@@ -4886,10 +4886,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1125822672836767837": {
         "item500": 0,
@@ -4950,10 +4950,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "439200530414305280": {
         "item500": 0,
@@ -5014,10 +5014,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "759954272200032258": {
         "item500": 0,
@@ -5078,10 +5078,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "295740862233575425": {
         "item500": 0,
@@ -5142,10 +5142,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "613202850998124576": {
         "item500": 0,
@@ -5208,10 +5208,10 @@
         "poopgoal": 0,
         "aitimer": 1724511531.815626,
         "aitries": 1,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "totalpoop": 6
     },
     "79069368255774720": {
@@ -5273,10 +5273,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "250418509803290634": {
         "item500": 0,
@@ -5337,10 +5337,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "847014869391507507": {
         "item500": 0,
@@ -5403,10 +5403,10 @@
         "poopgoal": 0,
         "aitimer": 1724197466.364775,
         "aitries": 5,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1191364928452444221": {
         "item500": 0,
@@ -5467,10 +5467,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1172849168541306951": {
         "item500": 0,
@@ -5531,10 +5531,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "709492922805911674": {
         "item500": 0,
@@ -5595,10 +5595,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "362068716076138499": {
         "item500": 0,
@@ -5659,10 +5659,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "702382163638616095": {
         "item500": 0,
@@ -5723,10 +5723,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "646262408356298762": {
         "item500": 0,
@@ -5787,10 +5787,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "996367065642438697": {
         "item500": 0,
@@ -5851,10 +5851,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "963299497574793227": {
         "item500": 0,
@@ -5915,10 +5915,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "716439614293934141": {
         "item500": 0,
@@ -5979,10 +5979,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1076240729694806086": {
         "item500": 0,
@@ -6043,10 +6043,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1042214572834181240": {
         "item500": 0,
@@ -6107,10 +6107,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1144346569982889995": {
         "item500": 0,
@@ -6171,10 +6171,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1200149473226141697": {
         "item500": 0,
@@ -6235,10 +6235,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "252683903746179073": {
         "item500": 0,
@@ -6299,10 +6299,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "929587177908752436": {
         "item500": 0,
@@ -6363,10 +6363,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1150864532470771813": {
         "item500": 0,
@@ -6427,10 +6427,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1029696361605636138": {
         "item500": 0,
@@ -6491,10 +6491,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "331997041725276180": {
         "item500": 0,
@@ -6555,10 +6555,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "846632185264078849": {
         "item500": 0,
@@ -6619,10 +6619,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "975279205325602856": {
         "item500": 0,
@@ -6683,10 +6683,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1196634829903642736": {
         "item500": 0,
@@ -6747,10 +6747,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1068467586691506246": {
         "item500": 0,
@@ -6811,10 +6811,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "812861696178651166": {
         "item500": 0,
@@ -6933,10 +6933,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "908746360763875399": {
         "item500": 0,
@@ -6997,10 +6997,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "309533590906077184": {
         "item500": 0,
@@ -7061,10 +7061,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "735739331683287060": {
         "item500": 0,
@@ -7125,10 +7125,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1124471634552688701": {
         "item500": 0,
@@ -7189,10 +7189,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1131629248063492096": {
         "item500": 0,
@@ -7253,10 +7253,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1117858287522689055": {
         "item500": 0,
@@ -7319,10 +7319,10 @@
         "aitries": 10,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "372645613709557771": {
         "item500": 0,
@@ -7383,10 +7383,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "305580731802058752": {
         "item500": 0,
@@ -7447,10 +7447,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "593621020964028487": {
         "item500": 0,
@@ -7463,7 +7463,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 9.46732159090909,
+        "miles": 11.021594318181819,
         "goal": 70000,
         "weeklysteps": 0,
         "daily_steps": {
@@ -7511,10 +7511,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "aitimer": 1724481335.362255,
         "aitries": 1
     },
@@ -7638,10 +7638,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1246245357067829259": {
         "item500": 0,
@@ -7702,10 +7702,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "974985754658881566": {
         "item500": 0,
@@ -7766,10 +7766,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1150986132125917255": {
         "item500": 0,
@@ -7830,10 +7830,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "589993477866258483": {
         "item500": 0,
@@ -7894,10 +7894,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "612424194566651905": {
         "item500": 0,
@@ -7958,10 +7958,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "210981636819517440": {
         "item500": 0,
@@ -8022,10 +8022,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "499200617982722049": {
         "item500": 0,
@@ -8086,10 +8086,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "303702779342356480": {
         "item500": 0,
@@ -8150,10 +8150,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1072989454572195910": {
         "item500": 0,
@@ -8214,11 +8214,11 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "totalpoop": 1,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1024325401679503472": {
         "item500": 0,
@@ -8279,10 +8279,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "221448849871339521": {
         "item500": 0,
@@ -8343,10 +8343,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "375743004054519808": {
         "item500": 0,
@@ -8407,10 +8407,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "250085602316386304": {
         "item500": 0,
@@ -8471,10 +8471,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1111393780046770269": {
         "item500": 0,
@@ -8535,10 +8535,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "654761321304424459": {
         "item500": 0,
@@ -8599,10 +8599,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "382042858149904395": {
         "item500": 0,
@@ -8721,10 +8721,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "202327744762085376": {
         "item500": 0,
@@ -8785,10 +8785,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "411502307209904128": {
         "item500": 0,
@@ -8849,10 +8849,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "156657232476504065": {
         "item500": 0,
@@ -8913,10 +8913,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1207954273061576815": {
         "item500": 0,
@@ -9035,10 +9035,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "310904820590706688": {
         "item500": 0,
@@ -9099,11 +9099,11 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "totalpoop": 4,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "717801735258898432": {
         "item500": 0,
@@ -9164,10 +9164,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "278600699854716939": {
         "item500": 0,
@@ -9228,10 +9228,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "742873920809730141": {
         "item500": 0,
@@ -9292,10 +9292,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "844830917981765672": {
         "item500": 0,
@@ -9356,10 +9356,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "928556403440877598": {
         "item500": 0,
@@ -9420,10 +9420,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "754073402142228578": {
         "item500": 0,
@@ -9484,10 +9484,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "947693267846328381": {
         "item500": 0,
@@ -9548,10 +9548,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "348680544063717376": {
         "item500": 0,
@@ -9612,10 +9612,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1087536793647333416": {
         "item500": 0,
@@ -9676,10 +9676,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "793309963391991820": {
         "item500": 0,
@@ -9740,10 +9740,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1087492398566879325": {
         "item500": 0,
@@ -9804,10 +9804,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "614200354569191426": {
         "item500": 0,
@@ -9868,10 +9868,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "448726078316478464": {
         "item500": 0,
@@ -9932,10 +9932,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "212411263190433792": {
         "item500": 0,
@@ -9996,10 +9996,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "630202469515001856": {
         "item500": 0,
@@ -10060,10 +10060,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1022582948366659634": {
         "item500": 0,
@@ -10124,10 +10124,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "790376050843844638": {
         "item500": 0,
@@ -10188,10 +10188,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "915244262893965342": {
         "item500": 0,
@@ -10252,10 +10252,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "508377836688506901": {
         "item500": 0,
@@ -10316,10 +10316,10 @@
         },
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "totalpoop": 12,
         "aitimer": 1724484385.008692
     },
@@ -10397,10 +10397,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-23"
+        "last_water_reset": "2024-08-27"
     },
     "351264608499269643": {
         "goal": 0,
@@ -10418,10 +10418,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "473976059742650368": {
         "goal": 0,
@@ -10439,10 +10439,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "720878910186979408": {
         "goal": 0,
@@ -10460,10 +10460,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "633361189266784276": {
         "goal": 0,
@@ -10481,10 +10481,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "167454549785837568": {
         "goal": 0,
@@ -10502,10 +10502,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "792222718492934145": {
         "goal": 0,
@@ -10523,10 +10523,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "588274306526478337": {
         "goal": 0,
@@ -10546,10 +10546,10 @@
         "aitries": 1,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1232005292749754399": {
         "goal": 0,
@@ -10584,10 +10584,10 @@
         "aitries": 1,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "1270040138948411442": {
         "poop": 0,
@@ -10605,10 +10605,10 @@
             "6": 0,
             "7": 0
         },
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24"
+        "last_water_reset": "2024-08-27"
     },
     "202233116406841345": {
         "poop": 0,
@@ -10656,10 +10656,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10677,10 +10677,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10700,10 +10700,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10773,10 +10773,10 @@
     "361283811415425036": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "time_in_first_place": 0,
         "goal": 0,
         "weeklysteps": 0,
@@ -10794,11 +10794,11 @@
     "1100587380580294686": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10860,10 +10860,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0
@@ -10872,10 +10872,10 @@
         "time_in_first_place": 0,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -10921,16 +10921,17 @@
         },
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "miles": 0.0
     },
     "1205785634413748235": {
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10948,10 +10949,10 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26",
+        "last_poop_reset": "2024-08-27",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-24",
+        "last_water_reset": "2024-08-27",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10997,7 +10998,8 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "miles": 0.0
     },
     "697192545515601930": {
         "time_in_first_place": 0,
@@ -11015,7 +11017,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26"
+        "last_poop_reset": "2024-08-27",
+        "water": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-08-27"
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -11033,7 +11038,10 @@
         },
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26"
+        "last_poop_reset": "2024-08-27",
+        "water": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-08-27"
     },
     "559557513960357888": {
         "time_in_first_place": 0,
@@ -11054,14 +11062,27 @@
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26"
+        "last_poop_reset": "2024-08-27",
+        "water": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-08-27"
     },
     "492474831451979797": {
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-08-26"
+        "last_poop_reset": "2024-08-27",
+        "water": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-08-27"
     },
-    "863142225210507294": {},
+    "863142225210507294": {
+        "water": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-08-27",
+        "poop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2024-08-27"
+    },
     "1269672597088374937": {}
 }
