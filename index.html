@@ -65,6 +65,11 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
+            display: none; /* Hide all sections by default */
+        }
+
+        .active {
+            display: block; /* Show active section */
         }
 
         #top-leaders ul {
@@ -152,7 +157,7 @@
         <img src="https://i.imgur.com/59yTSAf.png" alt="Steppa Bot">
         <div id="menu-toggle">Menu</div>
         <div id="nav-links">
-            <a href="#home" onclick="refreshPage()">Home</a>
+            <a href="#home" onclick="showSection('home')">Home</a>
             <a href="#commands" onclick="showSection('commands')">Bot Commands</a>
             <a href="#hof" onclick="showSection('hof')">Hall of Fame</a>
             <a href="#color-picker" onclick="showSection('color-picker')">Color Picker</a>
@@ -167,15 +172,15 @@
     </div>
     
     <!-- Current Top Leaders Section -->
-    <div id="top-leaders" class="content-section">
+    <div id="top-leaders" class="content-section active">
         <h2>Current Top 10 Leaders in Steps</h2>
         <ul id="top-leaders-list"></ul>
     </div>
 
-    <!-- Other Sections: Bot Commands, Hall of Fame, Color Picker -->
-    <div id="commands" class="content-section" style="display: none;">
+    <!-- Bot Commands Section -->
+    <div id="commands" class="content-section">
         <div id="commandsContainer">
-            <!-- Existing Bot Commands content -->
+            <!-- Bot Commands content -->
             <div class="command"><strong>+color</strong><br>Change your color preference.</div>
             <div class="command"><strong>+edit</strong><br>Edit your height.</div>
             <div class="command"><strong>+shit</strong><br>Submit your shit count.</div>
@@ -198,7 +203,9 @@
             <div class="command"><strong>!lb miles</strong><br>View leaderboard for miles.</div>
         </div>
     </div>
-    <div id="hof" class="content-section" style="display: none;">
+
+    <!-- Hall of Fame Section -->
+    <div id="hof" class="content-section">
         <div id="hallOfFameContainer">
             <h2>July 2024 HOF</h2>
             <div id="hall-of-fame">
@@ -210,7 +217,9 @@
             </div>
         </div>
     </div>
-    <div id="color-picker" class="content-section" style="display: none;">
+
+    <!-- Color Picker Section -->
+    <div id="color-picker" class="content-section">
         <div id="container">
             <h1>Interactive Color Picker</h1>
             <input type="color" id="colorPicker">
