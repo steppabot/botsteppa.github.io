@@ -194,12 +194,6 @@
         <h2>nWo August 2024 </h2>
         <p id="total-steps">Total Steps: Loading...</p>
         <p id="average-steps">Avg. Per Day: Loading...</p>
-
-        <!-- Current Top Leaders Section -->
-        <div id="top-leaders" class="content-section">
-            <h2>Current Top 10 Leaders in Steps</h2>
-            <ul id="top-leaders-list" style="list-style-type: none; padding: 0; width: 75%; margin: 0 auto;"></ul>
-        </div>
     </div>
     
     <!-- Bot Commands Section -->
@@ -363,8 +357,6 @@
 
                 document.getElementById('total-steps').innerHTML = `Total Steps: <strong>${formatNumberWithCommas(totalSteps)}</strong>`;
                 document.getElementById('average-steps').innerHTML = `Average Steps Per Day: <strong>${formatNumberWithCommas(averageSteps)}</strong>`;
-
-                displayTopLeaders(data);
             } catch (error) {
                 console.error('Error loading steps data:', error);
                 alert('Error loading steps data. Please check the console for more details.');
@@ -375,33 +367,56 @@
             return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         }
 
-        function displayTopLeaders(data) {
-            const topLeadersList = document.getElementById('top-leaders-list');
-            const users = Object.entries(data).map(([userId, userData]) => ({
-                username: userData.username || "Unknown User",
-                steps: userData.steps || 0
-            }));
+        loadStepsData();
+        
+        // Function to display Hall of Fame data
+        async function displayHallOfFame() {
+            try {
+                // Fetch data from your Heroku backend
+                const response = await fetch('https://steppabot-bf03db696675.herokuapp.com/hof');
+                if (!response.ok) {
+                    throw new Error('Failed to load Hall of Fame data');
+                }
 
-            const topLeaders = users.sort((a, b) => b.steps - a.steps).slice(0, 10);
+                const data = await response.json();
+                console.log("Loaded data:", data); // Log loaded data to verify it's correct
 
-            topLeadersList.innerHTML = ''; // Clear existing list
+                const topSteppersList = document.getElementById('top-steppers');
+                const mostMilesList = document.getElementById('most-miles');
 
-            topLeaders.forEach(user => {
-                const formattedSteps = formatNumberWithCommas(user.steps);
-                const listItem = document.createElement('li');
-                listItem.style.background = '#f4f4f4';
-                listItem.style.margin = '10px 0';
-                listItem.style.padding = '10px';
-                listItem.style.borderRadius = '5px';
-                listItem.style.border = '1px solid #000';
-                listItem.style.textAlign = 'center';
-                listItem.style.boxSizing = 'border-box';
-                listItem.textContent = `${user.username}: ${formattedSteps} steps`;
-                topLeadersList.appendChild(listItem);
-            });
+                const users = Object.entries(data).map(([userId, userData]) => ({
+                    username: userData.username || "Unknown User", // Default to 'Unknown User' if username is missing
+                    steps: userData.steps || 0, // Default to 0 if steps are missing
+                    miles: Math.round(userData.miles || 0), // Default to 0 if miles are missing
+                }));
+
+                const topSteppers = users.sort((a, b) => b.steps - a.steps).slice(0, 3);
+                const topMiles = users.sort((a, b) => b.miles - a.miles).slice(0, 3);
+
+                for (const user of topSteppers) {
+                    const formattedSteps = formatNumberWithCommas(user.steps);
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${user.username}: <span class="steps-bold">${formattedSteps}</span> steps`;
+                    topSteppersList.appendChild(listItem);
+                }
+
+                for (const user of topMiles) {
+                    const listItem = document.createElement('li');
+                    listItem.innerHTML = `${user.username}: <span class="miles-bold">${user.miles}</span> miles`;
+                    mostMilesList.appendChild(listItem);
+                }
+            } catch (error) {
+                console.error('Error loading Hall of Fame data:', error);
+                alert('Error loading Hall of Fame data. Please check the console for more details.');
+            }
         }
 
-        loadStepsData();
+        function formatNumberWithCommas(number) {
+            return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        }
+
+        // Load Hall of Fame data when the page loads
+        displayHallOfFame();
     </script>
 </body>
 </html>
