@@ -67,7 +67,7 @@
         "water": 0,
         "totalwater": 638.1999999999999,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "622333176169234442": {
         "item500": 0,
@@ -132,7 +132,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitimer": 1724885428.151745
     },
     "312318107689680909": {
@@ -200,7 +200,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "652332321210630155": {
         "item500": 0,
@@ -391,7 +391,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1129626620932673577": {
         "item500": 0,
@@ -457,10 +457,10 @@
         "totalpoop": 1,
         "last_poop_reset": "2024-08-28",
         "gender": "female",
-        "water": 288.0,
+        "water": 0,
         "totalwater": 1084.0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "278339474033999873": {
         "item500": 0,
@@ -524,7 +524,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "116270689450852360": {
         "item500": 0,
@@ -588,7 +588,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "308273393977786368": {
         "item500": 0,
@@ -597,16 +597,16 @@
         "points": 5,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 314959,
+        "steps": 321160,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 144.40591777146466,
         "goal": 70000,
-        "weeklysteps": 15797,
+        "weeklysteps": 21998,
         "daily_steps": {
             "1": 3464,
-            "2": 0,
+            "2": 6201,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -641,7 +641,7 @@
             "24": 8087,
             "25": 12333,
             "26": 3464,
-            "27": 0,
+            "27": 6201,
             "28": 0,
             "29": 0,
             "30": 0,
@@ -656,7 +656,7 @@
         "totalwater": 80.0,
         "aitimer": 1724269197.04261,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitries": 1
     },
     "971821280116502631": {
@@ -725,7 +725,7 @@
         "totalwater": 452.9,
         "gender": "female",
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "494532203900829728": {
         "item500": 0,
@@ -790,7 +790,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "365943684245618698": {
         "item500": 0,
@@ -854,7 +854,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1100832689159950446": {
         "item500": 0,
@@ -982,7 +982,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "309025661031415809": {
         "item500": 0,
@@ -1046,7 +1046,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "386943002066681878": {
         "item500": 0,
@@ -1112,7 +1112,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "423159587286548490": {
         "item500": 0,
@@ -1176,7 +1176,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "822929903136800798": {
         "item500": 0,
@@ -1300,7 +1300,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "437740722733580300": {
         "item500": 0,
@@ -1364,7 +1364,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1163023608344489994": {
         "item500": 0,
@@ -1428,7 +1428,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "207941107668090881": {
         "item500": 0,
@@ -1492,7 +1492,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "307403150384562176": {
         "item500": 0,
@@ -1556,7 +1556,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "780501847693328416": {
         "item500": 0,
@@ -1620,7 +1620,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "389223401195175936": {
         "item500": 0,
@@ -1684,7 +1684,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "333753384001601537": {
         "item500": 0,
@@ -1812,7 +1812,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1183527966311977001": {
         "item500": 0,
@@ -1876,7 +1876,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "539082525662904323": {
         "item500": 0,
@@ -1940,7 +1940,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "650311345283137547": {
         "item500": 0,
@@ -2004,7 +2004,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "783904372999847967": {
         "item500": 0,
@@ -2068,7 +2068,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "535633675295916062": {
         "item500": 0,
@@ -2134,7 +2134,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1110256280435687437": {
         "item500": 0,
@@ -2198,7 +2198,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "209758979809738753": {
         "item500": 0,
@@ -2262,7 +2262,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "506620126091804672": {
         "item500": 0,
@@ -2326,7 +2326,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "487366856760492042": {
         "item500": 0,
@@ -2390,7 +2390,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "525553776891789322": {
         "item500": 0,
@@ -2454,7 +2454,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "754395108140515349": {
         "item500": 0,
@@ -2518,7 +2518,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "389846691668295692": {
         "item500": 0,
@@ -2584,7 +2584,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "342458146633285633": {
         "item500": 0,
@@ -2648,7 +2648,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "152634950443728897": {
         "item500": 0,
@@ -2712,7 +2712,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitimer": 1724147294.172375,
         "aitries": 1
     },
@@ -2778,7 +2778,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "719426204649783356": {
         "item500": 0,
@@ -2842,7 +2842,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "849410330463436801": {
         "item500": 0,
@@ -2906,7 +2906,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1024185785144070174": {
         "item500": 0,
@@ -2970,7 +2970,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "296631654091587595": {
         "item500": 0,
@@ -3034,7 +3034,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1012769808019882055": {
         "item500": 0,
@@ -3098,7 +3098,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "818585726924226560": {
         "item500": 0,
@@ -3162,7 +3162,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1099238034962128976": {
         "item500": 0,
@@ -3226,7 +3226,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1087749694312161420": {
         "item500": 0,
@@ -3354,7 +3354,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1033722916984078457": {
         "item500": 0,
@@ -3418,7 +3418,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "533830504324005919": {
         "item500": 0,
@@ -3482,7 +3482,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "968006396857708594": {
         "item500": 0,
@@ -3546,7 +3546,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1074192153720389702": {
         "item500": 0,
@@ -3610,7 +3610,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitimer": 1724675085.168018
     },
     "1023518368352972842": {
@@ -3675,7 +3675,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "154125571784179713": {
         "item500": 0,
@@ -3739,7 +3739,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1165508902985670746": {
         "item500": 0,
@@ -3805,7 +3805,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "841126174881349690": {
         "item500": 0,
@@ -3869,7 +3869,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1207107741508960256": {
         "item500": 0,
@@ -3933,7 +3933,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "154041874091474944": {
         "item500": 0,
@@ -4061,7 +4061,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "358404686602305538": {
         "item500": 0,
@@ -4125,7 +4125,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1194393963868717147": {
         "item500": 0,
@@ -4189,7 +4189,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1062457801550606508": {
         "item500": 0,
@@ -4314,7 +4314,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1197348545829810256": {
         "item500": 0,
@@ -4378,7 +4378,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "648842025499623446": {
         "item500": 0,
@@ -4442,7 +4442,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "476729954634039299": {
         "item500": 0,
@@ -4506,7 +4506,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "309140141535002629": {
         "item500": 0,
@@ -4570,7 +4570,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1174199544225988728": {
         "item500": 0,
@@ -4634,7 +4634,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "781006894902804511": {
         "item500": 0,
@@ -4698,7 +4698,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "276254738667012097": {
         "item500": 0,
@@ -4762,7 +4762,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "422911249421041664": {
         "item500": 0,
@@ -4826,7 +4826,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1124471989734740068": {
         "item500": 0,
@@ -4890,7 +4890,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1125822672836767837": {
         "item500": 0,
@@ -4954,7 +4954,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "439200530414305280": {
         "item500": 0,
@@ -5018,7 +5018,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "759954272200032258": {
         "item500": 0,
@@ -5082,7 +5082,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "295740862233575425": {
         "item500": 0,
@@ -5146,7 +5146,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "613202850998124576": {
         "item500": 0,
@@ -5212,7 +5212,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "totalpoop": 6
     },
     "79069368255774720": {
@@ -5277,7 +5277,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "250418509803290634": {
         "item500": 0,
@@ -5341,7 +5341,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "847014869391507507": {
         "item500": 0,
@@ -5407,7 +5407,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1191364928452444221": {
         "item500": 0,
@@ -5471,7 +5471,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1172849168541306951": {
         "item500": 0,
@@ -5535,7 +5535,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "709492922805911674": {
         "item500": 0,
@@ -5599,7 +5599,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "362068716076138499": {
         "item500": 0,
@@ -5663,7 +5663,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "702382163638616095": {
         "item500": 0,
@@ -5727,7 +5727,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "646262408356298762": {
         "item500": 0,
@@ -5791,7 +5791,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "996367065642438697": {
         "item500": 0,
@@ -5855,7 +5855,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "963299497574793227": {
         "item500": 0,
@@ -5919,7 +5919,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "716439614293934141": {
         "item500": 0,
@@ -5983,7 +5983,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1076240729694806086": {
         "item500": 0,
@@ -6047,7 +6047,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1042214572834181240": {
         "item500": 0,
@@ -6111,7 +6111,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1144346569982889995": {
         "item500": 0,
@@ -6175,7 +6175,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1200149473226141697": {
         "item500": 0,
@@ -6239,7 +6239,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "252683903746179073": {
         "item500": 0,
@@ -6303,7 +6303,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "929587177908752436": {
         "item500": 0,
@@ -6367,7 +6367,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1150864532470771813": {
         "item500": 0,
@@ -6431,7 +6431,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1029696361605636138": {
         "item500": 0,
@@ -6495,7 +6495,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "331997041725276180": {
         "item500": 0,
@@ -6559,7 +6559,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "846632185264078849": {
         "item500": 0,
@@ -6623,7 +6623,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "975279205325602856": {
         "item500": 0,
@@ -6687,7 +6687,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1196634829903642736": {
         "item500": 0,
@@ -6751,7 +6751,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1068467586691506246": {
         "item500": 0,
@@ -6815,7 +6815,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "812861696178651166": {
         "item500": 0,
@@ -6937,7 +6937,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "908746360763875399": {
         "item500": 0,
@@ -7001,7 +7001,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "309533590906077184": {
         "item500": 0,
@@ -7065,7 +7065,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "735739331683287060": {
         "item500": 0,
@@ -7129,7 +7129,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1124471634552688701": {
         "item500": 0,
@@ -7193,7 +7193,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1131629248063492096": {
         "item500": 0,
@@ -7257,7 +7257,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1117858287522689055": {
         "item500": 0,
@@ -7323,7 +7323,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "372645613709557771": {
         "item500": 0,
@@ -7387,7 +7387,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "305580731802058752": {
         "item500": 0,
@@ -7451,7 +7451,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "593621020964028487": {
         "item500": 0,
@@ -7515,7 +7515,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitimer": 1724481335.362255,
         "aitries": 1
     },
@@ -7642,7 +7642,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1246245357067829259": {
         "item500": 0,
@@ -7706,7 +7706,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "974985754658881566": {
         "item500": 0,
@@ -7770,7 +7770,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1150986132125917255": {
         "item500": 0,
@@ -7834,7 +7834,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "589993477866258483": {
         "item500": 0,
@@ -7898,7 +7898,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "612424194566651905": {
         "item500": 0,
@@ -7962,7 +7962,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "210981636819517440": {
         "item500": 0,
@@ -8026,7 +8026,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "499200617982722049": {
         "item500": 0,
@@ -8090,7 +8090,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "303702779342356480": {
         "item500": 0,
@@ -8154,7 +8154,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1072989454572195910": {
         "item500": 0,
@@ -8219,7 +8219,7 @@
         "totalpoop": 1,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1024325401679503472": {
         "item500": 0,
@@ -8283,7 +8283,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "221448849871339521": {
         "item500": 0,
@@ -8347,7 +8347,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "375743004054519808": {
         "item500": 0,
@@ -8411,7 +8411,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "250085602316386304": {
         "item500": 0,
@@ -8475,7 +8475,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1111393780046770269": {
         "item500": 0,
@@ -8539,7 +8539,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "654761321304424459": {
         "item500": 0,
@@ -8603,7 +8603,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "382042858149904395": {
         "item500": 0,
@@ -8725,7 +8725,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "202327744762085376": {
         "item500": 0,
@@ -8789,7 +8789,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "411502307209904128": {
         "item500": 0,
@@ -8853,7 +8853,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "156657232476504065": {
         "item500": 0,
@@ -8917,7 +8917,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1207954273061576815": {
         "item500": 0,
@@ -9039,7 +9039,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "310904820590706688": {
         "item500": 0,
@@ -9104,7 +9104,7 @@
         "totalpoop": 4,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "717801735258898432": {
         "item500": 0,
@@ -9168,7 +9168,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "278600699854716939": {
         "item500": 0,
@@ -9232,7 +9232,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "742873920809730141": {
         "item500": 0,
@@ -9296,7 +9296,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "844830917981765672": {
         "item500": 0,
@@ -9360,7 +9360,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "928556403440877598": {
         "item500": 0,
@@ -9424,7 +9424,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "754073402142228578": {
         "item500": 0,
@@ -9488,7 +9488,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "947693267846328381": {
         "item500": 0,
@@ -9552,7 +9552,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "348680544063717376": {
         "item500": 0,
@@ -9616,7 +9616,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1087536793647333416": {
         "item500": 0,
@@ -9680,7 +9680,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "793309963391991820": {
         "item500": 0,
@@ -9744,7 +9744,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1087492398566879325": {
         "item500": 0,
@@ -9808,7 +9808,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "614200354569191426": {
         "item500": 0,
@@ -9872,7 +9872,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "448726078316478464": {
         "item500": 0,
@@ -9936,7 +9936,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "212411263190433792": {
         "item500": 0,
@@ -10000,7 +10000,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "630202469515001856": {
         "item500": 0,
@@ -10064,7 +10064,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "aitimer": 1724885518.536422
     },
     "1022582948366659634": {
@@ -10129,7 +10129,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "790376050843844638": {
         "item500": 0,
@@ -10193,7 +10193,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "915244262893965342": {
         "item500": 0,
@@ -10257,7 +10257,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "508377836688506901": {
         "item500": 0,
@@ -10318,7 +10318,7 @@
         },
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-28",
@@ -10402,7 +10402,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "351264608499269643": {
         "goal": 0,
@@ -10423,7 +10423,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "473976059742650368": {
         "goal": 0,
@@ -10444,7 +10444,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "720878910186979408": {
         "goal": 0,
@@ -10465,7 +10465,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "633361189266784276": {
         "goal": 0,
@@ -10486,7 +10486,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "167454549785837568": {
         "goal": 0,
@@ -10507,7 +10507,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "792222718492934145": {
         "goal": 0,
@@ -10528,7 +10528,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "588274306526478337": {
         "goal": 0,
@@ -10551,7 +10551,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1232005292749754399": {
         "goal": 0,
@@ -10589,7 +10589,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1270040138948411442": {
         "poop": 0,
@@ -10610,7 +10610,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "202233116406841345": {
         "poop": 0,
@@ -10661,7 +10661,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10682,7 +10682,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10705,7 +10705,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10775,7 +10775,7 @@
     "361283811415425036": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-28",
@@ -10796,7 +10796,7 @@
     "1100587380580294686": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
@@ -10865,7 +10865,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10875,7 +10875,7 @@
         "time_in_first_place": 0,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-28",
@@ -10934,7 +10934,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -10955,7 +10955,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11023,7 +11023,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -11044,7 +11044,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "559557513960357888": {
         "time_in_first_place": 0,
@@ -11068,7 +11068,7 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "492474831451979797": {
         "time_in_first_place": 0,
@@ -11077,12 +11077,12 @@
         "last_poop_reset": "2024-08-28",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28"
+        "last_water_reset": "2024-08-29"
     },
     "863142225210507294": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-08-28",
+        "last_water_reset": "2024-08-29",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-28",
