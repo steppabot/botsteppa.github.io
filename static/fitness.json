@@ -143,9 +143,9 @@
         "height": 177.8,
         "color": "#62bbad",
         "steps": 596911,
-        "first_place_timer": 1725184662.430236,
+        "first_place_timer": 1725213323.317387,
         "finish_timer": 0,
-        "time_in_first_place": 902995.3189013004,
+        "time_in_first_place": 931656.2060523033,
         "miles": 273.6784177714647,
         "goal": 105600,
         "weeklysteps": 0,
@@ -11102,5 +11102,7 @@
         "poopgoal": 0,
         "last_poop_reset": "2024-09-01"
     },
-    "376898737999446036": {}
+    "376898737999446036": {
+        "time_in_first_place": 0
+    }
 }
