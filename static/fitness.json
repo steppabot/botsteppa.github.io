@@ -663,7 +663,7 @@
         "item500": 0,
         "item2500": 0,
         "item5000": 3,
-        "points": 0,
+        "points": 3,
         "height": 165.1,
         "color": "#FA2C79",
         "steps": 337210,
@@ -682,7 +682,7 @@
             "6": 12796,
             "7": 10849
         },
-        "reachedweeklysteps": 0,
+        "reachedweeklysteps": 1,
         "monthly_steps": {
             "1": 10890,
             "2": 12214,
@@ -721,8 +721,8 @@
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-08-31",
-        "water": 0,
-        "totalwater": 552.9,
+        "water": 100.0,
+        "totalwater": 652.9,
         "gender": "female",
         "watergoal": 0,
         "last_water_reset": "2024-08-31"
@@ -734,20 +734,20 @@
         "points": 21,
         "height": 170.18,
         "color": "#311432",
-        "steps": 536361,
+        "steps": 556447,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 1595542.6179509163,
         "miles": 235.37748745265154,
         "goal": 70000,
-        "weeklysteps": 72188,
+        "weeklysteps": 92274,
         "daily_steps": {
             "1": 9753,
             "2": 13849,
             "3": 5640,
             "4": 15859,
             "5": 17379,
-            "6": 0,
+            "6": 20086,
             "7": 9708
         },
         "reachedweeklysteps": 1,
@@ -782,7 +782,7 @@
             "28": 5640,
             "29": 15859,
             "30": 17379,
-            "31": 0
+            "31": 20086
         },
         "poopgoal": 0,
         "poop": 0,
