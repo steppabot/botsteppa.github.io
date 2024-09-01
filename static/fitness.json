@@ -143,9 +143,9 @@
         "height": 177.8,
         "color": "#62bbad",
         "steps": 596911,
-        "first_place_timer": 1725104043.332097,
+        "first_place_timer": 1725168383.108875,
         "finish_timer": 0,
-        "time_in_first_place": 822376.2207622528,
+        "time_in_first_place": 886715.9975402355,
         "miles": 273.6784177714647,
         "goal": 105600,
         "weeklysteps": 123829,
@@ -11036,5 +11036,7 @@
     "1269672597088374937": {
         "time_in_first_place": 0
     },
-    "1137880896108773497": {}
+    "1137880896108773497": {
+        "time_in_first_place": 0
+    }
 }
