@@ -76,7 +76,7 @@
         "points": 12,
         "height": 144.78,
         "color": "#c9ff3a",
-        "steps": 0,
+        "steps": 6471,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -94,7 +94,7 @@
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
-            "1": 0,
+            "1": 6471,
             "2": 0,
             "3": 0,
             "4": 0,
