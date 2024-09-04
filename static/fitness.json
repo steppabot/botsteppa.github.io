@@ -343,7 +343,7 @@
         "points": 2,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 5509,
+        "steps": 9200,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -352,7 +352,7 @@
         "weeklysteps": 0,
         "daily_steps": {
             "1": 3499,
-            "2": 0,
+            "2": 3691,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -363,7 +363,7 @@
         "monthly_steps": {
             "1": 2010,
             "2": 3499,
-            "3": 0,
+            "3": 3691,
             "4": 0,
             "5": 0,
             "6": 0,
