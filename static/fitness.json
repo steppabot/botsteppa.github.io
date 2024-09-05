@@ -7,7 +7,7 @@
         "height": 187.96,
         "color": "#86c1cc",
         "steps": 78818,
-        "first_place_timer": 0,
+        "first_place_timer": 1725529956.19711,
         "finish_timer": 0,
         "time_in_first_place": 38387.54735708237,
         "miles": 38.38645587121213,
@@ -56,8 +56,8 @@
             "30": 0,
             "31": 0
         },
-        "aitimer": 1724891931.810766,
-        "aitries": 4,
+        "aitimer": 1725530144.117115,
+        "aitries": 7,
         "donor": 1,
         "poop": 0,
         "poopgoal": 0,
@@ -144,9 +144,9 @@
         "height": 177.8,
         "color": "#62bbad",
         "steps": 59804,
-        "first_place_timer": 1725386849.567716,
+        "first_place_timer": 0,
         "finish_timer": 0,
-        "time_in_first_place": 94333.62451171875,
+        "time_in_first_place": 237440.25390577316,
         "miles": 27.419605429292933,
         "goal": 105600,
         "weeklysteps": 59804,
@@ -1081,17 +1081,17 @@
         "points": 16,
         "height": 180.34,
         "color": "#53b7d7",
-        "steps": 21578,
+        "steps": 40405,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 10.083015246212122,
         "goal": 105600,
-        "weeklysteps": 21578,
+        "weeklysteps": 40405,
         "daily_steps": {
             "1": 2477,
             "2": 17801,
-            "3": 0,
+            "3": 18827,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -1102,7 +1102,7 @@
             "1": 1300,
             "2": 2477,
             "3": 17801,
-            "4": 0,
+            "4": 18827,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -11701,6 +11701,11 @@
         "water": 0,
         "totalwater": 0
     },
-    "850837690295255042": {},
-    "1023636959882661939": {}
+    "850837690295255042": {
+        "time_in_first_place": 0
+    },
+    "1023636959882661939": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    }
 }
