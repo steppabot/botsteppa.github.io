@@ -343,7 +343,7 @@
         "points": 2,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 19092,
+        "steps": 25268,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -366,7 +366,7 @@
             "3": 3691,
             "4": 6312,
             "5": 3580,
-            "6": 0,
+            "6": 6176,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -11655,7 +11655,7 @@
         "steps": 19489,
         "first_place_timer": 0,
         "finish_timer": 0,
-        "miles": 0.0,
+        "miles": 7.495083065025254,
         "totalpoop": 0,
         "totalwater": 0,
         "monthly_steps": {
@@ -11690,7 +11690,8 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "height": 149.86
     },
     "213541857576091648": {
         "time_in_first_place": 0,
