@@ -681,13 +681,13 @@
         "points": 3,
         "height": 165.1,
         "color": "#FA2C79",
-        "steps": 76409,
+        "steps": 85590,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 32.530504655934344,
         "goal": 70000,
-        "weeklysteps": 0,
+        "weeklysteps": 9181,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -695,7 +695,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 9181
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -706,7 +706,7 @@
             "5": 10495,
             "6": 11298,
             "7": 7444,
-            "8": 0,
+            "8": 9181,
             "9": 0,
             "10": 0,
             "11": 0,
