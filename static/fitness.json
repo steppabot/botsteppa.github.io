@@ -80,7 +80,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 4691.1192281246185,
-        "miles": 52.62134294507576,
+        "miles": 58.610996685606054,
         "goal": 105600,
         "weeklysteps": 16121,
         "daily_steps": {
@@ -147,7 +147,7 @@
         "first_place_timer": 1725869162.762396,
         "finish_timer": 0,
         "time_in_first_place": 1726106603.0163019,
-        "miles": 56.38019965277778,
+        "miles": 76.1650102588384,
         "goal": 105600,
         "weeklysteps": 43152,
         "daily_steps": {
@@ -347,7 +347,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 8.753513257575758,
+        "miles": 12.329285827020204,
         "goal": 52800,
         "weeklysteps": 0,
         "daily_steps": {
@@ -415,7 +415,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 7.966270833333333,
+        "miles": 9.478859375,
         "goal": 52800,
         "weeklysteps": 3499,
         "daily_steps": {
@@ -484,7 +484,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 10.463277651515153,
+        "miles": 12.870162689393942,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -616,7 +616,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 26.792848011363642,
+        "miles": 33.44555476641415,
         "goal": 52800,
         "weeklysteps": 14510,
         "daily_steps": {
@@ -1081,13 +1081,13 @@
         "points": 16,
         "height": 180.34,
         "color": "#53b7d7",
-        "steps": 85667,
+        "steps": 90290,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 40.03066396780304,
         "goal": 105600,
-        "weeklysteps": 0,
+        "weeklysteps": 4623,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -1095,7 +1095,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 4623
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -1106,7 +1106,7 @@
             "5": 17845,
             "6": 16674,
             "7": 10743,
-            "8": 0,
+            "8": 4623,
             "9": 0,
             "10": 0,
             "11": 0,
