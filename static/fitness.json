@@ -5049,7 +5049,7 @@
         "points": 0,
         "height": 0,
         "color": "#c9ff3a",
-        "steps": 171560,
+        "steps": 177786,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -5063,7 +5063,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 6226
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -5081,7 +5081,7 @@
             "12": 6013,
             "13": 21213,
             "14": 9023,
-            "15": 0,
+            "15": 6226,
             "16": 0,
             "17": 0,
             "18": 0,
