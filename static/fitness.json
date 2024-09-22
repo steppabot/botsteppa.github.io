@@ -10,7 +10,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 285789.4125721858,
-        "miles": 201.78628683712125,
+        "miles": 213.87818115530305,
         "goal": 105600,
         "weeklysteps": 149867,
         "daily_steps": {
@@ -73,14 +73,14 @@
         "item500": 0,
         "item2500": 0,
         "item5000": 0,
-        "points": 19,
+        "points": 24,
         "height": 144.78,
         "color": "#8b0000",
         "steps": 479032,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 142919.81786390243,
-        "miles": 163.5668509469697,
+        "miles": 177.98125492424242,
         "goal": 158400,
         "weeklysteps": 158814,
         "daily_steps": {
@@ -92,7 +92,7 @@
             "6": 15757,
             "7": 26729
         },
-        "reachedweeklysteps": 0,
+        "reachedweeklysteps": 1,
         "monthly_steps": {
             "1": 6471,
             "2": 10870,
@@ -144,10 +144,10 @@
         "height": 177.8,
         "color": "#62bbad",
         "steps": 525115,
-        "first_place_timer": 1726825708.559735,
+        "first_place_timer": 1726993851.737968,
         "finish_timer": 0,
-        "time_in_first_place": 1080456.9327957414,
-        "miles": 225.6019515467172,
+        "time_in_first_place": 1248600.1110286496,
+        "miles": 240.76058633207074,
         "goal": 105600,
         "weeklysteps": 190308,
         "daily_steps": {
@@ -415,7 +415,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 45.576942708333334,
+        "miles": 48.721864583333335,
         "goal": 70000,
         "weeklysteps": 42249,
         "daily_steps": {
@@ -612,7 +612,7 @@
         "points": 4,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 222599,
+        "steps": 232680,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -649,7 +649,7 @@
             "17": 12545,
             "18": 12628,
             "19": 12187,
-            "20": 15818,
+            "20": 25899,
             "21": 0,
             "22": 0,
             "23": 0,
@@ -1085,7 +1085,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 136.95527182765153,
+        "miles": 146.86305625,
         "goal": 105600,
         "weeklysteps": 112079,
         "daily_steps": {
@@ -11821,6 +11821,8 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-09-21"
+        "last_water_reset": "2024-09-21",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     }
 }
