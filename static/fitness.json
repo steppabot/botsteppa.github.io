@@ -7,22 +7,22 @@
         "height": 187.96,
         "color": "#86c1cc",
         "steps": 573359,
-        "first_place_timer": 0,
+        "first_place_timer": 1727654193.633885,
         "finish_timer": 0,
         "time_in_first_place": 285789.4125721858,
         "miles": 279.2410357007576,
-        "goal": 105600,
-        "weeklysteps": 134208,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
-            "1": 20136,
-            "2": 14457,
-            "3": 20192,
-            "4": 20150,
-            "5": 18352,
-            "6": 19257,
-            "7": 21664
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
-        "reachedweeklysteps": 1,
+        "reachedweeklysteps": 0,
         "monthly_steps": {
             "1": 17455,
             "2": 20148,
@@ -81,18 +81,18 @@
         "finish_timer": 0,
         "time_in_first_place": 142919.81786390243,
         "miles": 205.7136378314394,
-        "goal": 70000,
-        "weeklysteps": 74641,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
-            "1": 10517,
-            "2": 7910,
-            "3": 10803,
-            "4": 11952,
-            "5": 7667,
-            "6": 15069,
-            "7": 10723
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
-        "reachedweeklysteps": 1,
+        "reachedweeklysteps": 0,
         "monthly_steps": {
             "1": 6471,
             "2": 10870,
@@ -144,12 +144,12 @@
         "height": 177.8,
         "color": "#62bbad",
         "steps": 551760,
-        "first_place_timer": 1727341018.466973,
+        "first_place_timer": 0,
         "finish_timer": 0,
-        "time_in_first_place": 1595766.840033748,
+        "time_in_first_place": 1908942.0069455884,
         "miles": 252.97708333333338,
-        "goal": 105600,
-        "weeklysteps": 26645,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -157,7 +157,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 26645
+            "7": 0
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -351,13 +351,13 @@
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
-            "1": 2818,
-            "2": 4983,
-            "3": 2965,
+            "1": 0,
+            "2": 0,
+            "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 4708
+            "7": 0
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -416,16 +416,16 @@
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 63.712875000000004,
-        "goal": 52800,
-        "weeklysteps": 28957,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
-            "1": 4217,
-            "2": 3760,
-            "3": 5132,
-            "4": 4192,
-            "5": 6175,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
-            "7": 5481
+            "7": 0
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -612,23 +612,23 @@
         "points": 5,
         "height": 177.8,
         "color": "#c9ff3a",
-        "steps": 335568,
+        "steps": 347739,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 146.82629261363638,
-        "goal": 52800,
-        "weeklysteps": 57315,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
-            "1": 4749,
-            "2": 14064,
-            "3": 13896,
-            "4": 3616,
-            "5": 7413,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
-            "7": 13577
+            "7": 12171
         },
-        "reachedweeklysteps": 1,
+        "reachedweeklysteps": 0,
         "monthly_steps": {
             "1": 9182,
             "2": 1077,
@@ -658,7 +658,7 @@
             "26": 3616,
             "27": 7413,
             "28": 15330,
-            "29": 0,
+            "29": 12171,
             "30": 0,
             "31": 0
         },
@@ -1086,16 +1086,16 @@
         "finish_timer": 0,
         "time_in_first_place": 0,
         "miles": 199.57856273674244,
-        "goal": 105600,
-        "weeklysteps": 99401,
+        "goal": 0,
+        "weeklysteps": 0,
         "daily_steps": {
-            "1": 17730,
-            "2": 13816,
-            "3": 18009,
-            "4": 17028,
-            "5": 17113,
-            "6": 13565,
-            "7": 2140
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -11638,13 +11638,13 @@
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
         "daily_steps": {
-            "1": 4257,
+            "1": 0,
             "2": 0,
             "3": 0,
-            "4": 4776,
+            "4": 0,
             "5": 0,
             "6": 0,
-            "7": 4325
+            "7": 0
         },
         "water": 0,
         "watergoal": 0,
@@ -11838,7 +11838,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-09-28"
+        "last_poop_reset": "2024-09-28",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "403018850851094531": {
         "time_in_first_place": 0,
@@ -11850,8 +11853,19 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2024-09-28"
+        "last_poop_reset": "2024-09-28",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
-    "927758690658963516": {},
-    "213535067643969536": {}
+    "927758690658963516": {
+        "time_in_first_place": 0
+    },
+    "213535067643969536": {
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0,
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    }
 }
