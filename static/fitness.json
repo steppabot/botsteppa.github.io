@@ -7,10 +7,10 @@
         "height": 187.96,
         "color": "#86c1cc",
         "steps": 593518,
-        "first_place_timer": 1727654193.633885,
+        "first_place_timer": 1727715422.933493,
         "finish_timer": 0,
-        "time_in_first_place": 285789.4125721858,
-        "miles": 279.2410357007576,
+        "time_in_first_place": 347018.712180178,
+        "miles": 289.059003219697,
         "goal": 105600,
         "weeklysteps": 20159,
         "daily_steps": {
@@ -411,7 +411,7 @@
         "points": 0,
         "height": 167.64000000000001,
         "color": "#fb6f92",
-        "steps": 147384,
+        "steps": 152050,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
@@ -425,7 +425,7 @@
             "4": 0,
             "5": 0,
             "6": 0,
-            "7": 0
+            "7": 4666
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
@@ -457,7 +457,7 @@
             "26": 4192,
             "27": 6175,
             "28": 5721,
-            "29": 0,
+            "29": 4666,
             "30": 0,
             "31": 0
         },
@@ -11655,7 +11655,7 @@
         "steps": 108529,
         "first_place_timer": 0,
         "finish_timer": 0,
-        "miles": 39.145647032828286,
+        "miles": 41.7381020044192,
         "totalpoop": 0,
         "totalwater": 0,
         "monthly_steps": {
