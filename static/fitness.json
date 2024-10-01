@@ -10,7 +10,7 @@
         "first_place_timer": 1727715422.933493,
         "finish_timer": 0,
         "time_in_first_place": 347018.712180178,
-        "miles": 289.059003219697,
+        "miles": 300.521659280303,
         "goal": 105600,
         "weeklysteps": 43695,
         "daily_steps": {
@@ -56,8 +56,8 @@
             "30": 23536,
             "31": 0
         },
-        "aitimer": 1726210092.903933,
-        "aitries": 8,
+        "aitimer": 1727764010.819259,
+        "aitries": 9,
         "donor": 1,
         "poop": 0,
         "poopgoal": 0,
@@ -411,16 +411,16 @@
         "points": 0,
         "height": 167.64000000000001,
         "color": "#fb6f92",
-        "steps": 152050,
+        "steps": 156693,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 63.712875000000004,
+        "miles": 65.72994791666667,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
             "1": 0,
-            "2": 0,
+            "2": 4643,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -429,7 +429,7 @@
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
-            "1": 4156,
+            "1": 8799,
             "2": 4038,
             "3": 3035,
             "4": 560,
@@ -11870,5 +11870,8 @@
         "time_in_first_place": 0,
         "first_place_timer": 0
     },
-    "343829960546451456": {}
+    "343829960546451456": {},
+    "1184454353600401410": {},
+    "213074145179598848": {},
+    "732994503828439211": {}
 }
