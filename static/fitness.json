@@ -10,7 +10,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 821.0045821666718,
-        "miles": 0.0,
+        "miles": 8.874110132575758,
         "goal": 105600,
         "weeklysteps": 61916,
         "daily_steps": {
@@ -80,7 +80,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 70000,
         "weeklysteps": 0,
         "daily_steps": {
@@ -147,7 +147,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -347,7 +347,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -415,7 +415,7 @@
         "first_place_timer": 1727831494.360294,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 4666,
         "daily_steps": {
@@ -484,7 +484,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -616,7 +616,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 70000,
         "weeklysteps": 17576,
         "daily_steps": {
@@ -685,7 +685,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -754,7 +754,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -951,7 +951,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -1019,7 +1019,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -1081,16 +1081,16 @@
         "points": 24,
         "height": 180.34,
         "color": "#53b7d7",
-        "steps": 0,
+        "steps": 16464,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 70000,
-        "weeklysteps": 15896,
+        "weeklysteps": 32360,
         "daily_steps": {
             "1": 14601,
-            "2": 0,
+            "2": 16464,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -1099,7 +1099,7 @@
         },
         "reachedweeklysteps": 0,
         "monthly_steps": {
-            "1": 0,
+            "1": 16464,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1283,7 +1283,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -1349,7 +1349,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -7697,7 +7697,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -8424,7 +8424,7 @@
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 0,
-        "miles": 0,
+        "miles": 0.0,
         "goal": 0,
         "weeklysteps": 0,
         "daily_steps": {
@@ -11655,7 +11655,7 @@
         "steps": 8102,
         "first_place_timer": 0,
         "finish_timer": 0,
-        "miles": 0,
+        "miles": 3.1158685921717177,
         "totalpoop": 0,
         "totalwater": 0,
         "monthly_steps": {
