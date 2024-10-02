@@ -9390,10 +9390,10 @@
             "30": 0,
             "31": 0
         },
-        "poop": 0,
-        "poopgoal": 0,
+        "poop": 2,
+        "poopgoal": 2,
         "last_poop_reset": "2024-10-01",
-        "totalpoop": 0,
+        "totalpoop": 2,
         "water": 0,
         "watergoal": 0,
         "last_water_reset": "2024-10-01",
@@ -11639,7 +11639,7 @@
         "reachedweeklysteps": 0,
         "daily_steps": {
             "1": 4777,
-            "2": 0,
+            "2": 8102,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -11652,14 +11652,14 @@
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-01",
-        "steps": 0,
+        "steps": 8102,
         "first_place_timer": 0,
         "finish_timer": 0,
         "miles": 0,
         "totalpoop": 0,
         "totalwater": 0,
         "monthly_steps": {
-            "1": 0,
+            "1": 8102,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -12056,5 +12056,7 @@
         "watergoal": 0,
         "water": 0,
         "totalwater": 0
-    }
+    },
+    "120717818252623872": {},
+    "1001425295099838534": {}
 }
