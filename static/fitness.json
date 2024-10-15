@@ -6,15 +6,15 @@
         "points": 4,
         "height": 187.96,
         "color": "#86c1cc",
-        "steps": 219564,
+        "steps": 241569,
         "first_place_timer": 0,
         "finish_timer": 0,
         "time_in_first_place": 821.0045821666718,
         "miles": 106.9334897727273,
         "goal": 105600,
-        "weeklysteps": 14472,
+        "weeklysteps": 36477,
         "daily_steps": {
-            "1": 0,
+            "1": 22005,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -37,7 +37,7 @@
             "11": 20474,
             "12": 14866,
             "13": 14472,
-            "14": 0,
+            "14": 22005,
             "15": 0,
             "16": 0,
             "17": 0,
@@ -67,7 +67,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06"
+        "last_water_reset": "2024-10-14"
     },
     "622333176169234442": {
         "item500": 0,
@@ -132,7 +132,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitimer": 1724885428.151745,
         "totalwater": 0
     },
@@ -201,7 +201,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "652332321210630155": {
@@ -401,7 +401,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "1129626620932673577": {
@@ -471,7 +471,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06"
+        "last_water_reset": "2024-10-14"
     },
     "278339474033999873": {
         "item500": 0,
@@ -535,7 +535,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -601,7 +601,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -671,7 +671,7 @@
         "totalwater": 0,
         "aitimer": 1728640486.840172,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitries": 7
     },
     "971821280116502631": {
@@ -740,7 +740,7 @@
         "totalwater": 0,
         "gender": "female",
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0
     },
     "494532203900829728": {
@@ -806,7 +806,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "365943684245618698": {
@@ -871,7 +871,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1005,7 +1005,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "309025661031415809": {
@@ -1070,7 +1070,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1138,7 +1138,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1334,7 +1334,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1400,7 +1400,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1466,7 +1466,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1532,7 +1532,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1598,7 +1598,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1664,7 +1664,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1730,7 +1730,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1862,7 +1862,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1928,7 +1928,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -1994,7 +1994,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2060,7 +2060,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2126,7 +2126,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2260,7 +2260,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2326,7 +2326,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2458,7 +2458,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2524,7 +2524,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2590,7 +2590,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2658,7 +2658,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2724,7 +2724,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2790,7 +2790,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitimer": 1724147294.172375,
         "aitries": 1,
         "totalpoop": 0,
@@ -2858,7 +2858,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2924,7 +2924,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -2990,7 +2990,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3056,7 +3056,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3122,7 +3122,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3188,7 +3188,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3254,7 +3254,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3386,7 +3386,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0,
         "aitries": 1,
@@ -3454,7 +3454,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3520,7 +3520,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3586,7 +3586,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3652,7 +3652,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3718,7 +3718,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitimer": 1724675085.168018,
         "totalpoop": 0,
         "totalwater": 0
@@ -3785,7 +3785,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3851,7 +3851,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -3919,7 +3919,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4051,7 +4051,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4183,7 +4183,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4249,7 +4249,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4315,7 +4315,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4446,7 +4446,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4512,7 +4512,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4578,7 +4578,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4644,7 +4644,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4710,7 +4710,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4776,7 +4776,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4842,7 +4842,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4908,7 +4908,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -4974,7 +4974,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5040,7 +5040,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5106,7 +5106,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5172,7 +5172,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5238,7 +5238,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5304,7 +5304,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5372,7 +5372,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5438,7 +5438,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5504,7 +5504,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5572,7 +5572,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5638,7 +5638,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5770,7 +5770,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5836,7 +5836,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5902,7 +5902,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -5968,7 +5968,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6034,7 +6034,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6100,7 +6100,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6166,7 +6166,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6232,7 +6232,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6298,7 +6298,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6364,7 +6364,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6430,7 +6430,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6496,7 +6496,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6562,7 +6562,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6628,7 +6628,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6694,7 +6694,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6760,7 +6760,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6826,7 +6826,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -6892,7 +6892,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7024,7 +7024,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7154,7 +7154,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7220,7 +7220,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7286,7 +7286,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7418,7 +7418,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7484,7 +7484,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7684,7 +7684,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7750,7 +7750,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitimer": 1724481335.362255,
         "aitries": 1,
         "totalpoop": 0,
@@ -7819,7 +7819,8 @@
         "totalpoop": 0,
         "watergoal": 0,
         "water": 0,
-        "totalwater": 0
+        "totalwater": 0,
+        "last_water_reset": "2024-10-14"
     },
     "979411417360912425": {
         "item500": 0,
@@ -7883,7 +7884,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -7949,7 +7950,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8015,7 +8016,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8081,7 +8082,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8147,7 +8148,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8213,7 +8214,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8279,7 +8280,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8345,7 +8346,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8411,7 +8412,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8478,7 +8479,7 @@
         "totalpoop": 0,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "1024325401679503472": {
@@ -8543,7 +8544,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8675,7 +8676,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8741,7 +8742,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -8873,7 +8874,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9003,7 +9004,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9069,7 +9070,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9135,7 +9136,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9201,7 +9202,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9331,7 +9332,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9398,7 +9399,7 @@
         "totalpoop": 0,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalwater": 0
     },
     "717801735258898432": {
@@ -9463,7 +9464,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9529,7 +9530,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9595,7 +9596,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9661,7 +9662,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9727,7 +9728,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9793,7 +9794,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9859,7 +9860,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9925,7 +9926,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -9991,7 +9992,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10057,7 +10058,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10123,7 +10124,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10189,7 +10190,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10321,7 +10322,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10387,7 +10388,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "aitimer": 1724885518.536422,
         "totalpoop": 0,
         "totalwater": 0
@@ -10454,7 +10455,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10520,7 +10521,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10586,7 +10587,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "totalpoop": 0,
         "totalwater": 0
     },
@@ -10649,7 +10650,7 @@
         },
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-05",
@@ -10767,7 +10768,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -10794,7 +10795,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -10821,7 +10822,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -10848,7 +10849,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -10875,7 +10876,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -10931,7 +10932,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "color": "#a1eaef",
         "steps": 0,
         "first_place_timer": 0,
@@ -10986,7 +10987,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -11013,7 +11014,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -11096,7 +11097,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11123,7 +11124,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11152,7 +11153,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11270,7 +11271,7 @@
     "361283811415425036": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-05",
@@ -11297,7 +11298,7 @@
     "1100587380580294686": {
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "time_in_first_place": 0,
         "poop": 0,
         "poopgoal": 0,
@@ -11372,7 +11373,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11386,7 +11387,7 @@
         "time_in_first_place": 0,
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-05",
@@ -11451,7 +11452,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11517,7 +11518,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "steps": 0,
         "first_place_timer": 0,
         "finish_timer": 0,
@@ -11574,7 +11575,7 @@
         "last_poop_reset": "2024-10-05",
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11652,7 +11653,7 @@
         },
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-05",
@@ -11713,7 +11714,7 @@
         },
         "water": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "poopgoal": 0,
         "last_poop_reset": "2024-10-05",
@@ -11760,7 +11761,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -11782,7 +11783,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11800,7 +11801,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -11835,7 +11836,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -11852,7 +11853,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "goal": 0,
@@ -11888,7 +11889,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -11959,7 +11960,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "steps": 0,
@@ -11977,7 +11978,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "steps": 0,
@@ -12002,7 +12003,7 @@
         "water": 0,
         "totalwater": 0,
         "last_poop_reset": "2024-10-05",
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0
     },
     "1282398952234160312": {
@@ -12020,7 +12021,7 @@
         "water": 0,
         "totalwater": 0,
         "last_poop_reset": "2024-10-05",
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0
     },
     "100404764033949696": {
@@ -12038,7 +12039,7 @@
         "water": 0,
         "totalwater": 0,
         "last_poop_reset": "2024-10-05",
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0
     },
     "1168240783892152450": {
@@ -12056,7 +12057,7 @@
         "water": 0,
         "totalwater": 0,
         "last_poop_reset": "2024-10-05",
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0
     },
     "1239796260790079512": {
@@ -12074,7 +12075,7 @@
         "water": 0,
         "totalwater": 0,
         "last_poop_reset": "2024-10-05",
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0
     },
     "120717818252623872": {
@@ -12085,7 +12086,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -12100,7 +12101,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -12115,7 +12116,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
@@ -12140,7 +12141,7 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2024-10-06",
+        "last_water_reset": "2024-10-14",
         "time_in_first_place": 0,
         "first_place_timer": 0
     },
@@ -12149,19 +12150,32 @@
         "first_place_timer": 0,
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-10-14"
     },
     "803729024739573788": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-10-14"
     },
     "728293388306088087": {},
     "942936747724132362": {
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
-    }
+        "reachedweeklysteps": 0,
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2024-10-14"
+    },
+    "1019050127836581929": {}
 }
