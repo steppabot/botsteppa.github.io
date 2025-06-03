@@ -116,9 +116,9 @@
         "first_place_timer": 0,
         "zip": "75204",
         "height": 187.96,
-        "miles": 0.0,
+        "miles": 7.973111079545456,
         "daily_steps": {
-            "1": 0,
+            "1": 12941,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -126,10 +126,10 @@
             "6": 0,
             "7": 16371
         },
-        "steps": 16371,
+        "steps": 29312,
         "monthly_steps": {
             "1": 16371,
-            "2": 0,
+            "2": 12941,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -159,7 +159,10 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "color": "#72a6b7",
+        "goal": 52800,
+        "weeklysteps": 12941
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -383,7 +386,8 @@
     },
     "735739331683287060": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "zip": "45404"
     },
     "843955445184856124": {
         "time_in_first_place": 0,
@@ -415,7 +419,10 @@
     },
     "1117858287522689055": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poopgoal": 4,
+        "poop": 4,
+        "totalpoop": 4
     },
     "402163411431194624": {
         "time_in_first_place": 0,
@@ -479,7 +486,10 @@
     },
     "312318107689680909": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poopgoal": 3,
+        "poop": 1,
+        "totalpoop": 1
     },
     "1309000134511558748": {
         "time_in_first_place": 0,
@@ -498,8 +508,8 @@
         "first_place_timer": 0
     },
     "652332321210630155": {
-        "time_in_first_place": 0,
-        "first_place_timer": 1748908795.391307,
+        "time_in_first_place": 15633.825429916382,
+        "first_place_timer": 1748924429.216737,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -562,7 +572,11 @@
     },
     "310904820590706688": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "zip": "98467",
+        "poop": 1,
+        "totalpoop": 1,
+        "poopgoal": 2
     },
     "297241329770168320": {
         "time_in_first_place": 0,
