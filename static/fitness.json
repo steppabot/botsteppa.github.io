@@ -129,7 +129,8 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-03"
+        "last_water_reset": "2025-06-03",
+        "color": "#fbe790"
     },
     "411790401587118081": {
         "time_in_first_place": 0,
@@ -345,18 +346,18 @@
         "miles": 14.275721212121214,
         "daily_steps": {
             "1": 12941,
-            "2": 0,
+            "2": 14211,
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 16371
         },
-        "steps": 29312,
+        "steps": 43523,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
-            "3": 0,
+            "3": 14211,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -388,7 +389,7 @@
         },
         "color": "#72a6b7",
         "goal": 52800,
-        "weeklysteps": 12941,
+        "weeklysteps": 27152,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -1663,8 +1664,8 @@
         "last_water_reset": "2025-06-03"
     },
     "308273393977786368": {
-        "time_in_first_place": 69349.03553318977,
-        "first_place_timer": 1749007989.082163,
+        "time_in_first_place": 78146.66473412514,
+        "first_place_timer": 1749016786.711364,
         "daily_steps": {
             "1": 45564,
             "2": 0,
