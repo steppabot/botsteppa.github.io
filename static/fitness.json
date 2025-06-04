@@ -1,117 +1,341 @@
 {
     "188391185100832768": {
         "time_in_first_place": 5698.261370182037,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "307403150384562176": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1023636959882661939": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "389223401195175936": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1183527966311977001": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "437740722733580300": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1280510504468742297": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "361283811415425036": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "650311345283137547": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1188499224824926349": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1129626620932673577": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "411790401587118081": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1091686377369903184": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "176437265847943168": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "292664486131793920": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1340820424157823057": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "491413029175427072": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "281704209936547840": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "754395108140515349": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "386943002066681878": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "342458146633285633": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1137880896108773497": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "679209854862229505": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "152634950443728897": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "704002464973586513": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1179293024195452932": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "278339474033999873": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1204958320494903299": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "height": 144.78,
-        "miles": 0.0
+        "miles": 0.0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "568583831985061918": {
         "time_in_first_place": 0,
@@ -164,368 +388,1042 @@
         },
         "color": "#72a6b7",
         "goal": 52800,
-        "weeklysteps": 12941
+        "weeklysteps": 12941,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "365943684245618698": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "849410330463436801": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "563129750558736386": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "607191016847704077": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "818585726924226560": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "720878910186979408": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1100832689159950446": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "633361189266784276": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "116270689450852360": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1074192153720389702": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1165508902985670746": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1290836395916787765": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "622333176169234442": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "164218865176412161": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "358404686602305538": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "978691273445748786": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "104256094200680448": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "366649536933789696": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1197348545829810256": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "260865754142998538": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1347308279793188955": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1174199544225988728": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "276254738667012097": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "422911249421041664": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1124471989734740068": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "439200530414305280": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "759954272200032258": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1297268036377772173": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "295740862233575425": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "613202850998124576": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "79069368255774720": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "392688308280360960": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "250418509803290634": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "847014869391507507": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1234226707829882903": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "362068716076138499": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "612492260885659663": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "520036689142611990": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "276517772610109440": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "792222718492934145": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "834156178626838560": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "494532203900829728": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "588274306526478337": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1042214572834181240": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "714834782898618418": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "278603970157477889": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "373990704218898445": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "657757924424155138": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "787804741924159488": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "378447317688254464": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "353367770030931970": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "517033778313691136": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "908746360763875399": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "594364874847682571": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "783182010360791052": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "735739331683287060": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
-        "zip": "45404"
+        "zip": "45404",
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "843955445184856124": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1294362538728751115": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "357165744087105536": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "592431862329376790": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "694419341143310417": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "211355880250277888": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "981499771812454431": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1117858287522689055": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
-        "poopgoal": 4,
-        "poop": 4,
-        "totalpoop": 4
+        "poopgoal": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "402163411431194624": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1168862544220389379": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "773162256900948020": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "315508512237158401": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "979411417360912425": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "534504242631671818": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1300359316712325161": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "304383856641835008": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "589993477866258483": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "236329098325000192": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1327141097704525894": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "210981636819517440": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "499200617982722049": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1270040138948411442": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "312318107689680909": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
-        "poopgoal": 3,
-        "poop": 1,
-        "totalpoop": 1
+        "poopgoal": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1309000134511558748": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "138702059947032576": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "375743004054519808": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "403018850851094531": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "652332321210630155": {
-        "time_in_first_place": 29143.55668783188,
-        "first_place_timer": 1748937938.947995,
+        "time_in_first_place": 29844.655322790146,
+        "first_place_timer": 0,
         "daily_steps": {
             "1": 21136,
-            "2": 0,
+            "2": 20336,
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 20035
         },
-        "steps": 41171,
+        "steps": 61507,
         "monthly_steps": {
             "1": 20035,
             "2": 21136,
-            "3": 0,
+            "3": 20336,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -554,67 +1452,176 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "213535067643969536": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "943194080484130847": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "156657232476504065": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "508377836688506901": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "310904820590706688": {
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "zip": "98467",
-        "poop": 1,
-        "totalpoop": 1,
-        "poopgoal": 2
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "297241329770168320": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "278600699854716939": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "830647190346792961": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "742873920809730141": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "844830917981765672": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "947693267846328381": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "696412596039057418": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "213535290776748034": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "308273393977786368": {
-        "time_in_first_place": 0,
-        "first_place_timer": 0,
+        "time_in_first_place": 69349.03553318977,
+        "first_place_timer": 1749007989.082163,
         "daily_steps": {
             "1": 45564,
             "2": 0,
@@ -657,25 +1664,79 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "height": 177.8,
+        "miles": 28.81525252525253,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "212411263190433792": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1022582948366659634": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1234054060777144330": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "790376050843844638": {
         "time_in_first_place": 0,
-        "first_place_timer": 0
+        "first_place_timer": 0,
+        "poop": 0,
+        "totalpoop": 0,
+        "poopgoal": 0,
+        "last_poop_reset": "2025-06-03",
+        "water": 0,
+        "totalwater": 0,
+        "watergoal": 0,
+        "last_water_reset": "2025-06-03"
     },
     "1372003198646358140": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "135939956723023873": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "851494187383521291": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "113129121109782528": {
         "time_in_first_place": 0,
         "first_place_timer": 0
     }
