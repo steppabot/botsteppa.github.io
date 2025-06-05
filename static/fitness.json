@@ -343,7 +343,7 @@
         "first_place_timer": 0,
         "zip": "75204",
         "height": 187.96,
-        "miles": 14.275721212121214,
+        "miles": 21.196855018939395,
         "daily_steps": {
             "1": 12941,
             "2": 14211,
@@ -1664,22 +1664,22 @@
         "last_water_reset": "2025-06-03"
     },
     "308273393977786368": {
-        "time_in_first_place": 78146.66473412514,
-        "first_place_timer": 1749016786.711364,
+        "time_in_first_place": 146592.85940003395,
+        "first_place_timer": 1749085232.90603,
         "daily_steps": {
             "1": 45564,
-            "2": 0,
+            "2": 4464,
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 17284
         },
-        "steps": 62848,
+        "steps": 67312,
         "monthly_steps": {
             "1": 17284,
             "2": 45564,
-            "3": 0,
+            "3": 4464,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -1781,6 +1781,22 @@
         "first_place_timer": 0
     },
     "113129121109782528": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "860973734684524585": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "284388926213586944": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "933756223474503680": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "654855833397493783": {
         "time_in_first_place": 0,
         "first_place_timer": 0
     }
