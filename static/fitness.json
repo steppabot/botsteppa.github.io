@@ -349,18 +349,18 @@
             "2": 14211,
             "3": 14438,
             "4": 16394,
-            "5": 0,
+            "5": 13330,
             "6": 0,
             "7": 16371
         },
-        "steps": 74355,
+        "steps": 87685,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
             "3": 14211,
             "4": 14438,
             "5": 16394,
-            "6": 0,
+            "6": 13330,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -389,7 +389,7 @@
         },
         "color": "#72a6b7",
         "goal": 52800,
-        "weeklysteps": 57984,
+        "weeklysteps": 71314,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -1400,8 +1400,8 @@
         "last_water_reset": "2025-06-05"
     },
     "652332321210630155": {
-        "time_in_first_place": 161249.43779182434,
-        "first_place_timer": 0,
+        "time_in_first_place": 170877.4234378338,
+        "first_place_timer": 1749277438.095974,
         "daily_steps": {
             "1": 21136,
             "2": 20336,
@@ -1454,7 +1454,7 @@
         "watergoal": 0,
         "last_water_reset": "2025-06-05",
         "height": 182.88,
-        "miles": 48.312293181818184,
+        "miles": 58.82732727272727,
         "goal": 105600,
         "weeklysteps": 22190
     },
@@ -1660,8 +1660,8 @@
         "last_water_reset": "2025-06-05"
     },
     "308273393977786368": {
-        "time_in_first_place": 197540.72972917557,
-        "first_place_timer": 1749267585.558828,
+        "time_in_first_place": 197765.28122901917,
+        "first_place_timer": 0,
         "daily_steps": {
             "1": 45564,
             "2": 4464,
@@ -1706,7 +1706,7 @@
             "31": 0
         },
         "height": 177.8,
-        "miles": 35.058068181818186,
+        "miles": 50.787982954545456,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -1881,6 +1881,10 @@
         "first_place_timer": 0
     },
     "1303554334960652374": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "1033722916984078457": {
         "time_in_first_place": 0,
         "first_place_timer": 0
     }
