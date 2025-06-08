@@ -9,7 +9,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "307403150384562176": {
         "time_in_first_place": 0,
@@ -21,7 +24,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1023636959882661939": {
         "time_in_first_place": 0,
@@ -33,7 +39,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "389223401195175936": {
         "time_in_first_place": 0,
@@ -45,7 +54,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1183527966311977001": {
         "time_in_first_place": 0,
@@ -57,7 +69,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "437740722733580300": {
         "time_in_first_place": 0,
@@ -81,7 +96,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "361283811415425036": {
         "time_in_first_place": 0,
@@ -93,7 +111,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "650311345283137547": {
         "time_in_first_place": 0,
@@ -105,7 +126,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1188499224824926349": {
         "time_in_first_place": 0,
@@ -117,7 +141,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1129626620932673577": {
         "time_in_first_place": 0,
@@ -136,7 +163,7 @@
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 9230,
+            "5": 0,
             "6": 0,
             "7": 0
         },
@@ -173,7 +200,10 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "411790401587118081": {
         "time_in_first_place": 0,
@@ -185,7 +215,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1091686377369903184": {
         "time_in_first_place": 0,
@@ -197,7 +230,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "176437265847943168": {
         "time_in_first_place": 0,
@@ -209,7 +245,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "292664486131793920": {
         "time_in_first_place": 0,
@@ -221,7 +260,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1340820424157823057": {
         "time_in_first_place": 0,
@@ -233,7 +275,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "491413029175427072": {
         "time_in_first_place": 0,
@@ -245,7 +290,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "281704209936547840": {
         "time_in_first_place": 0,
@@ -257,7 +305,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "754395108140515349": {
         "time_in_first_place": 0,
@@ -269,7 +320,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "386943002066681878": {
         "time_in_first_place": 0,
@@ -281,7 +335,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "342458146633285633": {
         "time_in_first_place": 0,
@@ -293,7 +350,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1137880896108773497": {
         "time_in_first_place": 0,
@@ -305,7 +365,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "679209854862229505": {
         "time_in_first_place": 0,
@@ -317,7 +380,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "152634950443728897": {
         "time_in_first_place": 0,
@@ -329,7 +395,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "704002464973586513": {
         "time_in_first_place": 0,
@@ -341,7 +410,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1179293024195452932": {
         "time_in_first_place": 0,
@@ -353,7 +425,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "278339474033999873": {
         "time_in_first_place": 0,
@@ -365,7 +440,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1204958320494903299": {
         "time_in_first_place": 0,
@@ -379,7 +457,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "568583831985061918": {
         "time_in_first_place": 0,
@@ -388,15 +469,15 @@
         "height": 187.96,
         "miles": 42.70491998106061,
         "daily_steps": {
-            "1": 12941,
-            "2": 14211,
-            "3": 14438,
-            "4": 16394,
-            "5": 13330,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
-            "7": 16371
+            "7": 0
         },
-        "steps": 87685,
+        "steps": 100476,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
@@ -404,7 +485,7 @@
             "4": 14438,
             "5": 16394,
             "6": 13330,
-            "7": 0,
+            "7": 12791,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -431,8 +512,8 @@
             "31": 0
         },
         "color": "#72a6b7",
-        "goal": 52800,
-        "weeklysteps": 71314,
+        "goal": 0,
+        "weeklysteps": 0,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -441,7 +522,7 @@
         "totalwater": 0,
         "watergoal": 0,
         "last_water_reset": "2025-06-07",
-        "reachedweeklysteps": 1,
+        "reachedweeklysteps": 0,
         "points": 1
     },
     "365943684245618698": {
@@ -454,7 +535,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "849410330463436801": {
         "time_in_first_place": 0,
@@ -466,7 +550,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "563129750558736386": {
         "time_in_first_place": 0,
@@ -478,7 +565,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "607191016847704077": {
         "time_in_first_place": 0,
@@ -490,7 +580,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "818585726924226560": {
         "time_in_first_place": 0,
@@ -502,7 +595,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "720878910186979408": {
         "time_in_first_place": 0,
@@ -514,7 +610,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1100832689159950446": {
         "time_in_first_place": 0,
@@ -526,7 +625,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "633361189266784276": {
         "time_in_first_place": 0,
@@ -538,7 +640,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "116270689450852360": {
         "time_in_first_place": 0,
@@ -550,7 +655,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1074192153720389702": {
         "time_in_first_place": 0,
@@ -562,7 +670,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1165508902985670746": {
         "time_in_first_place": 0,
@@ -574,7 +685,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1290836395916787765": {
         "time_in_first_place": 0,
@@ -586,7 +700,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "622333176169234442": {
         "time_in_first_place": 0,
@@ -598,7 +715,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "164218865176412161": {
         "time_in_first_place": 0,
@@ -610,7 +730,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "358404686602305538": {
         "time_in_first_place": 0,
@@ -622,7 +745,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "978691273445748786": {
         "time_in_first_place": 0,
@@ -634,7 +760,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "104256094200680448": {
         "time_in_first_place": 0,
@@ -646,7 +775,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "366649536933789696": {
         "time_in_first_place": 0,
@@ -658,7 +790,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1197348545829810256": {
         "time_in_first_place": 0,
@@ -670,7 +805,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "260865754142998538": {
         "time_in_first_place": 0,
@@ -682,7 +820,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1347308279793188955": {
         "time_in_first_place": 0,
@@ -694,7 +835,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1174199544225988728": {
         "time_in_first_place": 0,
@@ -706,7 +850,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "276254738667012097": {
         "time_in_first_place": 0,
@@ -718,7 +865,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "422911249421041664": {
         "time_in_first_place": 0,
@@ -730,7 +880,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1124471989734740068": {
         "time_in_first_place": 0,
@@ -742,7 +895,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "439200530414305280": {
         "time_in_first_place": 0,
@@ -754,7 +910,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "759954272200032258": {
         "time_in_first_place": 0,
@@ -766,7 +925,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1297268036377772173": {
         "time_in_first_place": 0,
@@ -778,7 +940,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "295740862233575425": {
         "time_in_first_place": 0,
@@ -790,7 +955,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "613202850998124576": {
         "time_in_first_place": 0,
@@ -802,7 +970,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "79069368255774720": {
         "time_in_first_place": 0,
@@ -814,7 +985,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "392688308280360960": {
         "time_in_first_place": 0,
@@ -826,7 +1000,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "250418509803290634": {
         "time_in_first_place": 0,
@@ -838,7 +1015,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "847014869391507507": {
         "time_in_first_place": 0,
@@ -862,7 +1042,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "362068716076138499": {
         "time_in_first_place": 0,
@@ -874,7 +1057,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "612492260885659663": {
         "time_in_first_place": 0,
@@ -886,7 +1072,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "520036689142611990": {
         "time_in_first_place": 0,
@@ -898,7 +1087,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "276517772610109440": {
         "time_in_first_place": 0,
@@ -922,7 +1114,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "494532203900829728": {
         "time_in_first_place": 0,
@@ -934,7 +1129,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "588274306526478337": {
         "time_in_first_place": 0,
@@ -946,7 +1144,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1042214572834181240": {
         "time_in_first_place": 0,
@@ -958,7 +1159,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "714834782898618418": {
         "time_in_first_place": 0,
@@ -970,7 +1174,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "278603970157477889": {
         "time_in_first_place": 0,
@@ -982,7 +1189,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "373990704218898445": {
         "time_in_first_place": 0,
@@ -994,7 +1204,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "657757924424155138": {
         "time_in_first_place": 0,
@@ -1006,7 +1219,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "787804741924159488": {
         "time_in_first_place": 0,
@@ -1018,7 +1234,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "378447317688254464": {
         "time_in_first_place": 0,
@@ -1030,7 +1249,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "353367770030931970": {
         "time_in_first_place": 0,
@@ -1042,7 +1264,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "517033778313691136": {
         "time_in_first_place": 0,
@@ -1054,7 +1279,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "908746360763875399": {
         "time_in_first_place": 0,
@@ -1066,7 +1294,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "594364874847682571": {
         "time_in_first_place": 0,
@@ -1078,7 +1309,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "783182010360791052": {
         "time_in_first_place": 0,
@@ -1091,7 +1325,10 @@
         "totalwater": 0,
         "watergoal": 0,
         "last_water_reset": "2025-06-07",
-        "zip": "44446"
+        "zip": "44446",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "735739331683287060": {
         "time_in_first_place": 0,
@@ -1104,7 +1341,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "843955445184856124": {
         "time_in_first_place": 0,
@@ -1116,7 +1356,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1294362538728751115": {
         "time_in_first_place": 0,
@@ -1128,7 +1371,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "357165744087105536": {
         "time_in_first_place": 0,
@@ -1140,7 +1386,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "592431862329376790": {
         "time_in_first_place": 0,
@@ -1152,7 +1401,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "694419341143310417": {
         "time_in_first_place": 0,
@@ -1164,7 +1416,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "211355880250277888": {
         "time_in_first_place": 0,
@@ -1176,7 +1431,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "981499771812454431": {
         "time_in_first_place": 0,
@@ -1188,7 +1446,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1117858287522689055": {
         "time_in_first_place": 0,
@@ -1200,7 +1461,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "402163411431194624": {
         "time_in_first_place": 0,
@@ -1212,7 +1476,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1168862544220389379": {
         "time_in_first_place": 0,
@@ -1224,7 +1491,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-03"
+        "last_water_reset": "2025-06-03",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "773162256900948020": {
         "time_in_first_place": 0,
@@ -1236,7 +1506,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "315508512237158401": {
         "time_in_first_place": 0,
@@ -1248,7 +1521,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "979411417360912425": {
         "time_in_first_place": 0,
@@ -1260,7 +1536,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "534504242631671818": {
         "time_in_first_place": 0,
@@ -1272,7 +1551,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1300359316712325161": {
         "time_in_first_place": 0,
@@ -1284,7 +1566,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -1296,7 +1581,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "304383856641835008": {
         "time_in_first_place": 0,
@@ -1308,7 +1596,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "589993477866258483": {
         "time_in_first_place": 0,
@@ -1320,7 +1611,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "236329098325000192": {
         "time_in_first_place": 0,
@@ -1332,7 +1626,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1327141097704525894": {
         "time_in_first_place": 0,
@@ -1344,7 +1641,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "210981636819517440": {
         "time_in_first_place": 0,
@@ -1356,7 +1656,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "499200617982722049": {
         "time_in_first_place": 0,
@@ -1368,7 +1671,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1270040138948411442": {
         "time_in_first_place": 0,
@@ -1380,7 +1686,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "312318107689680909": {
         "time_in_first_place": 0,
@@ -1392,7 +1701,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1309000134511558748": {
         "time_in_first_place": 0,
@@ -1404,7 +1716,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "138702059947032576": {
         "time_in_first_place": 0,
@@ -1416,7 +1731,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "375743004054519808": {
         "time_in_first_place": 0,
@@ -1428,7 +1746,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "403018850851094531": {
         "time_in_first_place": 0,
@@ -1440,19 +1761,22 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "652332321210630155": {
         "time_in_first_place": 170877.4234378338,
         "first_place_timer": 1749277438.095974,
         "daily_steps": {
-            "1": 21136,
-            "2": 20336,
-            "3": 20418,
-            "4": 20029,
-            "5": 22190,
-            "6": 25925,
-            "7": 20035
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0
         },
         "steps": 150069,
         "monthly_steps": {
@@ -1497,9 +1821,10 @@
         "watergoal": 0,
         "last_water_reset": "2025-06-07",
         "height": 182.88,
-        "miles": 58.82732727272727,
+        "miles": 71.11224204545454,
         "goal": 105600,
-        "weeklysteps": 48115
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "213535067643969536": {
         "time_in_first_place": 0,
@@ -1511,7 +1836,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "943194080484130847": {
         "time_in_first_place": 0,
@@ -1523,7 +1851,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "156657232476504065": {
         "time_in_first_place": 0,
@@ -1535,7 +1866,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "508377836688506901": {
         "time_in_first_place": 0,
@@ -1547,7 +1881,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "310904820590706688": {
         "time_in_first_place": 0,
@@ -1561,7 +1898,10 @@
         "totalwater": 0,
         "watergoal": 0,
         "last_water_reset": "2025-06-07",
-        "color": "#e0bfb8"
+        "color": "#e0bfb8",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "297241329770168320": {
         "time_in_first_place": 0,
@@ -1573,7 +1913,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "278600699854716939": {
         "time_in_first_place": 0,
@@ -1585,7 +1928,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "830647190346792961": {
         "time_in_first_place": 0,
@@ -1597,7 +1943,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "742873920809730141": {
         "time_in_first_place": 0,
@@ -1611,7 +1960,7 @@
         "watergoal": 0,
         "last_water_reset": "2025-06-07",
         "daily_steps": {
-            "1": 10244,
+            "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -1652,7 +2001,10 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "844830917981765672": {
         "time_in_first_place": 0,
@@ -1664,7 +2016,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "947693267846328381": {
         "time_in_first_place": 0,
@@ -1676,7 +2031,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "696412596039057418": {
         "time_in_first_place": 0,
@@ -1688,7 +2046,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "213535290776748034": {
         "time_in_first_place": 0,
@@ -1700,19 +2061,22 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "308273393977786368": {
         "time_in_first_place": 197765.28122901917,
         "first_place_timer": 0,
         "daily_steps": {
-            "1": 45564,
-            "2": 4464,
-            "3": 9152,
-            "4": 34308,
-            "5": 2126,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
             "6": 0,
-            "7": 17284
+            "7": 0
         },
         "steps": 112898,
         "monthly_steps": {
@@ -1749,7 +2113,7 @@
             "31": 0
         },
         "height": 177.8,
-        "miles": 50.787982954545456,
+        "miles": 51.76273516414142,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -1757,7 +2121,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "212411263190433792": {
         "time_in_first_place": 0,
@@ -1769,7 +2136,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1022582948366659634": {
         "time_in_first_place": 0,
@@ -1781,7 +2151,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1234054060777144330": {
         "time_in_first_place": 0,
@@ -1793,7 +2166,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "790376050843844638": {
         "time_in_first_place": 0,
@@ -1805,7 +2181,10 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-07"
+        "last_water_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1372003198646358140": {
         "time_in_first_place": 0,
@@ -1829,7 +2208,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "851494187383521291": {
         "time_in_first_place": 0,
@@ -1845,7 +2227,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "860973734684524585": {
         "time_in_first_place": 0,
@@ -1857,7 +2242,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "284388926213586944": {
         "time_in_first_place": 0,
@@ -1869,7 +2257,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "933756223474503680": {
         "time_in_first_place": 0,
@@ -1881,7 +2272,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "654855833397493783": {
         "time_in_first_place": 0,
@@ -1893,7 +2287,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "834156178626838560": {
         "time_in_first_place": 0,
@@ -1905,7 +2302,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1354516718374093022": {
         "time_in_first_place": 0,
@@ -1917,7 +2317,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1380442234087931935": {
         "time_in_first_place": 0,
@@ -1929,7 +2332,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "657708584670593035": {
         "time_in_first_place": 0,
@@ -1941,7 +2347,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "732310543607529522": {
         "time_in_first_place": 0,
@@ -1953,7 +2362,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1303554334960652374": {
         "time_in_first_place": 0,
@@ -1965,7 +2377,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "1033722916984078457": {
         "time_in_first_place": 0,
@@ -1977,7 +2392,10 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
     "971821280116502631": {
         "water": 0,
@@ -1987,7 +2405,14 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-07"
+        "last_poop_reset": "2025-06-07",
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
     },
-    "1072989454572195910": {}
+    "1072989454572195910": {
+        "goal": 0,
+        "weeklysteps": 0,
+        "reachedweeklysteps": 0
+    }
 }
