@@ -203,7 +203,9 @@
         },
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "miles": 11.286703125,
+        "height": 167.64000000000001
     },
     "411790401587118081": {
         "time_in_first_place": 0,
@@ -467,7 +469,7 @@
         "first_place_timer": 0,
         "zip": "75204",
         "height": 187.96,
-        "miles": 48.93447613636364,
+        "miles": 53.62356742424243,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -524,7 +526,8 @@
         "last_water_reset": "2025-06-09",
         "reachedweeklysteps": 0,
         "points": 0,
-        "item500": 1
+        "item500": 1,
+        "cookietimer": 1749508349.924938
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -1768,8 +1771,8 @@
         "reachedweeklysteps": 0
     },
     "652332321210630155": {
-        "time_in_first_place": 339312.35869789124,
-        "first_place_timer": 1749445873.031234,
+        "time_in_first_place": 402495.9467277527,
+        "first_place_timer": 1749509056.619264,
         "daily_steps": {
             "1": 0,
             "2": 0,
@@ -2005,7 +2008,8 @@
         },
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "miles": 0.0
     },
     "844830917981765672": {
         "time_in_first_place": 0,
@@ -2114,7 +2118,7 @@
             "31": 0
         },
         "height": 177.8,
-        "miles": 51.76273516414142,
+        "miles": 61.9893805239899,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -2439,7 +2443,8 @@
             "29": 0,
             "30": 0,
             "31": 0
-        }
+        },
+        "miles": 0.0
     },
     "971821280116502631": {
         "water": 0,
@@ -2451,10 +2456,10 @@
         "poopgoal": 0,
         "last_poop_reset": "2025-06-09",
         "goal": 70000,
-        "weeklysteps": 0,
+        "weeklysteps": 10716,
         "reachedweeklysteps": 0,
         "daily_steps": {
-            "1": 0,
+            "1": 10716,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -2462,7 +2467,7 @@
             "6": 0,
             "7": 7214
         },
-        "steps": 44080,
+        "steps": 54796,
         "monthly_steps": {
             "1": 0,
             "2": 5036,
@@ -2472,7 +2477,7 @@
             "6": 5336,
             "7": 7204,
             "8": 7214,
-            "9": 0,
+            "9": 10716,
             "10": 0,
             "11": 0,
             "12": 0,
