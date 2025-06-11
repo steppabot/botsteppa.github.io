@@ -478,14 +478,14 @@
         "miles": 59.76935501893941,
         "daily_steps": {
             "1": 12619,
-            "2": 0,
+            "2": 20131,
             "3": 0,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 9628
         },
-        "steps": 122723,
+        "steps": 142854,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
@@ -496,7 +496,7 @@
             "7": 12791,
             "8": 9628,
             "9": 12619,
-            "10": 0,
+            "10": 20131,
             "11": 0,
             "12": 0,
             "13": 0,
@@ -521,7 +521,7 @@
         },
         "color": "#72a6b7",
         "goal": 70000,
-        "weeklysteps": 22247,
+        "weeklysteps": 42378,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -533,7 +533,7 @@
         "reachedweeklysteps": 0,
         "points": 0,
         "item500": 1,
-        "cookietimer": 1749577645.085345
+        "cookietimer": 1749615410.146251
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -1626,7 +1626,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749577768.046017
+        "cookietimer": 1749615587.273399
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
