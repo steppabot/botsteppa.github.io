@@ -389,7 +389,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749577918.77231,
+        "cookietimer": 1749696126.686684,
         "color": "#fac0de"
     },
     "152634950443728897": {
@@ -1628,7 +1628,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749664782.877932
+        "cookietimer": 1749696219.205127
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -1831,13 +1831,13 @@
         "daily_steps": {
             "1": 18090,
             "2": 14064,
-            "3": 0,
+            "3": 17211,
             "4": 0,
             "5": 0,
             "6": 0,
             "7": 21036
         },
-        "steps": 203259,
+        "steps": 220470,
         "monthly_steps": {
             "1": 20035,
             "2": 21136,
@@ -1849,7 +1849,7 @@
             "8": 21036,
             "9": 18090,
             "10": 14064,
-            "11": 0,
+            "11": 17211,
             "12": 0,
             "13": 0,
             "14": 0,
@@ -1882,7 +1882,7 @@
         "height": 182.88,
         "miles": 96.31704886363636,
         "goal": 105600,
-        "weeklysteps": 53190,
+        "weeklysteps": 70401,
         "reachedweeklysteps": 0,
         "color": "#808080"
     },
@@ -2567,7 +2567,7 @@
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "color": "#b5d4bb",
-        "cookietimer": 1749666191.781677
+        "cookietimer": 1749696154.883103
     },
     "1072989454572195910": {
         "goal": 0,
