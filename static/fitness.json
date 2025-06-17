@@ -12,7 +12,8 @@
         "last_water_reset": "2025-06-16",
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "cookietimer": 1750114480.354201
     },
     "307403150384562176": {
         "time_in_first_place": 0,
@@ -58,7 +59,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750074410.48316
+        "cookietimer": 1750163794.650881
     },
     "1183527966311977001": {
         "time_in_first_place": 0,
@@ -207,7 +208,7 @@
         "reachedweeklysteps": 0,
         "miles": 11.286703125,
         "height": 167.64000000000001,
-        "cookietimer": 1750063104.146822
+        "cookietimer": 1750140146.389426
     },
     "411790401587118081": {
         "time_in_first_place": 0,
@@ -299,7 +300,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750086928.192549
+        "cookietimer": 1750111353.057371
     },
     "281704209936547840": {
         "time_in_first_place": 0,
@@ -390,7 +391,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750087148.827005,
+        "cookietimer": 1750131875.536886,
         "color": "#fac0de"
     },
     "152634950443728897": {
@@ -458,7 +459,7 @@
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "height": 144.78,
-        "miles": 7.285969223484849,
+        "miles": 8.913330018939394,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -470,7 +471,7 @@
         "goal": 0,
         "weeklysteps": 7131,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750063209.210173,
+        "cookietimer": 1750140725.854762,
         "daily_steps": {
             "1": 2751,
             "2": 4298,
@@ -522,7 +523,7 @@
         "height": 187.96,
         "miles": 105.50552803030305,
         "daily_steps": {
-            "1": 0,
+            "1": 14488,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -530,7 +531,7 @@
             "6": 0,
             "7": 15800
         },
-        "steps": 216632,
+        "steps": 231120,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
@@ -547,7 +548,7 @@
             "13": 15779,
             "14": 14086,
             "15": 15800,
-            "16": 0,
+            "16": 14488,
             "17": 0,
             "18": 0,
             "19": 0,
@@ -566,7 +567,7 @@
         },
         "color": "#72a6b7",
         "goal": 70000,
-        "weeklysteps": 15800,
+        "weeklysteps": 30288,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -578,7 +579,7 @@
         "reachedweeklysteps": 0,
         "points": 3,
         "item500": 1,
-        "cookietimer": 1750063126.600768
+        "cookietimer": 1750165450.938673
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -774,7 +775,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750011069.428202
+        "cookietimer": 1750127218.366979
     },
     "164218865176412161": {
         "time_in_first_place": 0,
@@ -941,7 +942,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749869883.778329
+        "cookietimer": 1750161137.731178
     },
     "1124471989734740068": {
         "time_in_first_place": 0,
@@ -1208,7 +1209,9 @@
         "last_water_reset": "2025-06-16",
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "cookietimer": 1750131739.067202,
+        "color": "#a1eaef"
     },
     "1042214572834181240": {
         "time_in_first_place": 0,
@@ -1391,7 +1394,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749871263.426193
+        "cookietimer": 1750112938.203653
     },
     "735739331683287060": {
         "time_in_first_place": 0,
@@ -1560,7 +1563,7 @@
         "color": "#ffbbff",
         "height": 154.94,
         "miles": 14.98617692550505,
-        "cookietimer": 1750075801.632418
+        "cookietimer": 1750109094.867512
     },
     "1117858287522689055": {
         "time_in_first_place": 0,
@@ -1682,7 +1685,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750074305.598083
+        "cookietimer": 1750160966.529679
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -1863,7 +1866,9 @@
         "last_water_reset": "2025-06-16",
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "zip": "95816",
+        "cookietimer": 1750131729.562571
     },
     "403018850851094531": {
         "time_in_first_place": 0,
@@ -1955,7 +1960,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750064710.577385
+        "cookietimer": 1750113157.459746
     },
     "943194080484130847": {
         "time_in_first_place": 0,
@@ -2019,7 +2024,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750074427.689955
+        "cookietimer": 1750165369.719713
     },
     "297241329770168320": {
         "time_in_first_place": 0,
@@ -2065,7 +2070,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750087320.088441
+        "cookietimer": 1750133386.77816
     },
     "742873920809730141": {
         "time_in_first_place": 0,
@@ -2307,7 +2312,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1749566101.621902
+        "cookietimer": 1750162901.664639
     },
     "1372003198646358140": {
         "time_in_first_place": 0,
@@ -2399,7 +2404,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750075566.968369
+        "cookietimer": 1750111683.489933
     },
     "654855833397493783": {
         "time_in_first_place": 0,
@@ -2563,7 +2568,7 @@
             "30": 0,
             "31": 0
         },
-        "miles": 49.422568844696976,
+        "miles": 64.28354455492425,
         "height": 180.34,
         "cookietimer": 1749577654.576078
     },
@@ -2627,7 +2632,7 @@
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "color": "#b5d4bb",
-        "cookietimer": 1750086910.605993
+        "cookietimer": 1750165432.243631
     },
     "1072989454572195910": {
         "goal": 0,
@@ -2750,7 +2755,9 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-16"
+        "last_poop_reset": "2025-06-16",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     },
     "998023831476260906": {
         "water": 0,
@@ -2760,7 +2767,9 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-16"
+        "last_poop_reset": "2025-06-16",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     },
     "154806342031376384": {
         "water": 0,
@@ -2770,7 +2779,9 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-16"
+        "last_poop_reset": "2025-06-16",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     },
     "758112952602853426": {
         "water": 0,
@@ -2780,7 +2791,12 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-16"
+        "last_poop_reset": "2025-06-16",
+        "time_in_first_place": 0,
+        "first_place_timer": 0,
+        "zip": "44870",
+        "cookietimer": 1750131736.384045,
+        "color": "#fccdff"
     },
     "874689538952425473": {
         "water": 0,
@@ -2790,6 +2806,42 @@
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
-        "last_poop_reset": "2025-06-16"
-    }
+        "last_poop_reset": "2025-06-16",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "567035843147989032": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "1178919903160442984": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "672406433580449794": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "393593275400978444": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "792640637551640658": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "982613640991637525": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "341447462906757121": {
+        "zip": "12345",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "803062237144285185": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    },
+    "1220615009575632971": {}
 }
