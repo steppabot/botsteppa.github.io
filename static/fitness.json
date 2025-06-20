@@ -254,7 +254,8 @@
         "last_water_reset": "2025-06-18",
         "goal": 0,
         "weeklysteps": 0,
-        "reachedweeklysteps": 0
+        "reachedweeklysteps": 0,
+        "cookietimer": 1750383882.262683
     },
     "292664486131793920": {
         "time_in_first_place": 0,
@@ -517,8 +518,8 @@
         }
     },
     "568583831985061918": {
-        "time_in_first_place": 0,
-        "first_place_timer": 0,
+        "time_in_first_place": 17610.81365084648,
+        "first_place_timer": 1750398708.726996,
         "zip": "75204",
         "height": 187.96,
         "miles": 125.56030587121215,
@@ -526,12 +527,12 @@
             "1": 14488,
             "2": 19303,
             "3": 7387,
-            "4": 0,
+            "4": 16180,
             "5": 0,
             "6": 0,
             "7": 15800
         },
-        "steps": 257810,
+        "steps": 273990,
         "monthly_steps": {
             "1": 16371,
             "2": 12941,
@@ -551,7 +552,7 @@
             "16": 14488,
             "17": 19303,
             "18": 7387,
-            "19": 0,
+            "19": 16180,
             "20": 0,
             "21": 0,
             "22": 0,
@@ -567,7 +568,7 @@
         },
         "color": "#72a6b7",
         "goal": 70000,
-        "weeklysteps": 56978,
+        "weeklysteps": 73158,
         "poop": 0,
         "totalpoop": 0,
         "poopgoal": 0,
@@ -579,9 +580,9 @@
         "reachedweeklysteps": 0,
         "points": 3,
         "item500": 1,
-        "cookietimer": 1750274139.478723,
+        "cookietimer": 1750398812.324856,
         "gradient_start": "#54dadf",
-        "gradient_end": "#000000"
+        "gradient_end": "#ffffff"
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -944,7 +945,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750161137.731178
+        "cookietimer": 1750383764.423
     },
     "1124471989734740068": {
         "time_in_first_place": 0,
@@ -1153,7 +1154,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750234223.108251
+        "cookietimer": 1750384112.956284
     },
     "276517772610109440": {
         "time_in_first_place": 0,
@@ -1196,7 +1197,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750005582.723623
+        "cookietimer": 1750386521.258431
     },
     "588274306526478337": {
         "time_in_first_place": 0,
@@ -1565,7 +1566,7 @@
         "color": "#ffbbff",
         "height": 154.94,
         "miles": 17.03231294191919,
-        "cookietimer": 1750109094.867512
+        "cookietimer": 1750384007.744982
     },
     "1117858287522689055": {
         "time_in_first_place": 0,
@@ -1687,7 +1688,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750285113.80597
+        "cookietimer": 1750383678.887256
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -1962,7 +1963,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750274456.712669
+        "cookietimer": 1750386342.175124
     },
     "943194080484130847": {
         "time_in_first_place": 0,
@@ -2008,7 +2009,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750181565.904199
+        "cookietimer": 1750384093.268129
     },
     "310904820590706688": {
         "time_in_first_place": 0,
@@ -2572,7 +2573,7 @@
         },
         "miles": 64.28354455492425,
         "height": 180.34,
-        "cookietimer": 1749577654.576078
+        "cookietimer": 1750383899.653142
     },
     "971821280116502631": {
         "water": 0,
@@ -2918,7 +2919,9 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-18"
+        "last_water_reset": "2025-06-18",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     },
     "1038263666887360652": {
         "poop": 0,
@@ -2928,7 +2931,12 @@
         "water": 0,
         "totalwater": 0,
         "watergoal": 0,
-        "last_water_reset": "2025-06-18"
+        "last_water_reset": "2025-06-18",
+        "time_in_first_place": 0,
+        "first_place_timer": 0
     },
-    "1384964089490575501": {}
+    "1384964089490575501": {
+        "time_in_first_place": 0,
+        "first_place_timer": 0
+    }
 }
