@@ -391,7 +391,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750266051.205944,
+        "cookietimer": 1750379806.100088,
         "color": "#fac0de"
     },
     "152634950443728897": {
@@ -521,7 +521,7 @@
         "first_place_timer": 0,
         "zip": "75204",
         "height": 187.96,
-        "miles": 121.96264100378788,
+        "miles": 125.56030587121215,
         "daily_steps": {
             "1": 14488,
             "2": 19303,
@@ -579,7 +579,9 @@
         "reachedweeklysteps": 0,
         "points": 3,
         "item500": 1,
-        "cookietimer": 1750274139.478723
+        "cookietimer": 1750274139.478723,
+        "gradient_start": "#54dadf",
+        "gradient_end": "#000000"
     },
     "365943684245618698": {
         "time_in_first_place": 0,
@@ -1515,18 +1517,18 @@
         "watergoal": 0,
         "last_water_reset": "2025-06-18",
         "goal": 0,
-        "weeklysteps": 8788,
+        "weeklysteps": 13633,
         "reachedweeklysteps": 0,
         "daily_steps": {
             "1": 0,
             "2": 5146,
             "3": 3642,
-            "4": 0,
+            "4": 4845,
             "5": 0,
             "6": 0,
             "7": 0
         },
-        "steps": 46478,
+        "steps": 51323,
         "monthly_steps": {
             "1": 0,
             "2": 0,
@@ -1546,7 +1548,7 @@
             "16": 0,
             "17": 5146,
             "18": 3642,
-            "19": 0,
+            "19": 4845,
             "20": 0,
             "21": 0,
             "22": 0,
@@ -2632,7 +2634,7 @@
         "time_in_first_place": 0,
         "first_place_timer": 0,
         "color": "#b5d4bb",
-        "cookietimer": 1750274126.864604
+        "cookietimer": 1750379839.213224
     },
     "1072989454572195910": {
         "goal": 0,
