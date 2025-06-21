@@ -587,7 +587,7 @@
         "reachedweeklysteps": 1,
         "points": 6,
         "item500": 1,
-        "cookietimer": 1750444224.595649,
+        "cookietimer": 1750484712.81701,
         "gradient_start": "#54dadf",
         "gradient_end": "#ffffff"
     },
@@ -785,7 +785,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750266181.406946
+        "cookietimer": 1750485237.325311
     },
     "164218865176412161": {
         "time_in_first_place": 0,
@@ -1404,7 +1404,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750444171.673009
+        "cookietimer": 1750487644.549079
     },
     "735739331683287060": {
         "time_in_first_place": 0,
@@ -1572,7 +1572,7 @@
         },
         "color": "#ffbbff",
         "height": 154.94,
-        "miles": 20.4068866635101,
+        "miles": 23.424798121843434,
         "cookietimer": 1750456872.038353
     },
     "1117858287522689055": {
@@ -1695,7 +1695,7 @@
         "goal": 0,
         "weeklysteps": 0,
         "reachedweeklysteps": 0,
-        "cookietimer": 1750450762.829732
+        "cookietimer": 1750490025.221599
     },
     "1013580213432623104": {
         "time_in_first_place": 0,
@@ -2535,10 +2535,10 @@
         "poopgoal": 0,
         "last_poop_reset": "2025-06-20",
         "goal": 0,
-        "weeklysteps": 21927,
+        "weeklysteps": 33744,
         "reachedweeklysteps": 0,
         "daily_steps": {
-            "1": 0,
+            "1": 11817,
             "2": 0,
             "3": 8675,
             "4": 0,
@@ -2546,7 +2546,7 @@
             "6": 18551,
             "7": 13252
         },
-        "steps": 146244,
+        "steps": 158061,
         "monthly_steps": {
             "1": 0,
             "2": 4417,
@@ -2563,7 +2563,7 @@
             "13": 0,
             "14": 18551,
             "15": 13252,
-            "16": 0,
+            "16": 11817,
             "17": 0,
             "18": 8675,
             "19": 0,
